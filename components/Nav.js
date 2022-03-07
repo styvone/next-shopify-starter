@@ -17,35 +17,46 @@ function Nav() {
   }, [cart])
 
   return (
-    <header className="border-b border-palette-lighter sticky top-0 z-20 bg-white">
+    <header className="border-b border-palette-lighter sticky top-0 z-20">
       <div className="flex items-center justify-between mx-auto max-w-6xl px-6 pb-2 pt-4 md:pt-6">
         <Link href="/" passHref>
           <a className=" cursor-pointer">
             <h1 className="flex no-underline">
-              <img height="32" width="32" alt="logo" className="h-8 w-8 mr-1 object-contain" src="/icon.svg" />
-              <span className="text-xl font-primary font-bold tracking-tight pt-1">
-                {process.env.siteTitle}
-              </span>
+              <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src="/boquet_logo.svg" />
             </h1>
           </a>
         </Link>
-        <div>
+        <div className="flex flex-end justify-between">
+          <Link
+            href="/shop"
+            passHref
+          >
+            <a className="px-8 relative" aria-label="shop">
+              <h1>Shop</h1>
+            </a>
+          </Link>
+          <Link
+            href="/learn"
+            passHref
+          >
+            <a className="px-8 relative" aria-label="learn">
+              <h1>Learn</h1>
+            </a>
+          </Link>
+          <Link
+            href="/our-story"
+            passHref
+          >
+            <a className="px-8 relative" aria-label="our-story">
+              <h1>Our Story</h1>
+            </a>
+          </Link>
           <Link
             href="/cart"
             passHref
           >
-            <a className=" relative" aria-label="cart">
-              <FontAwesomeIcon className="text-palette-primary w-6 m-auto" icon={faShoppingCart} />
-              {
-                cartItems === 0 ?
-                  null
-                  :
-                  <div
-                    className="absolute top-0 right-0 text-xs bg-yellow-300 text-gray-900 font-semibold rounded-full py-1 px-2 transform translate-x-10 -translate-y-3"
-                  >
-                    {cartItems}
-                  </div>
-              }
+            <a style={{borderRadius: '50%'}} className="border border-black px-8 relative" aria-label="cart">
+              <h1>Cart</h1>
             </a>
           </Link>
         </div>
