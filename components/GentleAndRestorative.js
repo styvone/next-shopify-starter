@@ -1,37 +1,97 @@
 function GentleAndRestorative() {
     return (
-        <div style={{backgroundColor: '#283F91'}} className="h-28 w-full flex flex-col justify-center">
+        <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
+            <div className="h-14 w-full overflow-hidden whitespace-nowrap marquee">
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
 
-            <div className="h-14 w-full bg-white flex justify-center">
-                <span className="px-24 flex flex-col justify-center">
-                    <h1 className="ivyPrestoThin text-4xl">
-                        <em>Gentle</em> and <em>restorative</em>
-                    </h1>
-                </span>
-                <span className="flex flex-col justify-center">
-                    <img alt="pill" className="w-18 h-18 mr-1 object-contain" src="/pill.svg" />
-                </span>
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
 
-                <span className="px-24 flex flex-col justify-center">
-                    <h1 className="ivyPrestoThin text-4xl">
-                        <em>Gentle</em> and <em>restorative</em>
-                    </h1>
-                </span>
-                <span className="flex flex-col justify-center">
-                    <img alt="pill" className="w-18 h-18 mr-1 object-contain" src="/pill.svg" />
-                </span>
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
 
-                <span className="px-24 flex flex-col justify-center">
-                    <h1 className="ivyPrestoThin text-4xl">
-                        <em>Gentle</em> and <em>restorative</em>
-                    </h1>
-                </span>
-                <span className="flex flex-col justify-center">
-                    <img alt="pill" className="w-18 h-18 mr-1 object-contain" src="/pill.svg" />
-                </span>
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>   
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>   
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>
+
+                <h1 className="ivyPrestoThin text-5xl inline mr-28">
+                    <em>Gentle</em> and <em>restorative</em>
+                    <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                </h1>        
             </div>
-
-
         </div>
     )
   }

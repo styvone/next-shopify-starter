@@ -37,3 +37,17 @@
   font-weight: 100%;
   font-style: normal;
 }
+
+.marquee h1 {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
