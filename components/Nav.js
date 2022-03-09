@@ -29,7 +29,7 @@ function Nav() {
             href="/shop"
             passHref
           >
-            <a className="px-8 relative" aria-label="shop">
+            <a className="px-8 relative coreSans" aria-label="shop">
               <h1>Shop</h1>
             </a>
           </Link>
@@ -37,7 +37,7 @@ function Nav() {
             href="/learn"
             passHref
           >
-            <a className="px-8 relative" aria-label="learn">
+            <a className="px-8 relative coreSans" aria-label="learn">
               <h1>Learn</h1>
             </a>
           </Link>
@@ -45,7 +45,7 @@ function Nav() {
             href="/our-story"
             passHref
           >
-            <a className="px-8 relative" aria-label="our-story">
+            <a className="px-8 relative coreSans" aria-label="our-story">
               <h1>Our Story</h1>
             </a>
           </Link>
@@ -53,7 +53,7 @@ function Nav() {
             href="/cart"
             passHref
           >
-            <a style={{borderRadius: '50%'}} className="border border-black px-8 relative" aria-label="cart">
+            <a style={{borderRadius: '50%'}} className="border border-black px-8 relative coreSans" aria-label="cart">
               <h1>Cart</h1>
             </a>
           </Link>
