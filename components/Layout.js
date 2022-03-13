@@ -3,6 +3,7 @@ import Nav from '@/components/Nav'
 import InstagramReel from './InstagramReel'
 import Footer from '@/components/Footer'
 import GentleAndRestorative from './GentleAndRestorative'
+import Accordian from './Accordian'
 
 function Layout({ children }) {
   
@@ -14,6 +15,8 @@ function Layout({ children }) {
         <main>
           {children}
         </main>
+
+        <Accordian />
 
         <GentleAndRestorative />
         <InstagramReel />
