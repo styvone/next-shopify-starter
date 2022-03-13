@@ -3,7 +3,7 @@ import Nav from '@/components/Nav'
 import InstagramReel from './InstagramReel'
 import Footer from '@/components/Footer'
 import GentleAndRestorative from './GentleAndRestorative'
-import Accordian from './Accordian'
+import ImageTagSection from './ImageTagSection'
 
 function Layout({ children }) {
   
@@ -16,8 +16,9 @@ function Layout({ children }) {
           {children}
         </main>
 
-        <Accordian />
+        {/* <AccordianItem question="hi" answer="sup" /> */}
 
+        <ImageTagSection />
         <GentleAndRestorative />
         <InstagramReel />
         <Footer />
