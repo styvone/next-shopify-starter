@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@radix-ui/react-accordion": "^0.1.6",
+    "@stitches/react": "^1.2.7",
     "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^10.0.4",
     "marquee3000": "^1.1.1",
