@@ -3,9 +3,9 @@ import * as AccordionPrimitive from '@radix-ui/react-accordion';
 function Accordian() {
     return (
 
-        <AccordionPrimitive.Root type="single" collapsible className="h-96 px-8 w-full flex flex-col justify-evenly" style={{backgroundColor: '#EBE5DB'}}>
-            <AccordionPrimitive.Item value="item-1" className="bg-white">
-                <AccordionPrimitive.Trigger className="w-full flex justify-evenly ivyPrestoThin text-4xl">
+        <AccordionPrimitive.Root type="single" collapsible className="h-96 px-8 w-full" style={{backgroundColor: '#EBE5DB'}}>
+            <AccordionPrimitive.Item value="item-1" className="bg-white accordianContextWrapper">
+                <AccordionPrimitive.Trigger className="w-full flex justify-evenly ivyPrestoThin text-4xl focus:outline-none">
                     <h1 className="w-full flex justify-start">
                         Is it accessible?
                     </h1>
