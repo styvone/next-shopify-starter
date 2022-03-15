@@ -18,7 +18,7 @@ function Layout({ children }) {
 
         {/* <AccordianItem question="hi" answer="sup" /> */}
 
-        <ImageTagSection />
+        <ImageTagSection backgroundImage="/images/image-tag-section-test.png" />
         <GentleAndRestorative />
         <InstagramReel />
         <Footer />
