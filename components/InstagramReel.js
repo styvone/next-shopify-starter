@@ -18,15 +18,13 @@ function createImageReel() {
   return (
     <Marquee gradient={false} speed={50}>
       <div className="whitespace-nowrap overflow-hidden">
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
-        {imageWrapper('/images/instagram/test.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-1.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-2.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-3.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-4.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-5.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-6.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-7.png', '/instagram')}
       </div>
     </Marquee>
   );
