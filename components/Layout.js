@@ -3,21 +3,17 @@ import Nav from '@/components/Nav'
 import InstagramReel from './InstagramReel'
 import Footer from '@/components/Footer'
 import GentleAndRestorative from './GentleAndRestorative'
-import ImageTagSection from './ImageTagSection'
 
-function Layout({ children }) {
+function Layout(props) {
   
   return (
     <CartProvider>
-      <div className="flex flex-col justify-between min-h-screen">
-        <Nav />
+      <div style={{ backgroundColor: props.backgroundColor }} className="flex flex-col justify-between min-h-screen">
+        <Nav logoGray={props.logoGray}/>
 
         <main>
-          {children}
+          {props.children}
         </main>
-
-        {/* <AccordianItem question="hi" answer="sup" /> */}
-
         
         <GentleAndRestorative />
         <InstagramReel />

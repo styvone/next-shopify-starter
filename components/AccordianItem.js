@@ -43,19 +43,20 @@ function AccordianItem(props) {
     return (
         <AccordionPrimitive.Root type="single" collapsible>
             <AccordionPrimitive.Item value="item-1">
-                <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-4xl focus:outline-none">
-                    <h1 className="w-full flex justify-start">
-                        {props.question}
+                <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-3xl focus:outline-none">
+                    <h1 className="w-10/12 flex justify-start">
+                        {props.children}
                     </h1>
-                    <span className="w-full flex justify-end">
-                        {extended? '-' : '+'}
+                    <span className="w-2/12 flex justify-end">
+                        {extended? <img className="h-8 w-8" src="/accordian/minus.svg" /> : <img className="h-8 w-8" src="/accordian/plus.svg" />}
                     </span>
                 </AccordionPrimitive.Trigger>
-                <AccordionContent className="coreSans text-2xl">
-                    <h1>
+                <AccordionContent className="coreSans text-1xl">
+                    <h3 className="pt-8 w-2/3">
                         {props.answer}
-                    </h1>
+                    </h3>
                 </AccordionContent>
+                <div style={{borderColor: '#283F91'}} className="border-b pt-8" />
             </AccordionPrimitive.Item>
         </AccordionPrimitive.Root>
     )

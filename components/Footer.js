@@ -5,7 +5,7 @@ function Footer() {
     <footer style={{backgroundColor: '#283F91'}} className="pb-8 pt-16 px-8 flex flex-col justify-center font-primary items-center text-white">
       <div className="h-60 w-full flex border-b-2">
         <div className="pb-4 w-full flex flex-col justify-start">
-          <img alt="logo" className="w-48 mr-1 object-contain" src="/boquet_logo.svg" />
+          <img alt="logo" className="w-48 mr-1 object-contain" src="/logo/boquet_logo_gray.svg" />
         </div>
         <div className="pb-4 w-full flex justify-start">
           <div className="flex flex-col justify-start">

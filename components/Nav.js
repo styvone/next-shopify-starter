@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useCartContext } from '@/context/Store'
 
-function Nav() {
+function Nav(props) {
   const cart = useCartContext()[0]
   const [cartItems, setCartItems] = useState(0)
 
@@ -15,16 +15,16 @@ function Nav() {
   }, [cart])
 
   return (
-    <header className="border-b border-palette-lighter">
-      <div className="flex items-center justify-between mx-auto max-w-6xl px-6 pb-2 pt-4 md:pt-6">
+    <header style={{ color: props.logoGray ? '#EBE5DB' : '#283F91' }} className="px-8">
+      <div className="flex items-center justify-between w-full">
         <Link href="/" passHref>
           <a className=" cursor-pointer">
             <h1 className="flex no-underline">
-              <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src="/boquet_logo.svg" />
+              <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
             </h1>
           </a>
         </Link>
-        <div className="flex flex-end justify-between">
+        <div className="flex flex-end justify-between w-1/2">
           <Link
             href="/shop"
             passHref
@@ -53,7 +53,7 @@ function Nav() {
             href="/cart"
             passHref
           >
-            <a style={{borderRadius: '50%'}} className="border border-black px-8 relative coreSans" aria-label="cart">
+            <a style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="border px-8 relative coreSans" aria-label="cart">
               <h1>Cart</h1>
             </a>
           </Link>
