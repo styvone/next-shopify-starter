@@ -2,7 +2,6 @@ import { CartProvider } from '@/context/Store'
 import Nav from '@/components/Nav'
 import InstagramReel from './InstagramReel'
 import Footer from '@/components/Footer'
-import GentleAndRestorative from './GentleAndRestorative'
 
 function Layout(props) {
   
@@ -15,7 +14,6 @@ function Layout(props) {
           {props.children}
         </main>
         
-        <GentleAndRestorative />
         <InstagramReel />
         <Footer />
       </div>
