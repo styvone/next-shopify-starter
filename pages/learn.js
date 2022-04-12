@@ -10,7 +10,7 @@ function LearnPage() {
     <>
 
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', height: '74rem'}} className="flex flex-col justify-start px-8">
+      <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className=" h-fit-content flex flex-col justify-start px-8 pb-16">
         <h1 className="ivyPrestoThin text-8xl pt-32 pb-8">
           <em>Vaginal health</em> 101 with Boquet
         </h1>
@@ -95,7 +95,7 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '48rem',}} className="flex justify-center">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-center pb-16">
           <div className="w-1/3 flex flex-col justify-center text-center px-16" >
             <h2 className="text-4xl ivyPrestoThin">
               To Restore:
@@ -111,7 +111,7 @@ function LearnPage() {
           </div>
 
           <div className="w-1/3 flex flex-col justify-center relative">
-              <img alt="maintain logo" className="h-auto w-auto" src='/images/restoreandmaintain.png' />
+              <img alt="maintain logo" src='/images/restoreandmaintain.png' />
           </div>
 
           <div className="w-1/3 flex flex-col justify-center text-center px-16">
