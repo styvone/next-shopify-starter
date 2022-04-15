@@ -39,6 +39,9 @@ function useToggle(initialValue = false) {
 
 function AccordianItem(props) {
     const [extended, setExtended] = useToggle(false);
+    const plusMinusSize = props.size || '8';
+    const spaceBeforeBar = props.spaceBeforeBar || '8';
+    const spaceTopAnswer = props.spaceTopAnswer || '8';
 
     return (
         <AccordionPrimitive.Root type="single" collapsible>
@@ -48,15 +51,15 @@ function AccordianItem(props) {
                         {props.children}
                     </h1>
                     <span className="w-2/12 flex justify-end">
-                        {extended? <img className="h-8 w-8" src="/accordian/minus.svg" /> : <img className="h-8 w-8" src="/accordian/plus.svg" />}
+                        {extended? <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />}
                     </span>
                 </AccordionPrimitive.Trigger>
-                <AccordionContent className="coreSans text-1xl">
-                    <h3 className="pt-8 w-2/3">
+                <AccordionContent className="coreSans text-lg">
+                    <h3 className={`pt-${spaceTopAnswer} w-2/3`}>
                         {props.answer}
                     </h3>
                 </AccordionContent>
-                <div style={{borderColor: '#283F91'}} className="border-b pt-8" />
+                <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
             </AccordionPrimitive.Item>
         </AccordionPrimitive.Root>
     )
