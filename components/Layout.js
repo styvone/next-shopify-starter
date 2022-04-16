@@ -8,7 +8,7 @@ function Layout(props) {
   return (
     <CartProvider>
       <div style={{ backgroundColor: props.backgroundColor }} className="flex flex-col justify-between min-h-screen">
-        <Nav logoGray={props.logoGray}/>
+        <Nav logoGray={props.logoGray} isHomePage={props.isHomePage}/>
 
         <main>
           {props.children}
