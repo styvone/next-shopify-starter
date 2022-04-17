@@ -10,13 +10,14 @@ import { Component } from 'react';
 import React from 'react';
 import Slider from "react-slick";
 
+
+{/* <ProductListings products={products} /> */}
+
 class IndexPage extends Component {
 
   render() {
     return (
       <>
-        {/* <ProductListings products={products} /> */}
-
 
         {/* BOQUET HOME PAGE TOP SECTION */}
         <div style={{
@@ -168,9 +169,18 @@ class IndexPage extends Component {
 
         {/* CUSTOMER QUOTE SECTION - TO BE DONE LAST */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start px-8 py-32">
-
-
-          <Slider arrows={false} dots={true} autoplay={false} speed={500}>
+          <Slider customPaging={i => (
+            <div
+            style={{
+              minWidth: "1.25rem",
+              minHeight: "1.25rem",
+              color: "#EBE5DB",
+              border: "1px #283F91 solid",
+              borderRadius: "50%"
+            }}
+            >
+            </div>
+          )} arrows={false} dots={true} autoplay={false} speed={500}>
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-2/3">
@@ -183,8 +193,6 @@ class IndexPage extends Component {
                 </div>
               </div>
             </div>
-
-
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-2/3">
@@ -197,7 +205,6 @@ class IndexPage extends Component {
                 </div>
               </div>
             </div>
-
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-2/3">
@@ -210,11 +217,7 @@ class IndexPage extends Component {
                 </div>
               </div>
             </div>
-
           </Slider>
-
-
-
         </div>
 
         {/* LEARN SECTION */}

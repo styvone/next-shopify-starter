@@ -41,12 +41,7 @@
   font-style: normal;
 }
 
-.slick-dots li button:before {
-  color: white;
-  font-size: 1.25rem;
-}
-
-.slick-dots li.slick-active button:before {
-  color:#283F91 !important;
+.slick-dots li.slick-active div {
+  background-color:#283F91 !important;
   opacity: 1 !important;
 }
