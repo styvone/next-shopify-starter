@@ -20,7 +20,7 @@ function ShopPage() {
             productTitle: "da pill",
             productHandle: "da pill",
             productImage: "da pill",
-            variantId: "swags",
+            variantId: "da-pill",
             variantPrice: 25,
             variantTitle: "da pill",
             variantQuantity: numberOfPills
@@ -59,7 +59,7 @@ function ShopPage() {
                         aria-label="remove item from cart"
                         className="h-full w-1/3"
                         onClick={() => {
-                            if (numberOfPills > 0) {
+                            if (numberOfPills > 1) {
                                 setnumberOfPills(numberOfPills-1)
                             }
                         }}
