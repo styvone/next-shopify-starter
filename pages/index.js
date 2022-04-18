@@ -180,7 +180,7 @@ class IndexPage extends Component {
             }}
             >
             </div>
-          )} arrows={false} dots={true} autoplay={false} speed={500}>
+          )} arrows={false} dots={true} autoplay={true} speed={500}>
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-2/3">

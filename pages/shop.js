@@ -5,7 +5,30 @@ import Link from 'next/link'
 import GentleAndRestorative from '@/components/GentleAndRestorative';
 import AccordianItem from '@/components/AccordianItem';
 
+import { useAddToCartContext } from '@/context/Store'
+import { useState, useEffect } from 'react'
+
 function ShopPage() {
+    const addToCart = useAddToCartContext()
+    const [numberOfPills, setnumberOfPills] = useState(1);
+
+    async function handleAddToCart() {
+        //const varId = variant.node.id
+        // update store context
+        if (numberOfPills !== '') {
+          addToCart({
+            productTitle: "da pill",
+            productHandle: "da pill",
+            productImage: "da pill",
+            variantId: "swags",
+            variantPrice: 25,
+            variantTitle: "da pill",
+            variantQuantity: numberOfPills
+          })
+        }
+    }
+
+
   return (
     <>  
 
@@ -14,8 +37,8 @@ function ShopPage() {
         <div className="w-1/2">
             <img alt="pill product photo" className="w-3/4" src='/images/shop/pill-product.png' />
         </div>
-        <div className="w-1/2 flex flex-col justify-between">
-            <div>
+        <div className="w-1/2 flex flex-col justify-start">
+            <div className="pb-28">
                 <h1 className="ivyPrestoThin text-6xl pb-8">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
@@ -29,15 +52,45 @@ function ShopPage() {
                 *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                 </p>
 
-                <div>
-                    {/* NEED COUNTER BUTTON HERE */}
+                <div className="flex justify-between">
+                    
+                    <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="border border-black rounded-full w-1/3 mr-8 flex justify-between items-center overflow-hidden">
+                        <button
+                        aria-label="remove item from cart"
+                        className="h-full w-1/3"
+                        onClick={() => {
+                            if (numberOfPills > 0) {
+                                setnumberOfPills(numberOfPills-1)
+                            }
+                        }}
+                        >
+                            -
+                        </button>
+                        <p className="coreSans text-xl">
+                            {numberOfPills}
+                        </p>
+                        <button
+                        aria-label="add item to cart"
+                        className="h-full w-1/3"
+                        onClick={() => setnumberOfPills(numberOfPills+1)}
+                        >
+                            +
+                        </button>
+                    </div>
                     <Link
-                        href="/cart"
+                        href="/shop"
                         passHref
                     >
-                        <a style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                            <h1 className="text-xl h-24 flex flex-col justify-center">$25.00 — ADD TO CART</h1>
-                        </a>
+                        <button 
+                            style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} 
+                            className="relative coreSans border flex justify-center rounded-full w-2/3" 
+                            aria-label="add to cart button"
+                            onClick={handleAddToCart}
+                        >
+                            <h1 className="text-xl h-24 flex flex-col justify-center">
+                                {`$${numberOfPills * 25}.00 — ADD TO CART`}
+                            </h1>
+                        </button>
                     </Link>
                 </div>
             </div>

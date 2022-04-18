@@ -19,42 +19,45 @@ function Nav(props) {
       <div className="flex items-center justify-between w-full">
         <Link href="/" passHref>
           <a className=" cursor-pointer">
-            <h1 className="flex no-underline">
               <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
-            </h1>
           </a>
         </Link>
-        <div className="flex flex-end justify-between w-1/2">
+        <div className="h-fit-content flex flex-end justify-between w-1/2">
           <Link
             href="/shop"
             passHref
           >
-            <a className="px-8 relative coreSans" aria-label="shop">
-              <h1>Shop</h1>
+            <a className="px-8 flex flex-col justify-center" aria-label="shop">
+              <p className="coreSans text-base">Shop</p>
             </a>
           </Link>
           <Link
             href="/learn"
             passHref
           >
-            <a className="px-8 relative coreSans" aria-label="learn">
-              <h1>Learn</h1>
+            <a className="px-8 flex flex-col justify-center" aria-label="learn">
+              <p className="coreSans text-base">Learn</p>
             </a>
           </Link>
           <Link
             href="/our-story"
             passHref
           >
-            <a className="px-8 relative coreSans" aria-label="our-story">
-              <h1>Our Story</h1>
+            <a className="px-8 flex flex-col justify-center" aria-label="our-story">
+              <p className="coreSans text-base">Our Story</p>
             </a>
           </Link>
           <Link
             href="/cart"
             passHref
           >
-            <a style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="border px-8 relative coreSans" aria-label="cart">
-              <h1>Cart</h1>
+            <a style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
+              <p className="coreSans text-base w-16 flex justify-center">
+                Cart
+                {
+                  cartItems === 0 ? null : ' (' + cartItems + ')'
+                }
+              </p>
             </a>
           </Link>
         </div>

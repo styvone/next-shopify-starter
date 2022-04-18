@@ -45,3 +45,8 @@
   background-color:#283F91 !important;
   opacity: 1 !important;
 }
+
+#shopCounterButton button:hover {
+  color: #EBE5DB;
+  background-color: #283F91;
+}
