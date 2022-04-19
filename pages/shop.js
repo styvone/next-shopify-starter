@@ -4,28 +4,29 @@ import SEO from '@/components/SEO'
 import Link from 'next/link'
 import GentleAndRestorative from '@/components/GentleAndRestorative';
 import AccordianItem from '@/components/AccordianItem';
+import { getProduct } from '@/lib/shopify'
 
 import { useAddToCartContext } from '@/context/Store'
 import { useState, useEffect } from 'react'
 
-function ShopPage() {
+function ShopPage({ productData }) {
     const addToCart = useAddToCartContext()
     const [numberOfPills, setnumberOfPills] = useState(1);
+    const [variant, setVariant] = useState(productData.variants.edges[0])
 
     async function handleAddToCart() {
         //const varId = variant.node.id
         // update store context
-        if (numberOfPills !== '') {
-          addToCart({
-            productTitle: "da pill",
-            productHandle: "da pill",
-            productImage: "da pill",
-            variantId: "da-pill",
-            variantPrice: 25,
-            variantTitle: "da pill",
-            variantQuantity: numberOfPills
-          })
-        }
+        addToCart({
+        productTitle: productData.title,
+        productHandle: productData.handle,
+        productImage: productData.images.edges[0].node,
+        //variantId: "gid://shopify/Product/42518754885874",
+        variantId: variant.node.id,
+        variantPrice: variant.node.price,
+        variantTitle: variant.node.title,
+        variantQuantity: numberOfPills
+        })
     }
 
 
@@ -243,6 +244,16 @@ ShopPage.getLayout = function getLayout(page) {
         {page}
       </Layout>
     )
+}
+  
+  export async function getStaticProps() {
+    const productData = await getProduct('the-pill')  
+  
+    return {
+      props: {
+        productData,
+      },
+    }
   }
 
 export default ShopPage;
