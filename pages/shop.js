@@ -1,13 +1,13 @@
-import ImageTagSection from '@/components/ImageTagSection';
 import Layout from '@/components/Layout'
 import SEO from '@/components/SEO'
 import Link from 'next/link'
 import GentleAndRestorative from '@/components/GentleAndRestorative';
 import AccordianItem from '@/components/AccordianItem';
 import { getProduct } from '@/lib/shopify'
-
 import { useAddToCartContext } from '@/context/Store'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+
+const productHandle = 'the-pill';
 
 function ShopPage({ productData }) {
     const addToCart = useAddToCartContext()
@@ -15,13 +15,10 @@ function ShopPage({ productData }) {
     const [variant, setVariant] = useState(productData.variants.edges[0])
 
     async function handleAddToCart() {
-        //const varId = variant.node.id
-        // update store context
         addToCart({
         productTitle: productData.title,
         productHandle: productData.handle,
         productImage: productData.images.edges[0].node,
-        //variantId: "gid://shopify/Product/42518754885874",
         variantId: variant.node.id,
         variantPrice: variant.node.price,
         variantTitle: variant.node.title,
@@ -247,7 +244,7 @@ ShopPage.getLayout = function getLayout(page) {
 }
   
   export async function getStaticProps() {
-    const productData = await getProduct('the-pill')  
+    const productData = await getProduct(productHandle)  
   
     return {
       props: {
