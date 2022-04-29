@@ -4,6 +4,7 @@ import { createShopifyCheckout, updateShopifyCheckout, setLocalData, saveLocalDa
 const CartContext = createContext()
 const AddToCartContext = createContext()
 const UpdateCartQuantityContext = createContext()
+const CartModalContext = createContext()
 
 export function useCartContext() {
   return useContext(CartContext)
@@ -17,11 +18,16 @@ export function useUpdateCartQuantityContext() {
   return useContext(UpdateCartQuantityContext)
 }
 
+export function useCartModalContext() {
+  return useContext(CartModalContext);
+}
+
 export function CartProvider({ children }) {
   const [cart, setCart] = useState([])
   const [checkoutId, setCheckoutId] = useState('')
   const [checkoutUrl, setCheckoutUrl] = useState('')
   const [isLoading, setisLoading] = useState(false)
+  const [cartModalOpen, setCartModalOpen] = useState(false)
 
   useEffect(() => {
     setLocalData(setCart, setCheckoutId, setCheckoutUrl)
@@ -102,7 +108,12 @@ export function CartProvider({ children }) {
     setisLoading(false)
   }
 
+  function toggleCartModal() {
+    setCartModalOpen(!cartModalOpen);
+  }
+
   return (
+  <CartModalContext.Provider value={[toggleCartModal, cartModalOpen]}>
     <CartContext.Provider value={[cart, checkoutUrl, isLoading]}>
       <AddToCartContext.Provider value={addToCart}>
         <UpdateCartQuantityContext.Provider value={updateCartItemQuantity}>
@@ -110,5 +121,6 @@ export function CartProvider({ children }) {
         </UpdateCartQuantityContext.Provider>
       </AddToCartContext.Provider>
     </CartContext.Provider>
+  </CartModalContext.Provider>
   )
 }

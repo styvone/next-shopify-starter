@@ -1,10 +1,11 @@
-import { CartProvider } from '@/context/Store'
-import Nav from '@/components/Nav'
-import InstagramReel from './InstagramReel'
-import Footer from '@/components/Footer'
+import { CartProvider } from '@/context/Store';
+import Nav from '@/components/Nav';
+import InstagramReel from './InstagramReel';
+import Footer from '@/components/Footer';
+import CartModal from './CartModal';
+
 
 function Layout(props) {
-  
   return (
     <CartProvider>
       <div style={{ backgroundColor: props.backgroundColor }} className="flex flex-col justify-between min-h-screen">
@@ -17,6 +18,7 @@ function Layout(props) {
         <InstagramReel />
         <Footer />
       </div>
+      <CartModal />
     </CartProvider>
   )
 }

@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { useCartContext } from '@/context/Store'
+import { useCartContext, useCartModalContext } from '@/context/Store'
 
 function Nav(props) {
+  const toggleModal = useCartModalContext()[0];
+
+
   const cart = useCartContext()[0]
   const [cartItems, setCartItems] = useState(0)
 
@@ -48,10 +51,10 @@ function Nav(props) {
             </a>
           </Link>
           <Link
-            href="/cart"
+            href='#'
             passHref
           >
-            <a style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
+            <a onClick={toggleModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
               <p className="coreSans text-base w-16 flex justify-center">
                 Cart
                 {

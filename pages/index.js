@@ -11,8 +11,6 @@ import React from 'react';
 import Slider from "react-slick";
 
 
-{/* <ProductListings products={products} /> */}
-
 class IndexPage extends Component {
 
   render() {

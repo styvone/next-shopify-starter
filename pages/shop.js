@@ -4,26 +4,28 @@ import Link from 'next/link'
 import GentleAndRestorative from '@/components/GentleAndRestorative';
 import AccordianItem from '@/components/AccordianItem';
 import { getProduct } from '@/lib/shopify'
-import { useAddToCartContext } from '@/context/Store'
+import { useAddToCartContext, useCartModalContext } from '@/context/Store'
 import { useState } from 'react'
 
 const productHandle = 'the-pill';
 
 function ShopPage({ productData }) {
+    const toggleModal = useCartModalContext()[0];
     const addToCart = useAddToCartContext()
     const [numberOfPills, setnumberOfPills] = useState(1);
     const [variant, setVariant] = useState(productData.variants.edges[0])
 
     async function handleAddToCart() {
-        addToCart({
-        productTitle: productData.title,
-        productHandle: productData.handle,
-        productImage: productData.images.edges[0].node,
-        variantId: variant.node.id,
-        variantPrice: variant.node.price,
-        variantTitle: variant.node.title,
-        variantQuantity: numberOfPills
-        })
+        await addToCart({
+            productTitle: productData.title,
+            productHandle: productData.handle,
+            productImage: productData.images.edges[0].node,
+            variantId: variant.node.id,
+            variantPrice: variant.node.price,
+            variantTitle: variant.node.title,
+            variantQuantity: numberOfPills
+        });
+        toggleModal();
     }
 
 
