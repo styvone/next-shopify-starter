@@ -51,7 +51,7 @@ class IndexPage extends Component {
             A vaginal prebiotic tablet that's gentle and restorative.
           </p>
           <Link
-              href="/learn"
+              href="/our-story"
               passHref
           >
               <a className="coreSans pl-0 text-" aria-label="cart">

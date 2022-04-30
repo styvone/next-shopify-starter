@@ -18,7 +18,7 @@ function ImageTagSection(props) {
                 </h2>
                 <div className="h-24 flex flex-col justify-center">
                     <Link
-                        href="/cart"
+                        href="/shop"
                         passHref
                     >
                         <a className="coreSans pl-0 text-" aria-label="cart">

@@ -112,7 +112,7 @@ function CartModal() {
                         </p>
                     </div>
                     <h3 className="helvetica text-3xl">
-                        {`$${numItems * 25}.00`}
+                        {`$${tempNumItems * 25}.00`}
                     </h3>
                 </div>
               </div>
