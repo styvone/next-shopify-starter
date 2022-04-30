@@ -10,13 +10,15 @@ function CartModal() {
     const [cart, checkoutUrl] = useCartContext();
     const updateCartQuantity = useUpdateCartQuantityContext();
     const [numItems, setNumItems] = useState(0);
+    const [tempNumItems, setTempNumItems] = useState(0);
 
     useEffect(() => {
         let numItems = 0
         cart.forEach(item => {
           numItems += item.variantQuantity
         })
-        setNumItems(numItems)
+        setNumItems(numItems);
+        setTempNumItems(numItems);
     }, [cart])
 
     let variantId;
@@ -25,12 +27,16 @@ function CartModal() {
     }
 
     async function leaveModal() {
-        await updateCartQuantity(variantId, numItems);
+        if (numItems !== tempNumItems) {
+            await updateCartQuantity(variantId, tempNumItems);
+        }
         toggleModal();
     }
 
     async function clickCheckOut() {
-        await updateCartQuantity(variantId, numItems);
+        if (numItems !== tempNumItems) {
+            await updateCartQuantity(variantId, tempNumItems);
+        }
         window.location.href = checkoutUrl;
     }
 
@@ -73,19 +79,19 @@ function CartModal() {
                         className="h-full"
                         onClick={() => {
                             if (numItems > 1) {
-                                setNumItems(numItems-1)
+                                setTempNumItems(tempNumItems-1)
                             }
                         }}
                         >
                             <img className="h-fit-content" src="/icons/cart-modal/minus.svg" />
                         </button>
                         <h3 className="helvetica text-3xl">
-                            {numItems}
+                            {tempNumItems}
                         </h3>
                         <button
                         aria-label="add item to cart"
                         className="h-full"
-                        onClick={() => setNumItems(numItems+1)}
+                        onClick={() => setTempNumItems(tempNumItems+1)}
                         >
                             <img className="h-fit-content" src="/icons/cart-modal/plus.svg" />
                     </button>
