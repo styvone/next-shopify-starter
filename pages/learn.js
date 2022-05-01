@@ -1,10 +1,34 @@
 import AccordianItem from '@/components/AccordianItem';
 import ImageTagSection from '@/components/ImageTagSection';
-import Layout from '@/components/Layout'
-import SEO from '@/components/SEO'
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 import GentleAndRestorative from '@/components/GentleAndRestorative';
+import { useEffect } from 'react';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function LearnPage() {
+
+  useEffect(() => {
+    const droppingPillAnimationContainer = gsap.to('.droppingPillAnimationContainer', {
+      scrollTrigger: {
+        trigger: '.droppingPillAnimationContainer',
+        toggleActions: 'play reverse play reverse',
+        start: 'top top',
+        end: 'top top',
+        endTrigger: '.droppingIntoContainer',
+        pin: true,
+        pin: '.droppingPillAnimationContainer',
+      },
+    });
+
+    return () => {
+      droppingPillAnimationContainer.scrollTrigger.kill();
+    }
+  }, []);
+
   return (
     <>
 
@@ -87,9 +111,13 @@ function LearnPage() {
 
         {/* PILL DROPPING ANIMATION SECTION */}
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col items-center justify-center">
-          <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
+          <div className="droppingPillAnimationContainer">
+            <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
+          </div>
+          <div className="droppingIntoContainer">
           <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
+          </div>
         </div>
 
 

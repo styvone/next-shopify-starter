@@ -60,3 +60,7 @@
 .checkoutModal {
   background-color: #283F91 !important;
 }
+
+.disabledLink {
+  pointer-events: none;
+}

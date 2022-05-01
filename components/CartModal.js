@@ -55,7 +55,9 @@ function CartModal() {
             Cart
           </h1>
           <button
-            onClick={() => {leaveModal();}}
+            onClick={() => {
+                leaveModal();
+            }}
           >
           <img className="h-fit-content" src="/icons/cart-modal/cart-modal-exit.svg" />
           </button>
@@ -76,9 +78,9 @@ function CartModal() {
                     <div className="flex justify-between items-center w-1/2">
                     <button
                         aria-label="remove item from cart"
-                        className="h-full"
+                        className="h-full rounded-l-full px-3"
                         onClick={() => {
-                            if (numItems > 1) {
+                            if (tempNumItems >= 1) {
                                 setTempNumItems(tempNumItems-1)
                             }
                         }}
@@ -90,7 +92,7 @@ function CartModal() {
                         </h3>
                         <button
                         aria-label="add item to cart"
-                        className="h-full"
+                        className="h-full rounded-r-full px-3"
                         onClick={() => setTempNumItems(tempNumItems+1)}
                         >
                             <img className="h-fit-content" src="/icons/cart-modal/plus.svg" />
@@ -127,9 +129,13 @@ function CartModal() {
             >
                 <a onClick={(e) => {
                     e.preventDefault();
-                    clickCheckOut();
-                }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className="relative coreSans border flex justify-center rounded-full" aria-label="shop">
-                    <h1 className="text-xl h-24 flex flex-col justify-center">CHECKOUT</h1>
+                    if (tempNumItems > 0) {
+                        clickCheckOut();
+                    }
+                }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
+                    <h1 className="text-xl h-24 flex flex-col justify-center">
+                        {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
+                    </h1>
                 </a>
             </Link>
           </div>
