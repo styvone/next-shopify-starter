@@ -49,7 +49,7 @@ function Footer() {
           <div className="px-8 flex flex-col justify-start">
             <h1 className="px-8 pb-4 relative ivyPrestoThin text-2xl">Community</h1>
             <Link
-              href="/ig"
+              href="https://www.instagram.com/styvone/"
               passHref
             >
               <a className="px-8 py-2 relative coreSans" aria-label="shop">

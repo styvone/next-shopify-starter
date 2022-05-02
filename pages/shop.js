@@ -1,11 +1,15 @@
-import Layout from '@/components/Layout'
-import SEO from '@/components/SEO'
-import Link from 'next/link'
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
+import Link from 'next/link';
 import GentleAndRestorative from '@/components/GentleAndRestorative';
 import AccordianItem from '@/components/AccordianItem';
-import { getProduct } from '@/lib/shopify'
-import { useAddToCartContext, useCartModalContext } from '@/context/Store'
-import { useState } from 'react'
+import { getProduct } from '@/lib/shopify';
+import { useAddToCartContext, useCartModalContext } from '@/context/Store';
+import { useState, useEffect } from 'react';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const productHandle = 'the-pill';
 
@@ -27,6 +31,47 @@ function ShopPage({ productData }) {
         });
         toggleModal();
     }
+
+    useEffect(() => {
+
+        const floatingPillAnimationContainer = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.floatingPillAnimationContainer',
+                toggleActions: 'play none reverse none',
+                start: 'center 100%',
+                end: 'center 80%',
+            },
+        });
+        
+        floatingPillAnimationContainer
+            .from('.bounce1', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce2', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce3', {y: '20', opacity: 0, duration: 0.5});
+
+        const bounce1Timeline = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce2Timeline = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce3Timeline = gsap.timeline({repeat: -1}).yoyo(true);
+
+        bounce1Timeline
+        .delay(0.6)
+            .to('.bounce1', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce1', {ease: "sine.out", yPercent:'1', duration: 0.7});
+
+        bounce2Timeline
+        .delay(0.3)
+            .to('.bounce2', {ease: "sine.out", yPercent:'1', duration: 0.7})
+            .to('.bounce2', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            
+        bounce3Timeline
+            .to('.bounce3', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce3', {ease: "sine.out", yPercent:'1', duration: 0.7})
+
+        
+        return () => {
+            floatingPillAnimationContainer.scrollTrigger.kill();
+        }
+
+    }, []);
 
 
   return (
@@ -164,10 +209,12 @@ function ShopPage({ productData }) {
     </div>
 
 
-    {/* (NOT FINISHED!!! NEED ANIMATION) INSERTING BOQUET SECTION x ROTATING PILL */}
+    {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
     <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-end px-8">
-        <div>
-            <img alt="largest pill picture folding animation" src='/images/shop/pill-1.png' />
+        <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer">
+            <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1" src='/images/shop/small-pill.png' />
+            <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2" src='/images/shop/med-pill.png' />
+            <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3" src='/images/shop/large-pill.png' />
         </div>
 
         <div className="h-fit-content w-1/2 flex flex-col justify-end pb-32">
@@ -178,7 +225,7 @@ function ShopPage({ productData }) {
             Use clean fingers or an applicator to insert 1 Boquet tablet gently into the vagina as far up as you are comfortable.
             </p>
             <p className="coreSans text-base">
-            * Laying flat on your back is recommended. 
+            * Laying flat on your back is recommended.
             </p>
             <p className="coreSans text-base pb-8">
             ** You may wish to wear a panty liner in case there is slight leakage.

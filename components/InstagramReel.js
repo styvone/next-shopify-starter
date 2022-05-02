@@ -36,7 +36,7 @@ function InstagramReel() {
         <div className="h-8 flex justify-end">
           <div style={{color: '#283F91'}} className="flex flex-col justify-center">
             <Link
-                href="/instagram"
+                href="https://www.instagram.com/styvone/"
                 passHref
               >
                 <a className="coreSans text-l pr-12">

@@ -64,3 +64,15 @@
 .disabledLink {
   pointer-events: none;
 }
+
+.smallPill {
+  transform: translate(-240px, 250px);
+}
+
+.medPill {
+  transform: translate(-30px, 100px);
+}
+
+.largePill {
+  transform: translate(217px, 0px);
+}
