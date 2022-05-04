@@ -78,7 +78,7 @@ function ShopPage({ productData }) {
     <>  
 
     {/* SHOPPING SECTION */}
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-between px-8 py-32">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-32">
         <div className="w-1/2">
             <img alt="pill product photo" className="w-3/4" src='/images/shop/pill-product.png' />
         </div>
@@ -180,15 +180,15 @@ function ShopPage({ productData }) {
 
 
     {/* "For all the times your vagina is feeling a little off."" SECTION */}
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-start px-8 pb-64 pt-32">
-        <h1 className="ivyPrestoThin text-8xl w-2/3">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-64 pt-32">
+        <h1 className="ivyPrestoThin text-8xl w-3/4">
             For all the times your vagina is <em>feeling a little off.</em>
         </h1>
     </div>
 
 
     {/* TO RESTORE / TO MAINTAIN section */}
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-between px-8">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between">
         <div className="h-fit-content w-1/3 flex flex-col justify-end">
             <h2 className="ivyPrestoThin text-5xl pb-8">
                 To restore:
@@ -210,7 +210,7 @@ function ShopPage({ productData }) {
 
 
     {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-end px-8">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
         <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer">
             <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1" src='/images/shop/small-pill.png' />
             <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2" src='/images/shop/med-pill.png' />
@@ -239,7 +239,7 @@ function ShopPage({ productData }) {
     <GentleAndRestorative />
 
     {/* THE SCIENCE BEHIND BOQUET */}
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start px-8 py-32">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-32">
         <h1 className="ivyPrestoThin text-6xl">
             <em>The science</em> behind Boquet
         </h1>

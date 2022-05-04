@@ -33,13 +33,13 @@ function createImageReel() {
 function InstagramReel() {
   return (
       <div style={{backgroundColor: "#EBE5DB"}} className="h-80 w-full flex flex-col justify-evenly">
-        <div className="h-8 flex justify-end">
+        <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="h-8 flex justify-end">
           <div style={{color: '#283F91'}} className="flex flex-col justify-center">
             <Link
                 href="https://www.instagram.com/styvone/"
                 passHref
               >
-                <a className="coreSans text-l pr-12">
+                <a className="coreSans text-l">
                 <u>FOLLOW US ON INSTAGRAM +</u>
                 </a>
             </Link>

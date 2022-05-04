@@ -7,7 +7,7 @@ import Link from 'next/link'
 function FAQPage() {
 
   return (
-    <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start px-8">
+    <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start">
         <div className="pb-16 flex justify-evenly h-fit-content pt-32">
             <div className="ivyPrestoThin text-5xl w-1/3">
                 <h1>

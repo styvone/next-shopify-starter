@@ -43,7 +43,7 @@ class IndexPage extends Component {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start text-center items-center px-8 py-32">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-32">
           <h1 className="ivyPrestoThin text-9xl pb-8">
               Meet <em>Boquet</em>
           </h1>
@@ -69,7 +69,7 @@ class IndexPage extends Component {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start pl-8 py-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-16">
           <div className="flex justify-between pb-16">
             <div className="h-fit-content w-1/4 flex flex-col justify-between pr-8">
               <img alt="reduces image" className="pb-8" src='/images/homepage/reduces.png' />
@@ -101,7 +101,7 @@ class IndexPage extends Component {
               </p>
             </div>
 
-            <div className="h-fit-content w-1/4 flex flex-col justify-between pr-8">
+            <div className="h-fit-content w-1/4 flex flex-col justify-between">
               <img alt="restores image" className="pb-8" src='/images/homepage/restores.png' />
               <h1 className="ivyPrestoThin text-6xl text-center pb-8">
                 Restores
@@ -115,7 +115,7 @@ class IndexPage extends Component {
               href="/shop"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
                   <h1 className="text-xl h-24 flex flex-col justify-center">SHOP BOQUET</h1>
               </a>
           </Link>
@@ -123,7 +123,7 @@ class IndexPage extends Component {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB'}} className="h-fit-content flex flex-col justify-start items-center text-center px-8 pt-32">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-32">
           <h1 className="ivyPrestoThin text-9xl pb-8">
             Boquet <em>Vaginal Prebiotic</em>
           </h1>
@@ -145,7 +145,7 @@ class IndexPage extends Component {
           <img alt="boquet vaginal prebiotic main product image" className="pt-8" src='/images/homepage/boquet-vaginal-prebiotic.png' />
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB'}} className="h-fit-content flex justify-start px-8 pb-32 pt-8">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-32 pt-8">
           <div className="flex justify-between w-3/12">
             <p className="coreSans text-lg">
               INGREDIENTS:
@@ -165,8 +165,8 @@ class IndexPage extends Component {
         </div>
 
 
-        {/* CUSTOMER QUOTE SECTION - TO BE DONE LAST */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start px-8 py-32">
+        {/* CUSTOMER QUOTE SECTION */}
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-32">
           <Slider customPaging={i => (
             <div
             style={{
@@ -219,7 +219,7 @@ class IndexPage extends Component {
         </div>
 
         {/* LEARN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-start px-8 py-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-16">
           <h1 className="ivyPrestoThin text-6xl pb-16">
             Learn
           </h1>

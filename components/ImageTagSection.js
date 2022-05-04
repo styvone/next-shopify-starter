@@ -9,7 +9,7 @@ function ImageTagSection(props) {
             backgroundSize: 'cover',
             color: '#EBE5DB',
         }} className="w-full flex flex-col justify-end">
-            <div className="h-72 w-full px-8">
+            <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="h-72 w-full">
                 <h1 className="ivyPrestoThin text-6xl">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>

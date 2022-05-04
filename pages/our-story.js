@@ -7,7 +7,7 @@ function OurStoryPage() {
   return (
     <>  
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-center px-8 pb-16 pt-32">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-16 pt-32">
             <h1 className="ivyPrestoThin text-8xl w-9/12 pb-16">
                 For your <em>flora below.</em>
             </h1>
@@ -18,7 +18,7 @@ function OurStoryPage() {
         </div>
 
         {/* TEXT BLOCK - As you use Boquet, we hope you remember how deserving you are. */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-end px-8 pb-16"> 
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-16"> 
             <div className="h-fit-content w-7/12">
                 <h2 className="ivyPrestoThin text-4xl w-8/12 pb-8">
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
@@ -39,7 +39,7 @@ function OurStoryPage() {
         </div>
 
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-center px-8 py-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center py-16">
             <h1 className="ivyPrestoThin text-8xl w-9/12 pb-16">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h1>
@@ -47,7 +47,7 @@ function OurStoryPage() {
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-end px-8 pb-16"> 
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-16"> 
             <div className="h-fit-content w-7/12">
                 <h2 className="ivyPrestoThin text-4xl w-8/12 pb-8">
                 At Boquet, <em>we believe that all vaginas need better care and attention.</em>
@@ -68,7 +68,7 @@ function OurStoryPage() {
         </div>
 
         {/* OUR VAGINAS DESERVE TO BE CELEBRATED */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-center px-8 pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-16">
             <h1 className="ivyPrestoThin text-6xl w-2/3 pb-16">
             Our vagina's <em>deserve to be celebrated</em> for all the work it's done <em>and will continue to do.</em>
             </h1>

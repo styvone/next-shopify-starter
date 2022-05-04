@@ -33,7 +33,7 @@ function LearnPage() {
     <>
 
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className=" h-fit-content flex flex-col justify-start px-8 pb-16">
+      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-16">
         <h1 className="ivyPrestoThin text-8xl pt-32 pb-8">
           <em>Vaginal health</em> 101 with Boquet
         </h1>
@@ -45,7 +45,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '78rem'}} className="flex justify-center px-8 py-8">
+      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex justify-center py-8">
 
         <div className="w-1/2">
           <h1 className="ivyPrestoThin text-6xl">
@@ -91,8 +91,8 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-center text-center px-8">
-          <h1 style={{fontSize: '9rem'}} className="ivyPrestoThin">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center text-center">
+          <h1 style={{fontSize: '8.5rem'}} className="ivyPrestoThin">
             Directions on <em>how to use</em>
           </h1>
           <div className="pb-8 vbn m flex justify-center">
@@ -122,8 +122,8 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex justify-center pb-16">
-          <div className="w-1/3 flex flex-col justify-center text-center px-16" >
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-center pb-16">
+          <div className="w-1/3 flex flex-col justify-center text-center pr-16" >
             <h2 className="text-4xl ivyPrestoThin">
               To Restore:
             </h2>
@@ -141,7 +141,7 @@ function LearnPage() {
               <img alt="maintain logo" src='/images/restoreandmaintain.png' />
           </div>
 
-          <div className="w-1/3 flex flex-col justify-center text-center px-16">
+          <div className="w-1/3 flex flex-col justify-center text-center pl-16">
             <h2 className="text-4xl ivyPrestoThin">
               To Maintain:
             </h2>
@@ -159,7 +159,7 @@ function LearnPage() {
         <GentleAndRestorative />
 
         {/* FAQ SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91'}} className="h-fit-content flex flex-col justify-center px-8">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center">
           <div className="py-16 w-full">
                   <AccordianItem answer={<>
                   Boquet vaginal prebiotic tablets help deodorize, improve dryness, and relieve irritation by promoting the growth of the beneficial, protective bacteria in our vaginal flora. 

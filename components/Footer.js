@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: '#283F91'}} className="pb-8 pt-16 px-8 flex flex-col justify-center font-primary items-center text-white">
+    <footer style={{backgroundColor: '#283F91', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '50px'}} className="pt-16 flex flex-col justify-center font-primary items-center text-white">
       <div className="h-60 w-full flex border-b-2">
         <div className="pb-4 w-full flex flex-col justify-start">
           <img alt="logo" className="w-48 mr-1 object-contain" src="/logo/boquet_logo_gray.svg" />
@@ -67,9 +67,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="h-40 w-full flex">
-        <div className="py-4 w-full flex flex-col justify-center coreSans">©2022 Boquet</div>
-        <div className="py-4 w-full flex flex-col justify-center coreSans">* These statements have not been evaluated by the Food and Drug Administration.<br/> 
+      <div className="h-fit-content w-full flex">
+        <div style={{paddingTop: '67px'}} className="w-full flex flex-col justify-center coreSans">©2022 Boquet</div>
+        <div style={{paddingTop: '67px'}} className="w-full flex flex-col justify-center coreSans">* These statements have not been evaluated by the Food and Drug Administration.<br/> 
           This product is not intended to diagnose, treat, cure or prevent any disease.</div>
       </div>
     </footer>
