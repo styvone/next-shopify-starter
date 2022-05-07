@@ -44,6 +44,7 @@ function SEO({ title }) {
       />
       <link rel="apple-touch-icon" href="/apple-icon.png"></link>
       <meta name="theme-color" content="#EF4444" />
+      <link rel="stylesheet" href="https://use.typekit.net/dxh6hfl.css"></link>
     </Head>
   )
 }

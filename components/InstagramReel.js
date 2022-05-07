@@ -39,8 +39,10 @@ function InstagramReel() {
                 href="https://www.instagram.com/styvone/"
                 passHref
               >
-                <a className="coreSans text-l">
-                <u>FOLLOW US ON INSTAGRAM +</u>
+                <a>
+                  <p className="coreSans text-desktop-p2">
+                    <u>FOLLOW US ON INSTAGRAM +</u>
+                  </p>
                 </a>
             </Link>
           </div>

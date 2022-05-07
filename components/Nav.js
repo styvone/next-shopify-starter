@@ -25,13 +25,13 @@ function Nav(props) {
               <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
           </a>
         </Link>
-        <div className="h-fit-content flex flex-end justify-between w-1/2">
+        <div className="h-fit-content flex flex-end justify-between w-5/12">
           <Link
             href="/shop"
             passHref
           >
             <a className="px-8 flex flex-col justify-center" aria-label="shop">
-              <p className="coreSans text-base">Shop</p>
+              <p className="coreSans text-desktop-p3">SHOP</p>
             </a>
           </Link>
           <Link
@@ -39,7 +39,7 @@ function Nav(props) {
             passHref
           >
             <a className="px-8 flex flex-col justify-center" aria-label="learn">
-              <p className="coreSans text-base">Learn</p>
+              <p className="coreSans text-desktop-p3">LEARN</p>
             </a>
           </Link>
           <Link
@@ -47,7 +47,7 @@ function Nav(props) {
             passHref
           >
             <a className="px-8 flex flex-col justify-center" aria-label="our-story">
-              <p className="coreSans text-base">Our Story</p>
+              <p className="coreSans text-desktop-p3">OUR STORY</p>
             </a>
           </Link>
           <Link
@@ -55,8 +55,8 @@ function Nav(props) {
             passHref
           >
             <a onClick={toggleModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
-              <p className="coreSans text-base w-16 flex justify-center">
-                Cart
+              <p className="coreSans text-desktop-p3 w-16 flex justify-center">
+                CART
                 {
                   cartItems === 0 ? null : ' (' + cartItems + ')'
                 }

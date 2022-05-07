@@ -46,18 +46,21 @@ function AccordianItem(props) {
     return (
         <AccordionPrimitive.Root type="single" collapsible>
             <AccordionPrimitive.Item value="item-1">
-                <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-3xl focus:outline-none">
-                    <h1 className="w-10/12 flex justify-start">
+                <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-desktop-h3 focus:outline-none">
+                    <div className="w-10/12 flex justify-start">
                         {props.children}
-                    </h1>
+                    </div>
                     <span className="w-2/12 flex justify-end">
-                        {extended? <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />}
+                        {extended? 
+                          <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
+                          <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
+                        }
                     </span>
                 </AccordionPrimitive.Trigger>
-                <AccordionContent className="coreSans text-lg">
-                    <h3 className={`pt-${spaceTopAnswer} w-2/3`}>
+                <AccordionContent className="coreSans text-desktop-p2">
+                    <p className={`pt-${spaceTopAnswer} w-2/3`}>
                         {props.answer}
-                    </h3>
+                    </p>
                 </AccordionContent>
                 <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
             </AccordionPrimitive.Item>

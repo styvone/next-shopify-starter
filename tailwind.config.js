@@ -20,7 +20,17 @@ module.exports = {
       },
       fontFamily: {
         primary: ['"Josefin Sans"']
-      }
+      },
+      fontSize: {
+        'desktop-oneOff-lg': ['140px', '1'],
+        'desktop-oneOff-md': ['100px', '1'],
+        'desktop-h1': '60px',
+        'desktop-h2': '44px',
+        'desktop-h3': '30px',
+        'desktop-p3': ['16px', '20px'],
+        'desktop-p2': ['18px', '22px'],
+        'desktop-p1': ['22px', '27px'],
+      },
     },
   },
   variants: {
