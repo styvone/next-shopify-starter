@@ -22,8 +22,8 @@ module.exports = {
         primary: ['"Josefin Sans"']
       },
       fontSize: {
-        'desktop-oneOff-lg': ['140px', '1'],
-        'desktop-oneOff-md': ['100px', '1'],
+        'desktop-oneOff-lg': '140px',
+        'desktop-oneOff-md': '100px',
         'desktop-h1': '60px',
         'desktop-h2': '44px',
         'desktop-h3': '30px',
