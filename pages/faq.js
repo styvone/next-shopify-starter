@@ -9,14 +9,14 @@ function FAQPage() {
   return (
     <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start">
         <div className="pb-16 flex justify-evenly h-fit-content pt-32">
-            <div className="ivyPrestoThin text-5xl w-1/3">
-                <h1>
+            <div className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 w-1/3">
+                <h2>
                     FAQ
-                </h1>
+                </h2>
             </div>
             <div className="w-2/3">
                 <AccordianItem answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by licensed pharmacist Esther Nhain Lee.">
-                    <h1>What is Boquet?</h1>
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is Boquet?</h3>
                 </AccordianItem>
 
                 <div className="pt-8">
@@ -29,7 +29,7 @@ function FAQPage() {
                         Learn: Vaginal 101 page
                         </a>
                     </Link>.</h3>}>
-                        <h1>When and how should I use Boquet?</h1>
+                        <h3 className="text-desktop-h3 lineHeight-desktop-normal">When and how should I use Boquet?</h3>
                     </AccordianItem>
                 </div>
 
@@ -37,25 +37,25 @@ function FAQPage() {
         </div>
 
         <div className="py-16 flex justify-evenly h-fit-content">
-            <div className="ivyPrestoThin text-5xl w-1/3">
-                <h1>
+            <div className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 w-1/3">
+                <h2>
                     Shipping
-                </h1>
+                </h2>
             </div>
             <div className="w-2/3">
                 <AccordianItem answer="We offer free shipping on all US orders of $60 or more (excluding taxes). For orders under $60, standard shipping costs $5.90.">
-                    <h1>Do you offer <em>free shipping?</em></h1>
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">Do you offer <em>free shipping?</em></h3>
                 </AccordianItem>
 
                 <div className="pt-8">
                     <AccordianItem  answer="Unfortunately, we do not ship internationally at this time.">
-                        <h1>Do you <em>ship internationally?</em></h1>
+                        <h3 className="text-desktop-h3 lineHeight-desktop-normal">Do you <em>ship internationally?</em></h3>
                     </AccordianItem>
                 </div>
 
                 <div className="pt-8">
                     <AccordianItem  answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 3-9 business days to arrive. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
-                        <h1><em>Where will my order ship from</em> and <em>how long will it take</em> to arrive?</h1>
+                        <h3 className="text-desktop-h3 lineHeight-desktop-normal"><em>Where will my order ship from</em> and <em>how long will it take</em> to arrive?</h3>
                     </AccordianItem>
                 </div>
 
@@ -63,19 +63,19 @@ function FAQPage() {
         </div>
 
         <div className="py-16 flex justify-evenly h-fit-content">
-            <div className="ivyPrestoThin text-5xl w-1/3">
-                <h1>
+            <div className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 w-1/3">
+                <h2>
                     Payments + Returns
-                </h1>
+                </h2>
             </div>
             <div className="w-2/3">
                 <AccordianItem answer="Boquet accepts all major Credit Cards (Visa, Mastercard, American Express and Discover), Amazon Pay, Google Pay, Apple Pay, and PayPal.">
-                    <h1>What <em>payment methods</em> do you accept?</h1>
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">What <em>payment methods</em> do you accept?</h3>
                 </AccordianItem>
 
                 <div className="pt-8">
                     <AccordianItem  answer="We accept return products within 30  days of receipt. Please contact us at [insert email] with your order number to start the return process.">
-                        <h1>What is Boquet's <em>return policy?</em></h1>
+                        <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is Boquet's <em>return policy?</em></h3>
                     </AccordianItem>
                 </div>
 
@@ -83,14 +83,14 @@ function FAQPage() {
         </div>
 
         <div className="pt-16 flex justify-evenly h-fit-content pb-32">
-            <div className="ivyPrestoThin text-5xl w-1/3">
-                <h1>
+            <div className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 w-1/3">
+                <h2>
                     Contact + Press
-                </h1>
+                </h2>
             </div>
             <div className="w-2/3">
                 <AccordianItem answer={<>If you have any questions or concerns, please feel free to reach out to us at [insert email]. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at [insert email].</>}>
-                    <h1>How else can I reach you?</h1>
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">How else can I reach you?</h3>
                 </AccordianItem>
             </div>
         </div>
