@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
-
+@import url("https://use.typekit.net/dxh6hfl.css");
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
@@ -29,7 +29,7 @@
 }
 
 .ivyPrestoThin em {
-  font-family: ivypresto-display, serif;
+  font-family: ivypresto-display,serif;
   font-weight: 100;
   font-style: italic;
 }
@@ -76,7 +76,7 @@
   transform: translate(217px, 0px);
 }
 
-/* lineHeight classes (for responsiveness later) */
+/* lineHeight classes for h1-3 elements (for responsiveness later) */
 .lineHeight-desktop-123 {
   line-height: 123.3%;
 }
@@ -87,4 +87,8 @@
 
 .lineHeight-desktop-113 {
   line-height: 113.3%;
+}
+
+.lineHeight-desktop-normal {
+  line-height: normal;
 }

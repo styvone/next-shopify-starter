@@ -8,7 +8,7 @@ import CartModal from './CartModal';
 function Layout(props) {
   return (
     <CartProvider>
-      <div style={{ backgroundColor: props.backgroundColor }} className="flex flex-col justify-between min-h-screen">
+      <div style={{ backgroundColor: props.backgroundColor, letterSpacing: '-0.18px' }} className="flex flex-col justify-between min-h-screen letter-spacing-desktop">
         <Nav logoGray={props.logoGray} isHomePage={props.isHomePage}/>
 
         <main>
