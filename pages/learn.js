@@ -20,7 +20,6 @@ function LearnPage() {
         end: 'top top',
         endTrigger: '.droppingIntoContainer',
         pin: true,
-        pin: '.droppingPillAnimationContainer',
       },
     });
 
@@ -40,7 +39,7 @@ function LearnPage() {
         <p className="coreSans text-desktop-p1 w-1/2 pb-16">
         Everything you need to know about using Boquet, the ins and outs of your vaginal flora, and restoring your good protective bacteria.
         </p>
-        <img alt="vaginal health 101 banner image" src="/images/vaginal-health-101-with-boquet.png" />
+        <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" />
       </div>
 
 
@@ -54,7 +53,7 @@ function LearnPage() {
           <p className="coreSans text-desktop-p1 py-8">
             While Boquet is safe for daily usage, we especially recommend our vaginal prebiotic tablets for the following scenarios you may encounter:
           </p>
-          <img className="pt-8" alt="when should i use boquet image" src="/images/when-should-i-use-boquet.png"/>
+          <img className="pt-8" alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
         </div>
 
         <div className="w-1/2 pl-36">
@@ -116,7 +115,7 @@ function LearnPage() {
             <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
           </div>
           <div className="droppingIntoContainer">
-          <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
+            <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
           </div>
         </div>
 

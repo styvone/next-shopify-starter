@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'core-sans';
-  src: url('../public/fonts/CoreSansD35Regular.otf');
+  src: url('/fonts/CoreSansD35Regular.otf');
 }
 
 .triangle::before {
