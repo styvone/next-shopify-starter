@@ -44,27 +44,55 @@ function AccordianItem(props) {
     const spaceTopAnswer = props.spaceTopAnswer || '8';
 
     return (
-        <AccordionPrimitive.Root type="single" collapsible>
-            <AccordionPrimitive.Item value="item-1">
-                <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-desktop-h3 focus:outline-none">
-                    <div className="w-10/12 flex justify-start">
-                        {props.children}
-                    </div>
-                    <span className="w-2/12 flex justify-end">
-                        {extended? 
-                          <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
-                          <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
-                        }
-                    </span>
-                </AccordionPrimitive.Trigger>
-                <AccordionContent className="coreSans text-desktop-p2">
-                    <p className={`pt-${spaceTopAnswer} w-2/3`}>
-                        {props.answer}
-                    </p>
-                </AccordionContent>
-                <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
-            </AccordionPrimitive.Item>
-        </AccordionPrimitive.Root>
+      <>
+        <div className="responsive-desktop">
+          <AccordionPrimitive.Root type="single" collapsible>
+              <AccordionPrimitive.Item value="item-1">
+                  <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-desktop-h3 focus:outline-none">
+                      <div className="w-10/12 flex justify-start">
+                          {props.children}
+                      </div>
+                      <span className="w-2/12 flex justify-end">
+                          {extended? 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
+                          }
+                      </span>
+                  </AccordionPrimitive.Trigger>
+                  <AccordionContent className="coreSans text-desktop-p2">
+                      <p className={`pt-${spaceTopAnswer} w-2/3`}>
+                          {props.answer}
+                      </p>
+                  </AccordionContent>
+                  <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
+              </AccordionPrimitive.Item>
+          </AccordionPrimitive.Root>
+        </div>
+
+        <div className="responsive-mobile">
+          <AccordionPrimitive.Root type="single" collapsible>
+              <AccordionPrimitive.Item value="item-1">
+                  <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-mobile-h3 focus:outline-none">
+                      <div className="w-10/12 flex justify-start">
+                          {props.children}
+                      </div>
+                      <span className="w-2/12 flex justify-end">
+                          {extended? 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
+                          }
+                      </span>
+                  </AccordionPrimitive.Trigger>
+                  <AccordionContent className="coreSans text-mobile-p3">
+                      <p className={`pt-${spaceTopAnswer} w-11/12 lineHeight-mobile-17px`}>
+                          {props.answer}
+                      </p>
+                  </AccordionContent>
+                  <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
+              </AccordionPrimitive.Item>
+          </AccordionPrimitive.Root>
+        </div>
+      </>
     )
 }
 

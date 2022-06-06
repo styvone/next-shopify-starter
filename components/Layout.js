@@ -18,7 +18,8 @@ function Layout(props) {
         <InstagramReel />
         <Footer />
       </div>
-      <CartModal />
+
+      <CartModal/>
     </CartProvider>
   )
 }

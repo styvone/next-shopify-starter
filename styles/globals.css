@@ -100,3 +100,83 @@
 .lineHeight-desktop-normal {
   line-height: normal;
 }
+
+.lineHeight-mobile-38px {
+  line-height: 38px;
+}
+
+.lineHeight-mobile-22px {
+  line-height: 22px;
+}
+
+.lineHeight-mobile-28px {
+  line-height: 28px;
+}
+
+.lineHeight-mobile-43px {
+  line-height: 43px;
+}
+
+.lineHeight-mobile-44px {
+  line-height: 44px;
+}
+
+.lineHeight-mobile-20px {
+  line-height: 20px;
+}
+
+.lineHeight-mobile-25px {
+  line-height: 25px;
+}
+
+.lineHeight-mobile-17px {
+  line-height: 17px;
+}
+
+
+
+/* DESKTOP */
+@media only screen and (min-device-width: 1440px) {
+  .responsive-desktop {
+    display: block !important;
+  }
+  .responsive-tablet {
+    display: none !important;
+  }
+  .responsive-mobile {
+    display: none !important;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1439px) {
+  .responsive-desktop {
+    display: none !important;
+  }
+  .responsive-tablet {
+    display: block !important;
+  }
+  .responsive-mobile {
+    display: none !important;
+  }
+}
+
+/* MOBILE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .responsive-desktop {
+    display: none !important;
+  }
+  .responsive-tablet {
+    display: none !important;
+  }
+  .responsive-mobile {
+    display: block !important;
+  }
+}
+
+.mobilePadding .slide-pane__content {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
