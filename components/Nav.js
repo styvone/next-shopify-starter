@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { useCartContext, useCartModalContext } from '@/context/Store'
+import { useCartContext, useCartModalContext, useMenuModalContext } from '@/context/Store'
 
 function Nav(props) {
-  const toggleModal = useCartModalContext()[0];
+  const toggleCartModal = useCartModalContext()[0];
+  const toggleMenuModal = useMenuModalContext()[0];
 
 
   const cart = useCartContext()[0]
@@ -57,7 +58,7 @@ function Nav(props) {
               href='#'
               passHref
             >
-              <a onClick={toggleModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
+              <a onClick={toggleCartModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
                 <p className="coreSans text-desktop-p3 w-16 flex justify-center">
                   CART
                   {
@@ -78,7 +79,7 @@ function Nav(props) {
             href='#'
             passHref
           >
-            <a onClick={toggleModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
+            <a onClick={toggleMenuModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
               <img style={{width: '27px', height: '9px'}}  alt="menu" className="object-contain" src={"/icons/mobile/mobile-menu-icon-beige.svg"} />
             </a>
           </Link>
@@ -86,7 +87,7 @@ function Nav(props) {
             href='#'
             passHref
           >
-            <a onClick={toggleModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
+            <a onClick={toggleCartModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
               <p className="coreSans text-desktop-p3 w-16 flex justify-center">
                 CART
                 {

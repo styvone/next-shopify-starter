@@ -5,6 +5,7 @@ const CartContext = createContext()
 const AddToCartContext = createContext()
 const UpdateCartQuantityContext = createContext()
 const CartModalContext = createContext()
+const MenuModalContext = createContext()
 
 export function useCartContext() {
   return useContext(CartContext)
@@ -22,12 +23,17 @@ export function useCartModalContext() {
   return useContext(CartModalContext);
 }
 
+export function useMenuModalContext() {
+  return useContext(MenuModalContext);
+}
+
 export function CartProvider({ children }) {
   const [cart, setCart] = useState([])
   const [checkoutId, setCheckoutId] = useState('')
   const [checkoutUrl, setCheckoutUrl] = useState('')
   const [isLoading, setisLoading] = useState(false)
   const [cartModalOpen, setCartModalOpen] = useState(false)
+  const [menuModalOpen, setMenuModalOpen] = useState(false)
 
   useEffect(() => {
     setLocalData(setCart, setCheckoutId, setCheckoutUrl)
@@ -112,15 +118,21 @@ export function CartProvider({ children }) {
     setCartModalOpen(!cartModalOpen);
   }
 
+  function toggleMenuModal() {
+    setMenuModalOpen(!menuModalOpen);
+  }
+
   return (
-  <CartModalContext.Provider value={[toggleCartModal, cartModalOpen]}>
-    <CartContext.Provider value={[cart, checkoutUrl, isLoading]}>
-      <AddToCartContext.Provider value={addToCart}>
-        <UpdateCartQuantityContext.Provider value={updateCartItemQuantity}>
-          {children}
-        </UpdateCartQuantityContext.Provider>
-      </AddToCartContext.Provider>
-    </CartContext.Provider>
-  </CartModalContext.Provider>
+  <MenuModalContext.Provider value={[toggleMenuModal, menuModalOpen]}>
+    <CartModalContext.Provider value={[toggleCartModal, cartModalOpen]}>
+      <CartContext.Provider value={[cart, checkoutUrl, isLoading]}>
+        <AddToCartContext.Provider value={addToCart}>
+          <UpdateCartQuantityContext.Provider value={updateCartItemQuantity}>
+            {children}
+          </UpdateCartQuantityContext.Provider>
+        </AddToCartContext.Provider>
+      </CartContext.Provider>
+    </CartModalContext.Provider>
+  </MenuModalContext.Provider>
   )
 }

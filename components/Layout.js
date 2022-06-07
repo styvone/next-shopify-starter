@@ -3,7 +3,7 @@ import Nav from '@/components/Nav';
 import InstagramReel from './InstagramReel';
 import Footer from '@/components/Footer';
 import CartModal from './CartModal';
-
+import MenuModal from './MenuModal';
 
 function Layout(props) {
   return (
@@ -20,6 +20,7 @@ function Layout(props) {
       </div>
 
       <CartModal/>
+      <MenuModal/>
     </CartProvider>
   )
 }

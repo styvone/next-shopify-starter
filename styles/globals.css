@@ -60,6 +60,10 @@
   background-color: #283F91 !important;
 }
 
+.menuModal {
+  background-color: #EBE5DB !important;
+}
+
 .disabledLink {
   pointer-events: none;
 }

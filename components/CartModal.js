@@ -67,7 +67,7 @@ function CartModal() {
             }}
         >
             <div className="h-fit-content w-full flex justify-between pb-24">
-            <h1 style={{color: '#EBE5DB'}} className='ivyPrestoThin text-6xl'>
+            <h1 style={{color: '#EBE5DB'}} className='ivyPrestoThin text-desktop-h1'>
                 Cart
             </h1>
             <button
@@ -82,12 +82,12 @@ function CartModal() {
             <div className="h-4/5 w-full flex flex-col justify-between">
             <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
                 <div className="pb-8 flex justify-between">
-                <h2 className="ivyPrestoThin text-5xl">
+                <h2 className="ivyPrestoThin text-desktop-h2">
                 Boquet Vaginal Prebiotic
                 </h2>
                     <div className="w-1/3 flex justify-between">
                         <div className="flex flex-col justify-center">
-                            <p classNam="coreSans text-xs">
+                            <p className="coreSans text-desktop-p3">
                             QUANTITY:
                             </p>
                         </div>
@@ -103,7 +103,7 @@ function CartModal() {
                             >
                                 <img className="h-fit-content" src="/icons/cart-modal/minus.svg" />
                             </button>
-                            <h3 className="helvetica text-3xl">
+                            <h3 className="helvetica text-desktop-h3">
                                 {tempNumItems}
                             </h3>
                             <button
@@ -125,11 +125,11 @@ function CartModal() {
                 <div className="flex justify-end">
                     <div className="h-fit-content w-1/3 flex justify-between">
                         <div className="flex flex-col justify-end">
-                            <p classNam="coreSans text-xs">
+                            <p className="coreSans text-desktop-p3">
                                 TOTAL:
                             </p>
                         </div>
-                        <h3 className="helvetica text-3xl">
+                        <h3 className="helvetica text-desktop-h3">
                             {`$${tempNumItems * 25}.00`}
                         </h3>
                     </div>
@@ -149,9 +149,9 @@ function CartModal() {
                             clickCheckOut();
                         }
                     }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
-                        <h1 className="text-xl h-24 flex flex-col justify-center">
+                        <p className="text-desktop-p1 h-24 flex flex-col justify-center">
                             {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
-                        </h1>
+                        </p>
                     </a>
                 </Link>
             </div>
@@ -214,9 +214,9 @@ function CartModal() {
                             >
                                 <img style={{height: '13px', width: '13px'}} src="/icons/cart-modal/minus.svg" />
                             </button>
-                            <h3 className="helvetica text-mobile-p1">
+                            <p className="helvetica text-mobile-p1">
                                 {tempNumItems}
-                            </h3>
+                            </p>
                             <button
                             aria-label="add item to cart"
                             className="h-full rounded-r-full px-3"
@@ -236,13 +236,13 @@ function CartModal() {
                 <div className="flex justify-end">
                     <div className="h-fit-content w-full flex justify-between">
                         <div className="flex flex-col justify-end">
-                            <p classNam="coreSans text-mobile-p3">
+                            <p className="coreSans text-mobile-p3">
                                 TOTAL:
                             </p>
                         </div>
-                        <h3 className="helvetica text-mobile-p1">
+                        <p className="helvetica text-mobile-p1">
                             {`$${tempNumItems * 25}.00`}
-                        </h3>
+                        </p>
                     </div>
                 </div>
                 </div>
@@ -260,9 +260,9 @@ function CartModal() {
                             clickCheckOut();
                         }
                     }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
-                        <h1 className="text-mobile-p2 h-14 flex flex-col justify-center">
+                        <p className="text-mobile-p2 h-14 flex flex-col justify-center">
                             {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
-                        </h1>
+                        </p>
                     </a>
                 </Link>
             </div>
