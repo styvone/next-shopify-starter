@@ -257,9 +257,9 @@ function MobileVersion() {
             backgroundSize: '100%',
             color: '#EBE5DB',
         }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
-          <h1 className="ivyPrestoThin text-mobile-h1 w-full pb-8 lineHeight-mobile-38px">
+          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-8 lineHeight-mobile-38px">
             Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
-          </h1>
+          </h2>
           <Link
               href="/shop"
               passHref
@@ -368,7 +368,7 @@ function MobileVersion() {
           >
               <a className="pl-0" aria-label="cart">
                   <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center">
-                          <p className="text-center text-mobile-p2 coreSans">
+                          <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
                           </p>
                   </div>
@@ -379,18 +379,18 @@ function MobileVersion() {
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
         <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-8">
           <div className="flex justify-between w-full pb-2">
-            <p className="coreSans text-mobile-p2">
+            <p className="coreSans text-mobile-p3">
               INGREDIENTS:
             </p>
           </div>
           <div className="flex flex-col justify-between w-full">
-            <p className="coreSans text-mobile-p2">
+            <p className="coreSans text-mobile-p3">
               LACTOSE
             </p>
-            <p className="coreSans text-mobile-p2">
+            <p className="coreSans text-mobile-p3">
               SILICON DIOXIDE
             </p>
-            <p className="coreSans text-mobile-p2">
+            <p className="coreSans text-mobile-p3">
               MAGNESIUM STEARATE
             </p>
           </div>
@@ -398,7 +398,7 @@ function MobileVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-32">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-4">
           <Slider customPaging={i => (
             <div
             style={{
@@ -414,10 +414,10 @@ function MobileVersion() {
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
-                  <h2 className="ivyPrestoThin text-mobile-h2 pb-8 lineHeight-mobile-25px">
+                  <h3 className="ivyPrestoThin text-mobile-h3 pb-8 lineHeight-mobile-38px">
                   “I try to treat my body well by eating well. Boquet prebiotic tablets <em>help me feel well down there, and helps me feel more confident when I plan to have sex.</em>”
-                  </h2>
-                  <p className="coreSans text-mobile-p2">
+                  </h3>
+                  <p className="coreSans text-mobile-p3">
                   TATIANA K.
                   </p>
                 </div>
@@ -426,10 +426,10 @@ function MobileVersion() {
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
-                  <h2 className="ivyPrestoThin text-mobile-h2 pb-8 lineHeight-mobile-25px">
+                  <h3 className="ivyPrestoThin text-mobile-h3 pb-8 lineHeight-mobile-38px">
                   “I noticed <em>pretty instant relief</em>. I honestly think Boquet <em>got rid of whatever discomfort and irritation</em> I was feeling after two nights.”
-                  </h2>
-                  <p className="coreSans text-mobile-p2">
+                  </h3>
+                  <p className="coreSans text-mobile-p3">
                   ELENA D.
                   </p>
                 </div>
@@ -438,10 +438,10 @@ function MobileVersion() {
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
-                  <h2 className="ivyPrestoThin text-mobile-h2 pb-8 lineHeight-mobile-25px">
+                  <h3 className="ivyPrestoThin text-mobile-h3 pb-8 lineHeight-mobile-38px">
                   “People think if you have vaginal issues you're dirty but my symptoms were actually due to overwashing. <em>Something was feeling off and it went away after using Boquet.</em>”
-                  </h2>
-                  <p className="coreSans text-mobile-p2">
+                  </h3>
+                  <p className="coreSans text-mobile-p3">
                   CHRISTINA M.
                   </p>
                 </div>
@@ -458,14 +458,14 @@ function MobileVersion() {
 
           <div className="pb-8">
             <AccordianItem size={5}  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
-                <h3 className="text-mobile-h3 lineHeight-mobile-22px text-left">What is a <em>vaginal flora</em> and what does it do?</h3>
+                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What is a <em>vaginal flora</em> and what does it do?</h3>
             </AccordianItem>
           </div>
         
 
           <div className="pb-16">
             <AccordianItem size={5}  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
-                <h3 className="text-mobile-h3 lineHeight-mobile-22px text-left">What happens when your <em>vaginal pH balance</em> is off?</h3>
+                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What happens when your <em>vaginal pH balance</em> is off?</h3>
             </AccordianItem>
           </div>
 

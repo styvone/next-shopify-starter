@@ -80,7 +80,7 @@ function Nav(props) {
             passHref
           >
             <a onClick={toggleMenuModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
-              <img style={{width: '27px', height: '9px'}}  alt="menu" className="object-contain" src={"/icons/mobile/mobile-menu-icon-beige.svg"} />
+              <img style={{width: '27px', height: '9px'}}  alt="menu" className="object-contain" src={props.logoGray ? "/icons/mobile/mobile-menu-icon-beige.svg" : "/icons/mobile/mobile-menu-icon-navy.svg"} />
             </a>
           </Link>
           <Link
@@ -88,7 +88,7 @@ function Nav(props) {
             passHref
           >
             <a onClick={toggleCartModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
-              <p className="coreSans text-desktop-p3 w-16 flex justify-center">
+              <p className="coreSans text-mobile-p3 w-16 flex justify-center">
                 CART
                 {
                   cartItems === 0 ? null : ' (' + cartItems + ')'

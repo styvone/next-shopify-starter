@@ -191,9 +191,9 @@ function CartModal() {
 
             <div className="h-5/6 w-full flex flex-col justify-between">
             <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
-                <h2 className="ivyPrestoThin text-mobile-h2">
+                <h3 className="ivyPrestoThin text-mobile-h3">
                     Boquet Vaginal Prebiotic
-                </h2>
+                </h3>
 
 
                     <div className="w-full flex justify-between py-8">

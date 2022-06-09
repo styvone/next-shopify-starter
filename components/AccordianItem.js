@@ -83,8 +83,8 @@ function AccordianItem(props) {
                           }
                       </span>
                   </AccordionPrimitive.Trigger>
-                  <AccordionContent className="coreSans text-mobile-p3">
-                      <p className={`pt-${spaceTopAnswer} w-11/12 lineHeight-mobile-17px`}>
+                  <AccordionContent className="coreSans text-mobile-p2">
+                      <p className={`pt-${spaceTopAnswer} w-11/12 lineHeight-mobile-20px`}>
                           {props.answer}
                       </p>
                   </AccordionContent>

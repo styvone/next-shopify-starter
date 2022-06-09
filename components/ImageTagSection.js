@@ -45,10 +45,10 @@ function ImageTagSection(props) {
                     color: '#EBE5DB',
                 }} className="w-full flex flex-col justify-end">
                     <div style={{paddingLeft: '16px', paddingRight: '16px'}} className="h-72 w-full">
-                        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-44px">
+                        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px">
                             Boquet <br/> <em>Vaginal Prebiotic</em>
                         </h1>
-                        <p className="coreSans text-mobile-p1 py-6 lineHeight-mobile-20px">
+                        <p className="coreSans text-mobile-p2 py-6 lineHeight-mobile-20px">
                             A vaginal prebiotic tablet that's gentle and restorative.
                         </p>
                         <div className="h-24 flex flex-col justify-center">
@@ -58,7 +58,7 @@ function ImageTagSection(props) {
                             >
                                 <a className="pl-0" aria-label="cart">
                                     <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center">
-                                            <p className="text-center text-mobile-p2 coreSans">
+                                            <p className="text-center text-mobile-p3 coreSans">
                                                 SHOP BOQUET
                                             </p>
                                     </div>

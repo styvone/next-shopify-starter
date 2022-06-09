@@ -109,6 +109,10 @@
   line-height: 38px;
 }
 
+.lineHeight-mobile-39px {
+  line-height: 39px;
+}
+
 .lineHeight-mobile-22px {
   line-height: 22px;
 }
@@ -117,12 +121,20 @@
   line-height: 28px;
 }
 
+.lineHeight-mobile-29px {
+  line-height: 29px;
+}
+
 .lineHeight-mobile-43px {
   line-height: 43px;
 }
 
 .lineHeight-mobile-44px {
   line-height: 44px;
+}
+
+.lineHeight-mobile-49px {
+  line-height: 49px;
 }
 
 .lineHeight-mobile-20px {

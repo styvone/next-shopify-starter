@@ -153,10 +153,15 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="h-fit-content w-full flex">
-            <div style={{paddingTop: '40px'}} className="w-full flex flex-col justify-center">
+          <div className="h-36 w-full flex">
+            <div style={{paddingTop: '40px'}} className="w-full flex flex-col justify-between">
               <p className="coreSans text-mobile-p2">
-                ©2022 Boquet
+                © 2022 Boquet
+              </p>
+
+              <p style={{fontSize: '12px', lineHeight: 'normal'}} className="coreSans">
+                * These statements have not been evaluated by the Food and Drug Administration.
+                This product is not intended to diagnose, treat, cure or prevent any disease.
               </p>
             </div>
           </div>

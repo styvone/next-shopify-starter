@@ -45,7 +45,7 @@ function MenuModal() {
 
                 <div className="flex flex-col justify-center">
                 <Link href="/" passHref>
-                        <a className=" cursor-pointer">
+                        <a onClick={toggleModal} className=" cursor-pointer">
                             <img style={{width: '101px', height: '31px', margin: '0 auto'}}  alt="logo" className="object-contain" src={"/logo/boquet_logo_gray.svg"} />
                         </a>
                 </Link>
@@ -69,7 +69,7 @@ function MenuModal() {
                             passHref
                         >
                             <a onClick={toggleModal}>
-                                <h1 className="ivyPrestoThin text-mobile-h1">Shop</h1>
+                                <h2 className="ivyPrestoThin text-mobile-h2">Shop</h2>
                             </a>
                         </Link>
                     </div>
@@ -79,7 +79,7 @@ function MenuModal() {
                             passHref
                         >
                             <a onClick={toggleModal}>
-                                <h1 className="ivyPrestoThin text-mobile-h1">Learn</h1>
+                                <h2 className="ivyPrestoThin text-mobile-h2">Learn</h2>
                             </a>
                         </Link>
                     </div>
@@ -89,7 +89,7 @@ function MenuModal() {
                             passHref
                         >
                             <a onClick={toggleModal}>
-                                <h1 className="ivyPrestoThin text-mobile-h1">Our Story</h1>
+                                <h2 className="ivyPrestoThin text-mobile-h2">Our Story</h2>
                             </a>
                         </Link>
                     </div>
@@ -99,7 +99,7 @@ function MenuModal() {
                             passHref
                         >
                             <a onClick={toggleModal}>
-                                <h1 className="ivyPrestoThin text-mobile-h1">FAQ</h1>
+                                <h2 className="ivyPrestoThin text-mobile-h2">FAQ</h2>
                             </a>
                         </Link>
                     </div>
