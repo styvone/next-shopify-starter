@@ -73,7 +73,7 @@ function AccordianItem(props) {
           <AccordionPrimitive.Root type="single" collapsible>
               <AccordionPrimitive.Item value="item-1">
                   <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-mobile-h3 focus:outline-none">
-                      <div className="w-10/12 flex justify-start">
+                      <div className="w-10/12 flex justify-start text-left">
                           {props.children}
                       </div>
                       <span className="w-2/12 flex justify-end">
