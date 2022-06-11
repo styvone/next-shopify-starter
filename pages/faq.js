@@ -101,7 +101,6 @@ function FAQPage() {
         </div>
 
 
-
         {/* MOBILE */}
         <div className="responsive-mobile">
             <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start">
