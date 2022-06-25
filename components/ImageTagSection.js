@@ -68,6 +68,39 @@ function ImageTagSection(props) {
                     </div>
                 </div>
             </div>
+
+            <div className="responsive-tablet">
+                <div style={{
+                    backgroundColor: "#EBE5DB", 
+                    height: '42rem',
+                    backgroundImage: `url(${props.backgroundImage})`,
+                    backgroundSize: 'cover',
+                    color: '#EBE5DB',
+                }} className="w-full flex flex-col justify-end">
+                    <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-72 w-full">
+                        <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px">
+                            Boquet <em>Vaginal Prebiotic</em>
+                        </h1>
+                        <p className="coreSans text-tablet-p1 py-6">
+                            A vaginal prebiotic tablet that's gentle and restorative.
+                        </p>
+                        <div className="h-24 flex flex-col justify-center">
+                            <Link
+                                href="/shop"
+                                passHref
+                            >
+                                <a className="pl-0" aria-label="cart">
+                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center">
+                                            <p className="text-center text-tablet-p2 coreSans">
+                                                SHOP BOQUET
+                                            </p>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

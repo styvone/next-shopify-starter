@@ -107,6 +107,41 @@ function Nav(props) {
       </header >
     </div>
 
+    <div className="responsive-tablet">
+      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '40px', paddingRight: '40px', paddingTop: '40px'}} className={`${props.isHomePage ? 'absolute w-full' : ''}`}>
+        <div className="flex items-center justify-between w-full">
+          <Link
+            href='#'
+            passHref
+          >
+            <a onClick={toggleMenuModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
+              <img style={{width: '27px', height: '9px'}}  alt="menu" className="object-contain" src={props.logoGray ? "/icons/mobile/mobile-menu-icon-beige.svg" : "/icons/mobile/mobile-menu-icon-navy.svg"} />
+            </a>
+          </Link>
+          <Link
+            href='#'
+            passHref
+          >
+            <a onClick={toggleCartModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
+              <p className="coreSans text-tablet-p3 w-16 flex justify-center">
+                CART
+                {
+                  cartItems === 0 ? null : ' (' + cartItems + ')'
+                }
+              </p>
+            </a>
+          </Link>
+        </div>
+        <div style={{marginTop: '-38px'}}>
+          <Link href="/" passHref>
+              <a className=" cursor-pointer">
+                  <img style={{width: '101px', height: '31px', margin: '0 auto'}}  alt="logo" className="object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
+              </a>
+            </Link>
+        </div>
+      </header >
+    </div>
+
 
     </>
   )

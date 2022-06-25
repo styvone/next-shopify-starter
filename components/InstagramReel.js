@@ -64,7 +64,29 @@ function InstagramReel() {
                     passHref
                   >
                     <a>
-                      <p className="coreSans text-desktop-p2">
+                      <p className="coreSans text-mobile-p2">
+                        <u>FOLLOW US ON INSTAGRAM +</u>
+                      </p>
+                    </a>
+                </Link>
+              </div>
+            </div>
+            <div className="h-56 flex flex-col justify-center">
+              {createImageReel()}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive-tablet">
+          <div style={{backgroundColor: "#EBE5DB"}} className="h-80 w-full flex flex-col justify-evenly">
+            <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-8 flex justify-end">
+              <div style={{color: '#283F91'}} className="flex flex-col justify-center">
+                <Link
+                    href="https://www.instagram.com/styvone/"
+                    passHref
+                  >
+                    <a>
+                      <p className="coreSans text-tablet-p2">
                         <u>FOLLOW US ON INSTAGRAM +</u>
                       </p>
                     </a>

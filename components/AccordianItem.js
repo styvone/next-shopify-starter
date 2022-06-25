@@ -92,6 +92,30 @@ function AccordianItem(props) {
               </AccordionPrimitive.Item>
           </AccordionPrimitive.Root>
         </div>
+
+        <div className="responsive-tablet">
+          <AccordionPrimitive.Root type="single" collapsible>
+              <AccordionPrimitive.Item value="item-1">
+                  <AccordionPrimitive.Trigger onClick={setExtended} className="w-full flex justify-evenly ivyPrestoThin text-tablet-h3 focus:outline-none">
+                      <div className="w-10/12 flex justify-start text-left">
+                          {props.children}
+                      </div>
+                      <span className="w-2/12 flex justify-end">
+                          {extended? 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
+                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
+                          }
+                      </span>
+                  </AccordionPrimitive.Trigger>
+                  <AccordionContent className="coreSans text-tablet-p2">
+                      <p className={`pt-${spaceTopAnswer} w-11/12 lineHeight-tablet-22px`}>
+                          {props.answer}
+                      </p>
+                  </AccordionContent>
+                  <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
+              </AccordionPrimitive.Item>
+          </AccordionPrimitive.Root>
+        </div>
       </>
     )
 }
