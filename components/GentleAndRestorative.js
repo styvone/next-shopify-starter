@@ -51,6 +51,29 @@ function GentleAndRestorative() {
                 </div>
                 </div>
             </div>
+
+            <div className="responsive-tablet">
+                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
+                <div className="h-14 w-full overflow-hidden whitespace-nowrap">
+                <Marquee gradient={false} speed={50}>
+                    <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px inline mr-28">
+                        <em>Gentle</em> and <em>restorative</em>
+                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                    </h2>
+
+                    <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px inline mr-28">
+                        <em>Gentle</em> and <em>restorative</em>
+                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                    </h2>
+
+                    <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px inline mr-28">
+                        <em>Gentle</em> and <em>restorative</em>
+                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                    </h2>
+                </Marquee>  
+                </div>
+                </div>
+            </div>
         </>
     )
   }
