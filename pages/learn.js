@@ -6,6 +6,7 @@ import GentleAndRestorative from '@/components/GentleAndRestorative';
 import { useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -170,6 +171,17 @@ function LearnPage() {
               Use 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
             </p>
           </div>
+        </div>
+
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="pb-16">
+          <Link
+                  href="/shop"
+                  passHref
+              >
+              <a style={{borderColor: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                  <p className="text-desktop-p2 h-24 flex flex-col justify-center">SHOP BOQUET</p>
+              </a>
+          </Link>
         </div>
 
         <GentleAndRestorative />
@@ -361,7 +373,7 @@ function LearnPage() {
 
 
 
-          <div className="w-full flex flex-col justify-center text-center">
+          <div className="w-full flex flex-col justify-center text-center pb-16">
             <h2 className="text-mobile-h2 lineHeight-mobile-35px ivyPrestoThin pb-4">
               To Maintain:
             </h2>
@@ -374,6 +386,15 @@ function LearnPage() {
               Use 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
             </p>
           </div>
+
+          <Link
+                href="/shop"
+                passHref
+            >
+              <a style={{borderColor: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                  <p className="text-mobile-p2 h-12 flex flex-col justify-center">SHOP BOQUET</p>
+              </a>
+          </Link>
         </div>
 
         <GentleAndRestorative />
@@ -580,6 +601,14 @@ function LearnPage() {
               </p>
             </div>
           </div>
+          <Link
+                href="/shop"
+                passHref
+            >
+                <a style={{borderColor: '#283F91'}} className="mt-16 relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                    <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">SHOP BOQUET</p>
+                </a>
+            </Link>
         </div>
 
         <GentleAndRestorative />

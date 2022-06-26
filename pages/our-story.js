@@ -1,7 +1,7 @@
 import ImageTagSection from '@/components/ImageTagSection';
-import Layout from '@/components/Layout'
-import SEO from '@/components/SEO'
-import Link from 'next/link'
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
+import Link from 'next/link';
 
 function DesktopVersion() {
     return (
