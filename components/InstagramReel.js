@@ -49,7 +49,7 @@ function InstagramReel() {
                 </Link>
               </div>
             </div>
-            <div className="h-56 flex flex-col justify-center">
+            <div className="h-56 flex flex-col justify-center z-0">
               {createImageReel()}
             </div>
           </div>
@@ -71,7 +71,7 @@ function InstagramReel() {
                 </Link>
               </div>
             </div>
-            <div className="h-56 flex flex-col justify-center">
+            <div className="h-56 flex flex-col justify-center z-0">
               {createImageReel()}
             </div>
           </div>
@@ -93,7 +93,7 @@ function InstagramReel() {
                 </Link>
               </div>
             </div>
-            <div className="h-56 flex flex-col justify-center">
+            <div className="h-56 flex flex-col justify-center z-0">
               {createImageReel()}
             </div>
           </div>

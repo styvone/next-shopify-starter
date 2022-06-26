@@ -6,20 +6,20 @@ import Link from 'next/link';
 function MenuModal() {
     const [toggleModal, isModalOpen] = useMenuModalContext();
 
-    const [isMobile, setIsMobile] = useState(false);
+    // const [isMobile, setIsMobile] = useState(false);
 
-    const handleResizeMobile = () => {
-        if (window.innerWidth < 767) {
-            setIsMobile(true);
-        } else {
-            setIsMobile(false);
-        }
-    }
+    // const handleResizeMobile = () => {
+    //     if (window.innerWidth < 767) {
+    //         setIsMobile(true);
+    //     } else {
+    //         setIsMobile(false);
+    //     }
+    // }
 
-    useEffect(() => {
-        window.addEventListener("resize", handleResizeMobile);
-        window.addEventListener("load", handleResizeMobile);
-    });
+    // useEffect(() => {
+    //     window.addEventListener("resize", handleResizeMobile);
+    //     window.addEventListener("load", handleResizeMobile);
+    // });
 
     const mobileView = (
         <SlidingPane
