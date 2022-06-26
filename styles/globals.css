@@ -185,6 +185,9 @@
   line-height: 20px;
 }
 
+.lineHeight-tablet-53px {
+  line-height: 53px;
+}
 
 
 
@@ -225,6 +228,19 @@
   .responsive-mobile {
     display: none !important;
   }
+
+    /* Folding Out Pill Animation */
+    .smallPill {
+      transform: translate(13px, 175px);
+    }
+    
+    .medPill {
+      transform: translate(160px, 28px);
+    }
+    
+    .largePill {
+      transform: translate(347px, -78px);
+    }
 }
 
 /* MOBILE */
