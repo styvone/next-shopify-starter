@@ -169,6 +169,10 @@
   line-height: 34px;
 }
 
+.lineHeight-tablet-32px {
+  line-height: 32px;
+}
+
 .lineHeight-tablet-25px {
   line-height: 25px;
 }
@@ -260,6 +264,6 @@
 .tabletPadding .slide-pane__content {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 25px;
+  padding-bottom: 61px;
 }
