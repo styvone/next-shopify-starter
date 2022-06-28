@@ -13,35 +13,59 @@ gsap.registerPlugin(ScrollTrigger);
 function LearnPage() {
 
   useEffect(() => {
-    const sections = gsap.utils.toArray('.droppingPillAnimationContainer');
+    // const sections = gsap.utils.toArray('.droppingPillAnimationContainer');
 
-    sections.forEach(section => {
-      gsap.to(section, {
-        scrollTrigger: {
-          trigger: section,
-          toggleActions: 'play reverse play reverse',
-          start: 'top top',
-          end: 'top top',
-          endTrigger: '.droppingIntoContainer',
-          pin: true,
-        },
-      })
-    });
-
-
-    // const droppingPillAnimationContainer = gsap.to('.droppingPillAnimationContainer', {
-    //   scrollTrigger: {
-    //     trigger: '.droppingPillAnimationContainer',
-    //     toggleActions: 'play reverse play reverse',
-    //     start: 'top top',
-    //     end: 'top top',
-    //     endTrigger: '.droppingIntoContainer',
-    //     pin: true,
-    //   },
+    // sections.forEach(section => {
+    //   gsap.to(section, {
+    //     scrollTrigger: {
+    //       trigger: section,
+    //       toggleActions: 'play reverse play reverse',
+    //       start: 'top top',
+    //       end: 'top top',
+    //       endTrigger: '.droppingIntoContainer',
+    //       pin: true,
+    //     },
+    //   })
     // });
 
+
+    const droppingPillAnimationContainerDesktop = gsap.to('.droppingPillAnimationContainer-desktop', {
+      scrollTrigger: {
+        trigger: '.droppingPillAnimationContainer-desktop',
+        toggleActions: 'play reverse play reverse',
+        start: 'top top',
+        end: 'top top',
+        endTrigger: '.droppingIntoContainer-desktop',
+        pin: true,
+      },
+    });
+
+    const droppingPillAnimationContainerMobile = gsap.to('.droppingPillAnimationContainer-mobile', {
+      scrollTrigger: {
+        trigger: '.droppingPillAnimationContainer-mobile',
+        toggleActions: 'play reverse play reverse',
+        start: 'top top',
+        end: 'top top',
+        endTrigger: '.droppingIntoContainer-mobile',
+        pin: true,
+      },
+    });
+
+    const droppingPillAnimationContainerTablet = gsap.to('.droppingPillAnimationContainer-tablet', {
+      scrollTrigger: {
+        trigger: '.droppingPillAnimationContainer-tablet',
+        toggleActions: 'play reverse play reverse',
+        start: 'top top',
+        end: 'top top',
+        endTrigger: '.droppingIntoContainer-tablet',
+        pin: true,
+      },
+    });
+
     return () => {
-      //droppingPillAnimationContainer.scrollTrigger.kill();
+      droppingPillAnimationContainerDesktop.scrollTrigger.kill();
+      droppingPillAnimationContainerMobile.scrollTrigger.kill();
+      droppingPillAnimationContainerTablet.scrollTrigger.kill();
     }
   }, []);
 
@@ -129,10 +153,10 @@ function LearnPage() {
         {/* PILL DROPPING ANIMATION SECTION */}
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
-          <div className="droppingPillAnimationContainer">
+          <div className="droppingPillAnimationContainer-desktop">
             <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
           </div>
-          <div className="droppingIntoContainer">
+          <div className="droppingIntoContainer-desktop">
             <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
           </div>
         </div>
@@ -341,10 +365,10 @@ function LearnPage() {
         {/* PILL DROPPING ANIMATION SECTION */}
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
-          <div className="droppingPillAnimationContainer">
+          <div className="droppingPillAnimationContainer-mobile">
             <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
           </div>
-          <div className="droppingIntoContainer">
+          <div className="droppingIntoContainer-mobile">
             <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
           </div>
         </div>
@@ -555,10 +579,10 @@ function LearnPage() {
         {/* PILL DROPPING ANIMATION SECTION */}
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between">
-          <div className="droppingPillAnimationContainer">
+          <div className="droppingPillAnimationContainer-tablet">
             <img alt="pill animation" className="h-24 w-24" src='/images/thepill-animation.png' />
           </div>
-          <div className="droppingIntoContainer">
+          <div className="droppingIntoContainer-tablet">
             <img alt="vagina target" className="h-24 w-24" src='/images/thepill-dropin-animation.png' />
           </div>
         </div>
