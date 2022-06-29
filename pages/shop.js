@@ -61,7 +61,7 @@ function ShopPage({ productData }) {
             },
         });
 
-        
+
         // DESKTOP
         
         floatingPillAnimationContainerDesktop
@@ -289,9 +289,9 @@ function ShopPage({ productData }) {
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
             <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer-desktop">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-desktop" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-desktop" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-desktop" src='/images/shop/large-pill.png' />
+                <img alt="smallest pill picture folding animation" style={{transform: 'translate(-240px, 250px)'}} className="inline absolute bounce1-desktop" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" style={{transform: 'translate(-30px, 100px)'}} className="inline absolute bounce2-desktop" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" style={{transform: 'translate(217px, 0px)'}} className="inline absolute bounce3-desktop" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-1/2 flex flex-col justify-end pb-32">
@@ -501,9 +501,9 @@ function ShopPage({ productData }) {
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-end">
             <div style={{height: '20rem'}} className="w-1/2 relative floatingPillAnimationContainer-mobile py-16">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-mobile" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-mobile" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-mobile" src='/images/shop/large-pill.png' />
+                <img alt="smallest pill picture folding animation" style={{transform: 'translate(-20px, 90px)'}} className="inline absolute bounce1-mobile" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" style={{transform: 'translate(60px, 15px)'}} className="inline absolute bounce2-mobile" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" style={{transform: 'translate(160px, -30px)'}} className="inline absolute bounce3-mobile" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-end pb-16">
@@ -714,9 +714,9 @@ function ShopPage({ productData }) {
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-end">
             <div style={{height: '36rem'}} className="w-1/2 relative floatingPillAnimationContainer-tablet py-16">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-tablet" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-tablet" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-tablet" src='/images/shop/large-pill.png' />
+                <img alt="smallest pill picture folding animation" style={{transform: 'translate(13px, 175px)'}} className="inline absolute bounce1-tablet" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" style={{transform: 'translate(160px, 28px)'}} className="inline absolute bounce2-tablet" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" style={{transform: 'translate(347px, -78px)'}} className="inline absolute bounce3-tablet" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-end pb-16">

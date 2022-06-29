@@ -202,19 +202,6 @@
   .responsive-mobile {
     display: none !important;
   }
-
-  /* Folding Out Pill Animation */
-  .smallPill {
-    transform: translate(-240px, 250px);
-  }
-  
-  .medPill {
-    transform: translate(-30px, 100px);
-  }
-  
-  .largePill {
-    transform: translate(217px, 0px);
-  }
 }
 
 /* TABLET */
@@ -228,19 +215,6 @@
   .responsive-mobile {
     display: none !important;
   }
-
-    /* Folding Out Pill Animation */
-    .smallPill {
-      transform: translate(13px, 175px);
-    }
-    
-    .medPill {
-      transform: translate(160px, 28px);
-    }
-    
-    .largePill {
-      transform: translate(347px, -78px);
-    }
 }
 
 /* MOBILE */
@@ -253,20 +227,6 @@
   }
   .responsive-mobile {
     display: block !important;
-  }
-
-
-  /* Folding Out Pill Animation */
-  .smallPill {
-    transform: translate(-20px, 90px);
-  }
-  
-  .medPill {
-    transform: translate(60px, 15px);
-  }
-  
-  .largePill {
-    transform: translate(160px, -30px);
   }
 }
 
