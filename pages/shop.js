@@ -34,41 +34,116 @@ function ShopPage({ productData }) {
 
     useEffect(() => {
 
-        const floatingPillAnimationContainer = gsap.timeline({
+        const floatingPillAnimationContainerDesktop = gsap.timeline({
             scrollTrigger: {
-                trigger: '.floatingPillAnimationContainer',
+                trigger: '.floatingPillAnimationContainer-desktop',
                 toggleActions: 'play none reverse none',
                 start: 'center 100%',
                 end: 'center 80%',
             },
         });
+
+        const floatingPillAnimationContainerMobile = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.floatingPillAnimationContainer-mobile',
+                toggleActions: 'play none reverse none',
+                start: 'center 100%',
+                end: 'center 80%',
+            },
+        });
+
+        const floatingPillAnimationContainerTablet = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.floatingPillAnimationContainer-tablet',
+                toggleActions: 'play none reverse none',
+                start: 'center 100%',
+                end: 'center 80%',
+            },
+        });
+
         
-        floatingPillAnimationContainer
-            .from('.bounce1', {y: '20', opacity: 0, duration: 0.5})
-            .from('.bounce2', {y: '20', opacity: 0, duration: 0.5})
-            .from('.bounce3', {y: '20', opacity: 0, duration: 0.5});
+        // DESKTOP
+        
+        floatingPillAnimationContainerDesktop
+            .from('.bounce1-desktop', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce2-desktop', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce3-desktop', {y: '20', opacity: 0, duration: 0.5});
 
-        const bounce1Timeline = gsap.timeline({repeat: -1}).yoyo(true);
-        const bounce2Timeline = gsap.timeline({repeat: -1}).yoyo(true);
-        const bounce3Timeline = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce1TimelineDesktop = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce2TimelineDesktop = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce3TimelineDesktop = gsap.timeline({repeat: -1}).yoyo(true);
 
-        bounce1Timeline
+        bounce1TimelineDesktop
         .delay(0.6)
-            .to('.bounce1', {ease: "sine.out", yPercent:'-1', duration: 0.7})
-            .to('.bounce1', {ease: "sine.out", yPercent:'1', duration: 0.7});
+            .to('.bounce1-desktop', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce1-desktop', {ease: "sine.out", yPercent:'1', duration: 0.7});
 
-        bounce2Timeline
+        bounce2TimelineDesktop
         .delay(0.3)
-            .to('.bounce2', {ease: "sine.out", yPercent:'1', duration: 0.7})
-            .to('.bounce2', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce2-desktop', {ease: "sine.out", yPercent:'1', duration: 0.7})
+            .to('.bounce2-desktop', {ease: "sine.out", yPercent:'-1', duration: 0.7})
             
-        bounce3Timeline
-            .to('.bounce3', {ease: "sine.out", yPercent:'-1', duration: 0.7})
-            .to('.bounce3', {ease: "sine.out", yPercent:'1', duration: 0.7})
+        bounce3TimelineDesktop
+            .to('.bounce3-desktop', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce3-desktop', {ease: "sine.out", yPercent:'1', duration: 0.7})
+
+
+        // MOBILE
+
+        floatingPillAnimationContainerMobile
+            .from('.bounce1-mobile', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce2-mobile', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce3-mobile', {y: '20', opacity: 0, duration: 0.5});
+
+        const bounce1TimelineMobile = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce2TimelineMobile = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce3TimelineMobile = gsap.timeline({repeat: -1}).yoyo(true);
+
+        bounce1TimelineMobile
+        .delay(0.6)
+            .to('.bounce1-mobile', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce1-mobile', {ease: "sine.out", yPercent:'1', duration: 0.7});
+
+        bounce2TimelineMobile
+        .delay(0.3)
+            .to('.bounce2-mobile', {ease: "sine.out", yPercent:'1', duration: 0.7})
+            .to('.bounce2-mobile', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            
+        bounce3TimelineMobile
+            .to('.bounce3-mobile', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce3-mobile', {ease: "sine.out", yPercent:'1', duration: 0.7})
 
         
+        // TABLET
+
+        floatingPillAnimationContainerTablet
+            .from('.bounce1-tablet', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce2-tablet', {y: '20', opacity: 0, duration: 0.5})
+            .from('.bounce3-tablet', {y: '20', opacity: 0, duration: 0.5});
+
+        const bounce1TimelineTablet = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce2TimelineTablet = gsap.timeline({repeat: -1}).yoyo(true);
+        const bounce3TimelineTablet = gsap.timeline({repeat: -1}).yoyo(true);
+
+        bounce1TimelineTablet
+        .delay(0.6)
+            .to('.bounce1-tablet', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce1-tablet', {ease: "sine.out", yPercent:'1', duration: 0.7});
+
+        bounce2TimelineTablet
+        .delay(0.3)
+            .to('.bounce2-tablet', {ease: "sine.out", yPercent:'1', duration: 0.7})
+            .to('.bounce2-tablet', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            
+        bounce3TimelineTablet
+            .to('.bounce3-tablet', {ease: "sine.out", yPercent:'-1', duration: 0.7})
+            .to('.bounce3-tablet', {ease: "sine.out", yPercent:'1', duration: 0.7})
+
+
         return () => {
-            floatingPillAnimationContainer.scrollTrigger.kill();
+            floatingPillAnimationContainerDesktop.scrollTrigger.kill();
+            floatingPillAnimationContainerMobile.scrollTrigger.kill();
+            floatingPillAnimationContainerTablet.scrollTrigger.kill();
         }
 
     }, []);
@@ -213,10 +288,10 @@ function ShopPage({ productData }) {
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
-            <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3" src='/images/shop/large-pill.png' />
+            <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer-desktop">
+                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-desktop" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-desktop" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-desktop" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-1/2 flex flex-col justify-end pb-32">
@@ -425,10 +500,10 @@ function ShopPage({ productData }) {
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-end">
-            <div style={{height: '20rem'}} className="w-1/2 relative floatingPillAnimationContainer py-16">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3" src='/images/shop/large-pill.png' />
+            <div style={{height: '20rem'}} className="w-1/2 relative floatingPillAnimationContainer-mobile py-16">
+                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-mobile" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-mobile" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-mobile" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-end pb-16">
@@ -638,10 +713,10 @@ function ShopPage({ productData }) {
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-end">
-            <div style={{height: '36rem'}} className="w-1/2 relative floatingPillAnimationContainer py-16">
-                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1" src='/images/shop/small-pill.png' />
-                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2" src='/images/shop/med-pill.png' />
-                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3" src='/images/shop/large-pill.png' />
+            <div style={{height: '36rem'}} className="w-1/2 relative floatingPillAnimationContainer-tablet py-16">
+                <img alt="smallest pill picture folding animation" className="inline absolute smallPill bounce1-tablet" src='/images/shop/small-pill.png' />
+                <img alt="medium pill picture folding animation" className="inline absolute medPill bounce2-tablet" src='/images/shop/med-pill.png' />
+                <img alt="largest pill picture folding animation" className="inline absolute largePill bounce3-tablet" src='/images/shop/large-pill.png' />
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-end pb-16">
