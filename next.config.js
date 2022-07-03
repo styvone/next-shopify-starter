@@ -10,10 +10,10 @@ module.exports = withPWA({
     siteTitle: 'Boquet',
     siteDescription: 'Get some Doggy Stickers!',
     siteKeywords: 'dog, stickers, fun',
-    siteUrl: 'https://www.doggystickers.xyz',
+    siteUrl: 'https://www.withboquet.com/',
     siteImagePreviewUrl: '/images/main.jpg',
     twitterHandle: '@deepwhitman',
-    instagramHandle: '@styvone',
+    instagramHandle: '@withboquet',
   },
   images: {
     domains: ['cdn.shopify.com'],

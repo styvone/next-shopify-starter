@@ -51,7 +51,7 @@ function Footer() {
               <div className="px-8 flex flex-col justify-start">
                 <h3 className="px-8 pb-4 relative ivyPrestoThin text-desktop-h3 lineHeight-desktop-normal">Community</h3>
                 <Link
-                  href="https://www.instagram.com/styvone/"
+                  href="https://www.instagram.com/withboquet/"
                   passHref
                 >
                   <a className="px-8 py-2 relative" aria-label="shop">
@@ -135,7 +135,7 @@ function Footer() {
               <div className="flex flex-col justify-start">
                 <h3 className="pt-4 pb-4 relative ivyPrestoThin text-mobile-h3">Community</h3>
                 <Link
-                  href="https://www.instagram.com/styvone/"
+                  href="https://www.instagram.com/withboquet/"
                   passHref
                 >
                   <a className="relative" aria-label="shop">
@@ -217,7 +217,7 @@ function Footer() {
               <div className="pr-8 flex flex-col justify-start">
                 <h3 className="px-8 pb-4 relative ivyPrestoThin text-tablet-h3 lineHeight-tablet-35px">Community</h3>
                 <Link
-                  href="https://www.instagram.com/styvone/"
+                  href="https://www.instagram.com/withboquet/"
                   passHref
                 >
                   <a className="px-8 pb-2 relative" aria-label="shop">

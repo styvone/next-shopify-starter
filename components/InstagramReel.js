@@ -38,7 +38,7 @@ function InstagramReel() {
             <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
-                    href="https://www.instagram.com/styvone/"
+                    href="https://www.instagram.com/withboquet/"
                     passHref
                   >
                     <a>
@@ -60,7 +60,7 @@ function InstagramReel() {
             <div style={{paddingLeft: '16px', paddingRight: '16px'}} className="h-8 flex justify-start">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
-                    href="https://www.instagram.com/styvone/"
+                    href="https://www.instagram.com/withboquet/"
                     passHref
                   >
                     <a>
@@ -82,7 +82,7 @@ function InstagramReel() {
             <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
-                    href="https://www.instagram.com/styvone/"
+                    href="https://www.instagram.com/withboquet/"
                     passHref
                   >
                     <a>
