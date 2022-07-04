@@ -26,7 +26,7 @@ function Nav(props) {
         <div className="flex items-center justify-between w-full">
           <Link href="/" passHref>
             <a className=" cursor-pointer">
-                <img height="32" width="32" alt="logo" className="h-32 w-32 mr-1 object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
+                <img style={{height: '5.3rem'}} w={32} alt="logo" className="w-32 mr-1 object-contain" src={props.logoGray ? "/logo/boquet_logo_gray.svg" : "/logo/boquet_logo_blue.svg"} />
             </a>
           </Link>
           <div className="h-fit-content flex flex-end justify-between w-5/12">

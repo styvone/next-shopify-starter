@@ -18,13 +18,13 @@ function createImageReel() {
   return (
     <Marquee gradient={false} speed={50}>
       <div className="whitespace-nowrap overflow-hidden">
-        {imageWrapper('/images/instagram/place-1.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-2.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-3.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-4.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-5.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-6.png', '/instagram')}
-        {imageWrapper('/images/instagram/place-7.png', '/instagram')}
+        {imageWrapper('/images/instagram/place-1.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-2.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-3.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-4.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-5.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-6.png', 'https://www.instagram.com/withboquet/')}
+        {imageWrapper('/images/instagram/place-7.png', 'https://www.instagram.com/withboquet/')}
       </div>
     </Marquee>
   );
@@ -34,8 +34,8 @@ function InstagramReel() {
   return (
     <>
         <div className="responsive-desktop">
-          <div style={{backgroundColor: "#EBE5DB"}} className="h-80 w-full flex flex-col justify-evenly">
-            <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="h-8 flex justify-end">
+          <div style={{backgroundColor: "#EBE5DB"}} className="h-fit-content w-full flex flex-col justify-start pb-16">
+            <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="pb-10 pt-20 h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
                     href="https://www.instagram.com/withboquet/"

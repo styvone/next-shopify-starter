@@ -6,16 +6,16 @@ function ImageTagSection(props) {
             <div className="responsive-desktop">
                 <div style={{
                     backgroundColor: "#EBE5DB", 
-                    height: '42rem',
+                    height: '770px',
                     backgroundImage: `url(${props.backgroundImage})`,
                     backgroundSize: 'cover',
                     color: '#EBE5DB',
                 }} className="w-full flex flex-col justify-end">
-                    <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="h-72 w-full">
+                    <div style={{paddingLeft: '50px', paddingRight: '50px', height: '21rem'}} className=" w-full">
                         <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
                             Boquet <em>Vaginal Prebiotic</em>
                         </h1>
-                        <p className="coreSans text-desktop-p1 py-6">
+                        <p className="coreSans text-desktop-p1 pt-4 pb-10">
                             A vaginal prebiotic tablet that's gentle and restorative.
                         </p>
                         <div className="h-24 flex flex-col justify-center">
@@ -24,7 +24,7 @@ function ImageTagSection(props) {
                                 passHref
                             >
                                 <a className="pl-0" aria-label="cart">
-                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center">
+                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
                                             <p className="text-center text-desktop-p2 coreSans">
                                                 SHOP BOQUET
                                             </p>

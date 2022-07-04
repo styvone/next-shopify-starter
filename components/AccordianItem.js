@@ -40,8 +40,8 @@ function useToggle(initialValue = false) {
 function AccordianItem(props) {
     const [extended, setExtended] = useToggle(false);
     const plusMinusSize = props.size || '8';
-    const spaceBeforeBar = props.spaceBeforeBar || '8';
-    const spaceTopAnswer = props.spaceTopAnswer || '8';
+    const spaceBeforeBar = props.spaceBeforeBar || '12';
+    const spaceTopAnswer = props.spaceTopAnswer || '4';
 
     return (
       <>
@@ -64,7 +64,7 @@ function AccordianItem(props) {
                           {props.answer}
                       </p>
                   </AccordionContent>
-                  <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
+                  <div style={{borderColor: '#283F91', opacity: '0.30'}} className={`border-b pt-${spaceBeforeBar}`} />
               </AccordionPrimitive.Item>
           </AccordionPrimitive.Root>
         </div>
