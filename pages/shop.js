@@ -155,7 +155,7 @@ function ShopPage({ productData }) {
     {/* DESKTOP */}
     <div className="responsive-desktop">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-32">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
             <div className="w-1/2">
                 <img alt="pill product photo" className="w-3/4" src='/images/shop/pill-product.png' />
             </div>

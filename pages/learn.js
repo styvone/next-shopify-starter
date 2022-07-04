@@ -75,10 +75,10 @@ function LearnPage() {
       <div className="responsive-desktop">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
       <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-16">
-        <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-122 pt-32 pb-8">
+        <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-122 pt-20 pb-6">
           <em>Vaginal health</em> 101 with Boquet
         </h2>
-        <p className="coreSans text-desktop-p1 w-1/2 pb-16">
+        <p className="coreSans text-desktop-p1 w-1/2 pb-20">
         Everything you need to know about using Boquet, the ins and outs of your vaginal flora, and restoring your good protective bacteria.
         </p>
         <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" />
@@ -86,54 +86,61 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex justify-center py-8">
+      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex flex-col justify-center pt-8 pb-24">
 
         <div className="w-1/2">
           <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
             When should I use Boquet?
           </h1>
-          <p className="coreSans text-desktop-p1 py-8">
+          <p className="coreSans text-desktop-p1 pb-8 pt-4">
             While Boquet is safe for daily usage, we especially recommend our vaginal prebiotic tablets for the following scenarios you may encounter:
           </p>
-          <img className="pt-8" alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
+          
         </div>
 
-        <div className="w-1/2 pl-36">
-          <h3 style={{paddingTop: '15.5rem'}} className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-8">
-            Preparing for pH changes
-          </h3>
-          <p className="coreSans text-desktop-p2">
-            Fluctuating hormones before your menstrual cycle can affect the pH balance of the vaginal flora resulting in symptoms like changes in odor, itchiness and irritation.
-          </p>
+        <div className="flex justify-between w-full">
+         
+          <div className="pt-8 w-1/2">
+            <img alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
+          </div>
 
-          <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-8 pt-16">
-            Relieving vaginal irritation
-          </h3>
-          <p className="coreSans text-desktop-p2">
-            External stressors from traveling and exhaustion to menstrual products and use of intimacy devices can cause a shift in vaginal flora.
-          </p>
+          <div className="pl-36 pt-8 w-1/2">
+            <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-4">
+              Preparing for pH changes
+            </h3>
+            <p className="coreSans text-desktop-p2">
+              Fluctuating hormones before your menstrual cycle can affect the pH balance of the vaginal flora resulting in symptoms like changes in odor, itchiness and irritation.
+            </p>
 
-          <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-8 pt-16">
-            After your period
-          </h3>
-          <p className="coreSans text-desktop-p2">
-            Menstrual blood is slightly alkaline with a pH of 7.4 and can raise the pH level of your vagina  when it sits against the vagina in a pad or tampon. Use Boquet's prebiotic at the end of your period to replenish the flora back to its acidic pH.
-          </p>
+            <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-4 pt-14">
+              Relieving vaginal irritation
+            </h3>
+            <p className="coreSans text-desktop-p2">
+              External stressors from traveling and exhaustion to menstrual products and use of intimacy devices can cause a shift in vaginal flora.
+            </p>
 
-          <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-8 pt-16">
-            Before and after sex
-          </h3>
-          <p className="coreSans text-desktop-p2">
-          Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
-          </p>
+            <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-4 pt-14">
+              After your period
+            </h3>
+            <p className="coreSans text-desktop-p2">
+              Menstrual blood is slightly alkaline with a pH of 7.4 and can raise the pH level of your vagina  when it sits against the vagina in a pad or tampon. Use Boquet's prebiotic at the end of your period to replenish the flora back to its acidic pH.
+            </p>
+
+            <h3 className="ivyPrestoThin text-desktop-h3 lineHeight-desktop-122 pb-4 pt-14">
+              Before and after sex
+            </h3>
+            <p className="coreSans text-desktop-p2">
+            Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
+            </p>
+          </div>
         </div>
 
       </div>
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center text-center">
-          <h2 className="ivyPrestoThin text-desktop-oneOff-lg lineHeight-desktop-123">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center text-center pb-20">
+          <h2 className="ivyPrestoThin text-desktop-oneOff-lg lineHeight-desktop-123 pb-8">
             Directions on <em>how to use</em>
           </h2>
           <div className="pb-8 vbn m flex justify-center">
@@ -163,10 +170,10 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-center pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-center pt-20 pb-20">
           <div className="w-1/3 flex flex-col justify-center text-center pr-16" >
-            <h2 className="text-desktop-h2 lineHeight-desktop-122 ivyPrestoThin">
-              To Restore:
+            <h2 className="text-desktop-h2 lineHeight-desktop-122 ivyPrestoThin pb-4">
+              To Restore
             </h2>
             <br/>
             <p className="coreSans text-desktop-p1">
@@ -183,8 +190,8 @@ function LearnPage() {
           </div>
 
           <div className="w-1/3 flex flex-col justify-center text-center pl-16">
-            <h2 className="text-desktop-h2 lineHeight-desktop-122 ivyPrestoThin">
-              To Maintain:
+            <h2 className="text-desktop-h2 lineHeight-desktop-122 ivyPrestoThin pb-4">
+              To Maintain
             </h2>
             <br/>
             <p className="coreSans text-desktop-p1">
@@ -197,7 +204,7 @@ function LearnPage() {
           </div>
         </div>
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="pb-20">
           <Link
                   href="/shop"
                   passHref
@@ -212,7 +219,7 @@ function LearnPage() {
 
         {/* FAQ SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center">
-          <div className="py-16 w-full">
+          <div className="py-20 w-full">
                   <AccordianItem answer={<>
                   Boquet vaginal prebiotic tablets help deodorize, improve dryness, and relieve irritation by promoting the growth of the beneficial, protective bacteria in our vaginal flora. 
                   <br/> <br/> 

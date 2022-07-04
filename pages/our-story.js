@@ -7,8 +7,8 @@ function DesktopVersion() {
     return (
     <div className="responsive-desktop">
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-16 pt-32">
-            <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-123 w-9/12 pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-20 pt-20">
+            <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-123 w-9/12 pb-12">
                 For your <em>flora below.</em>
             </h2>
             <div className="flex justify-start">
@@ -18,15 +18,15 @@ function DesktopVersion() {
         </div>
 
         {/* TEXT BLOCK - As you use Boquet, we hope you remember how deserving you are. */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-16"> 
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
             <div className="h-fit-content w-7/12">
-                <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-8/12 pb-8">
+                <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-9/12 pb-12">
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
                 </h2>
                 <p className="coreSans text-desktop-p1 pb-4">
                 You're deserving of joy, care, peace, beauty, support, whatever it is that you often let slip away amidst life's responsibilities and distractions.
                 </p>
-                <p className="coreSans text-desktop-p1 pb-8">
+                <p className="coreSans text-desktop-p1 pb-14">
                 Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet. The symbol of the vagina being both resilient yet delicate makes me not only proud to have one but excited to be on this journey with you. 
                 </p>
                 <p className="coreSans text-desktop-p1">
@@ -39,17 +39,17 @@ function DesktopVersion() {
         </div>
 
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center py-16">
-            <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-9/12 pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pt-16 pb-24">
+            <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-10/12 pb-24">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h2>
             <img alt="we believe that our vaginas deserve to be celebrated banner image" src="/images/we-believe-vaginas-celebrated.png" />
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-16"> 
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
             <div className="h-fit-content w-7/12">
-                <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-8/12 pb-8">
+                <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-10/12 pb-12">
                 At Boquet, <em>we believe that all vaginas need better care and attention.</em>
                 </h2>
                 <p className="coreSans text-desktop-p1 pb-4">
@@ -68,7 +68,7 @@ function DesktopVersion() {
         </div>
 
         {/* OUR VAGINAS DESERVE TO BE CELEBRATED */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-24">
             <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123 w-2/3 pb-16">
             Our vagina's <em>deserve to be celebrated</em> for all the work it's done <em>and will continue to do.</em>
             </h1>

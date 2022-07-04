@@ -5,7 +5,7 @@ function GentleAndRestorative() {
     return (
         <>
             <div className="responsive-desktop">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
+                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-36 w-full flex flex-col justify-center">
                 <div className="h-14 w-full overflow-hidden whitespace-nowrap">
                 <Marquee gradient={false} speed={50}>
                     <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 inline mr-28">

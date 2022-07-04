@@ -130,7 +130,7 @@ function CartModal() {
                 </div>
 
                 <div>
-                <img alt='cart modal divider between items and subtotal' src='/images/cart-modal/cart-modal-dashed-border.png' />
+                <img className="w-full" alt='cart modal divider between items and subtotal' src='/images/cart-modal/cart-modal-dashed-border.png' />
                 </div>
 
                 <div className="h-20 flex flex-col justify-end">
