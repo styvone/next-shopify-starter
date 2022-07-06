@@ -1,15 +1,13 @@
-import StoreHeading from '@/components/StoreHeading'
-import ProductListings from '@/components/ProductListings'
-import ImageTagSection from '@/components/ImageTagSection'
-import { getAllProductsInCollection } from '@/lib/shopify'
-import Layout from '@/components/Layout'
-import SEO from '@/components/SEO'
+import ImageTagSection from '@/components/ImageTagSection';
+import { getAllProductsInCollection } from '@/lib/shopify';
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 import AccordianItem from '@/components/AccordianItem';
-import Link from 'next/link'
+import Link from 'next/link';
 import { Component } from 'react';
 import React from 'react';
 import Slider from "react-slick";
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
 function DesktopVersion() {
 
