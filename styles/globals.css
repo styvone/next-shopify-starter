@@ -265,3 +265,13 @@
 .slide-pane {
   box-shadow: 0 0px 0px rgb(0 0 0 / 0%) !important;
 }
+
+.longPillButtonGradientHoverAnimation {
+  transition: all 0.2s ease-out;
+}
+
+.longPillButtonGradientHoverAnimation:hover {
+  color: #EBE5DB !important;
+  border-color: #EBE5DB !important;
+  background-color: #283F91 !important;
+}

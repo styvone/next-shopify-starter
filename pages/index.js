@@ -153,7 +153,7 @@ function DesktopVersion() {
               href="/shop"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
                   <p className="text-desktop-p2 h-24 flex flex-col justify-center">SHOP BOQUET</p>
               </a>
           </Link>
@@ -279,7 +279,7 @@ function DesktopVersion() {
               href="/learn"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                   <p className="text-desktop-p2 h-24 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
               </a>
           </Link>
@@ -389,7 +389,7 @@ function MobileVersion() {
               href="/shop"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
                   <p className="text-mobile-p2 flex flex-col justify-center h-14">SHOP BOQUET</p>
               </a>
           </Link>
@@ -515,7 +515,7 @@ function MobileVersion() {
               href="/learn"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                   <p className="text-mobile-p2 h-14 flex flex-col justify-center">READ FULL FAQ</p>
               </a>
           </Link>
@@ -628,7 +628,7 @@ function TabletVersion() {
               href="/shop"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91', paddingRight: '40px'}} className="w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91', paddingRight: '40px'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
                   <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">SHOP BOQUET</p>
               </a>
           </Link>
@@ -752,7 +752,7 @@ function TabletVersion() {
               href="/learn"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                   <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
               </a>
           </Link>

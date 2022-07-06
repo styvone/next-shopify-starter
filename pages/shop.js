@@ -347,7 +347,7 @@ function ShopPage({ productData }) {
                 href="/learn"
                 passHref
             >
-                <a style={{borderColor: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                     <p className="text-desktop-p2 h-24 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
                 </a>
             </Link>
@@ -559,7 +559,7 @@ function ShopPage({ productData }) {
                 href="/learn"
                 passHref
             >
-                <a style={{borderColor: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                     <p className="text-mobile-p1 lineHeight-mobile-22px h-14 flex flex-col justify-center">READ FULL FAQ</p>
                 </a>
             </Link>
@@ -772,7 +772,7 @@ function ShopPage({ productData }) {
                 href="/learn"
                 passHref
             >
-                <a style={{borderColor: '#283F91'}} className="relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
+                <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
                     <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
                 </a>
             </Link>
