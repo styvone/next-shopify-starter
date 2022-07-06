@@ -44,7 +44,7 @@ function SEO({ title }) {
       />
       
       <link rel="apple-touch-icon" href="/icons/favicon.png" />
-      <meta name="theme-color" content="#EF4444" />
+      <meta name="theme-color" content="white" />
       <link rel="stylesheet" href="https://use.typekit.net/dxh6hfl.css"/>
       <link
             rel="preload"
