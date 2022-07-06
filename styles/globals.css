@@ -275,3 +275,7 @@
   border-color: #EBE5DB !important;
   background-color: #283F91 !important;
 }
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
