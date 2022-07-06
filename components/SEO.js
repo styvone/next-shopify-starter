@@ -6,7 +6,6 @@ function SEO({ title }) {
   const description = process.env.siteDescription
   const keywords = process.env.siteKeywords
   const siteURL = process.env.siteUrl
-  const twitterHandle = process.env.twitterHandle
   const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`
 
   return (
@@ -15,9 +14,6 @@ function SEO({ title }) {
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" key="twcard" />
-      <meta name="twitter:creator" content={twitterHandle} key="twhandle" />
 
       {/* Open Graph */}
       <meta property="og:url" content={siteURL} key="ogurl" />
