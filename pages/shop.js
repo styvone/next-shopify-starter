@@ -20,6 +20,7 @@ function ShopPage({ productData }) {
     const [variant, setVariant] = useState(productData.variants.edges[0])
 
     async function handleAddToCart() {
+        toggleModal();
         await addToCart({
             productTitle: productData.title,
             productHandle: productData.handle,
@@ -29,7 +30,6 @@ function ShopPage({ productData }) {
             variantTitle: variant.node.title,
             variantQuantity: numberOfPills
         });
-        toggleModal();
     }
 
     useEffect(() => {
@@ -205,7 +205,7 @@ function ShopPage({ productData }) {
                         >
                             <button 
                                 style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} 
-                                className="relative coreSans border flex justify-center rounded-full w-2/3" 
+                                className="noOutlineButton relative coreSans border flex justify-center rounded-full w-2/3" 
                                 aria-label="add to cart button"
                                 onClick={handleAddToCart}
                             >

@@ -17,10 +17,10 @@ function CartModal() {
     }
 
     async function leaveModal() {
+        toggleModal();
         if (numItems !== tempNumItems) {
             await updateCartQuantity(variantId, tempNumItems);
         }
-        toggleModal();
     }
 
     async function clickCheckOut() {
@@ -110,7 +110,7 @@ function CartModal() {
                             <div className="flex justify-between items-center w-1/2">
                             <button
                                 aria-label="remove item from cart"
-                                className="h-full rounded-l-full px-3"
+                                className="noOutlineButton h-full rounded-l-full px-3"
                                 onClick={() => {
                                     if (tempNumItems >= 1) {
                                         setTempNumItems(tempNumItems-1)
@@ -124,7 +124,7 @@ function CartModal() {
                                 </h3>
                                 <button
                                 aria-label="add item to cart"
-                                className="h-full rounded-r-full pl-3"
+                                className="noOutlineButton h-full rounded-r-full pl-3"
                                 onClick={() => setTempNumItems(tempNumItems+1)}
                                 >
                                     <img className="h-fit-content" src="/icons/cart-modal/plus.svg" />
@@ -247,7 +247,7 @@ function CartModal() {
                             <div className="flex justify-between items-center w-1/3">
                             <button
                                 aria-label="remove item from cart"
-                                className="h-full rounded-l-full px-3"
+                                className="noOutlineButton h-full rounded-l-full px-3"
                                 onClick={() => {
                                     if (tempNumItems >= 1) {
                                         setTempNumItems(tempNumItems-1)
@@ -261,7 +261,7 @@ function CartModal() {
                                 </p>
                                 <button
                                 aria-label="add item to cart"
-                                className="h-full rounded-r-full pl-3"
+                                className="noOutlineButton h-full rounded-r-full pl-3"
                                 onClick={() => setTempNumItems(tempNumItems+1)}
                                 >
                                     <img style={{height: '13px', width: '13px'}} src="/icons/cart-modal/plus.svg" />
@@ -377,7 +377,7 @@ function CartModal() {
                         <div className="flex justify-between items-center w-1/2">
                         <button
                             aria-label="remove item from cart"
-                            className="h-full rounded-l-full px-3"
+                            className="noOutlineButton h-full rounded-l-full px-3"
                             onClick={() => {
                                 if (tempNumItems >= 1) {
                                     setTempNumItems(tempNumItems-1)
@@ -391,7 +391,7 @@ function CartModal() {
                             </h3>
                             <button
                             aria-label="add item to cart"
-                            className="h-full rounded-r-full pl-3"
+                            className="noOutlineButton h-full rounded-r-full pl-3"
                             onClick={() => setTempNumItems(tempNumItems+1)}
                             >
                                 <img className="h-fit-content" src="/icons/cart-modal/plus.svg" />
