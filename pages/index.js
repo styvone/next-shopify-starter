@@ -100,14 +100,14 @@ function DesktopVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-64" src='/images/homepage/pill-icon.png' />
+          <img alt="boquet vaginal prebiotic pill clip art" className="pt-20 h-64" src='/images/homepage/pill-icon.gif' />
 
         </div>
 
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
               <img style={{paddingBottom: '40px'}} alt="reduces image" src='/images/homepage/reduces.png' />
@@ -336,7 +336,7 @@ function MobileVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.png' />
+          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.gif' />
 
         </div>
 
@@ -572,7 +572,7 @@ function TabletVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.png' />
+          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.gif' />
 
         </div>
 
