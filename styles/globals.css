@@ -56,9 +56,9 @@
   margin-left: 10px !important;
 }
 
-#shopCounterButton button:hover {
-  color: #EBE5DB;
-  background-color: #283F91;
+#shopCounterButton button {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .checkoutModal {
