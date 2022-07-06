@@ -62,10 +62,10 @@ function CartModal() {
         setTempNumItems(numItems);
 
         window.addEventListener("resize", handleResizeMobile);
-        window.addEventListener("load", handleResizeMobile);
+        window.addEventListener("DOMContentLoaded", handleResizeMobile);
 
         window.addEventListener("resize", handleResizeTablet);
-        window.addEventListener("load", handleResizeTablet);
+        window.addEventListener("DOMContentLoaded", handleResizeTablet);
 
         const body = document.querySelector('body');
         body.style.overflow = isModalOpen ? 'hidden' : 'auto';
