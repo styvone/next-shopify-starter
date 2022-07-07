@@ -123,7 +123,7 @@ function DesktopVersion() {
                 Relieves
               </h2>
               <p className="coreSans text-desktop-p1 text-center">
-                Relieves irritation and improves dryness
+                Relieves periods of irritation and improves dryness <br/>
               </p>
             </div>
 
@@ -292,12 +292,12 @@ function MobileVersion() {
     {/* BOQUET HOME PAGE TOP SECTION */}
     <div style={{
             backgroundColor: "#EBE5DB",
-            height: '41rem',
+            height: '43rem',
             backgroundImage: `url(/images/homepage/top-section-background-mobile.png)`,
-            backgroundSize: '100%',
+            backgroundSize: 'cover',
             color: '#EBE5DB',
         }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
-          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-8 lineHeight-mobile-38px">
+          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px">
             Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
           </h2>
           <Link
@@ -315,11 +315,11 @@ function MobileVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
-          <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-8">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
+          <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-2">
               Meet <em>Boquet</em>
           </h2>
-          <p className="coreSans text-mobile-p1 pb-8 lineHeight-mobile-22px">
+          <p className="coreSans text-mobile-p1 pb-6 lineHeight-mobile-22px">
             A vaginal prebiotic tablet that's gentle and restorative.
           </p>
           <Link
@@ -341,11 +341,11 @@ function MobileVersion() {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-16">
-          <div className="flex flex-col justify-between pb-16 gap-8">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
+          <div className="flex flex-col justify-between pb-10 gap-8">
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="reduces image" className="pb-4" src='/images/homepage/reduces.png' />
-              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-4">
+              <img alt="reduces image" className="pb-3" src='/images/homepage/reduces.png' />
+              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Reduces
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
@@ -354,8 +354,8 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="relieves image" className="pb-4" src='/images/homepage/relieves.png' />
-              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-4">
+              <img alt="relieves image" className="pb-3" src='/images/homepage/relieves.png' />
+              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Relieves
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
@@ -364,8 +364,8 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="replenishes image" className="pb-4" src='/images/homepage/replenishes.png' />
-              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-4">
+              <img alt="replenishes image" className="pb-3" src='/images/homepage/replenishes.png' />
+              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Replenishes
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
@@ -374,8 +374,8 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="restores image" className="pb-4" src='/images/homepage/restores.png' />
-              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-4">
+              <img alt="restores image" className="pb-3" src='/images/homepage/restores.png' />
+              <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Restores
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
@@ -395,11 +395,11 @@ function MobileVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-16">
-          <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-8 lineHeight-mobile-43px">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-10">
+          <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-4 lineHeight-mobile-43px">
             Boquet <br/> <em>Vaginal Prebiotic</em>
           </h2>
-          <p className="coreSans text-mobile-p1 pb-8 w-full lineHeight-mobile-22px">
+          <p className="coreSans text-mobile-p1 pb-6 w-full lineHeight-mobile-22px">
             Boquet is a prebiotic vaginal tablet that promotes the growth of good.
           </p>
           <Link
@@ -414,10 +414,10 @@ function MobileVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic main product image" className="pt-8" src='/images/homepage/boquet-vaginal-prebiotic-mobile.png' />
+          <img alt="boquet vaginal prebiotic main product image" className="pt-10" src='/images/homepage/boquet-vaginal-prebiotic-mobile.png' />
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-8">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-10 pt-6">
           <div className="flex justify-between w-full pb-2">
             <p className="coreSans text-mobile-p3">
               INGREDIENTS:
@@ -438,7 +438,7 @@ function MobileVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-4">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-4 pb-16">
           <Slider customPaging={i => (
             <div
             style={{
@@ -450,7 +450,7 @@ function MobileVersion() {
             }}
             >
             </div>
-          )} arrows={false} dots={true} autoplay={true} speed={500}>
+          )} arrows={false} dots={true} autoplay={true} autoplaySpeed={9000} speed={500}>
             <div>
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
@@ -491,8 +491,8 @@ function MobileVersion() {
         </div>
 
         {/* LEARN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-16">
-          <h1 className="ivyPrestoThin text-mobile-h1 pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-10">
+          <h1 className="ivyPrestoThin text-mobile-h1 pb-4">
             Learn
           </h1>
 
@@ -503,7 +503,7 @@ function MobileVersion() {
           </div>
         
 
-          <div className="pb-16">
+          <div className="pb-10">
             <AccordianItem size={5}  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
                 <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What happens when your <em>vaginal pH balance</em> is off?</h3>
             </AccordianItem>

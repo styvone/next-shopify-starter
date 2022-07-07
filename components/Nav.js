@@ -88,7 +88,7 @@ function Nav(props) {
             passHref
           >
             <a onClick={toggleCartModal} className="h-12 w-fit-content flex flex-col justify-center items-center" aria-label="cart">
-              <p className="coreSans text-mobile-p3 w-16 flex justify-center">
+              <p className="coreSans text-mobile-p3 w-16 flex justify-end">
                 CART
                 {
                   cartItems === 0 ? null : ' (' + cartItems + ')'

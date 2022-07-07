@@ -35,17 +35,17 @@ function GentleAndRestorative() {
                 <Marquee gradient={false} speed={50}>
                     <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
                         <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
                     </h1>
 
                     <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
                         <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
                     </h1>
 
                     <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
                         <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-14 h-14 inline object-contain ml-28" src="/pill.svg" />
+                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
                     </h1>
                 </Marquee>  
                 </div>

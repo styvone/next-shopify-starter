@@ -43,6 +43,9 @@ function AccordianItem(props) {
     const spaceBeforeBar = props.spaceBeforeBar || '12';
     const spaceTopAnswer = props.spaceTopAnswer || '4';
 
+    const spaceBeforeBarMobile = props.spaceBeforeBar || '6';
+    const spaceAbovePlusMinusMobile = props.spaceAbovePlusMinusMobile || '0';
+
     return (
       <>
         <div className="responsive-desktop">
@@ -78,8 +81,8 @@ function AccordianItem(props) {
                       </div>
                       <span className="w-2/12 flex justify-end">
                           {extended? 
-                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
-                            <img className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
+                            <img style={{marginTop: `${spaceAbovePlusMinusMobile}`}} className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/minus.svg" /> : 
+                            <img style={{marginTop: `${spaceAbovePlusMinusMobile}`}} className={`h-${plusMinusSize} w-${plusMinusSize}`} src="/accordian/plus.svg" />
                           }
                       </span>
                   </AccordionPrimitive.Trigger>
@@ -88,7 +91,7 @@ function AccordianItem(props) {
                           {props.answer}
                       </p>
                   </AccordionContent>
-                  <div style={{borderColor: '#283F91'}} className={`border-b pt-${spaceBeforeBar}`} />
+                  <div style={{borderColor: '#283F91', opacity: '0.30'}} className={`border-b pt-${spaceBeforeBarMobile}`} />
               </AccordionPrimitive.Item>
           </AccordionPrimitive.Root>
         </div>

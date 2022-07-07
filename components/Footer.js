@@ -90,11 +90,11 @@ function Footer() {
 
       <div className="responsive-mobile">
         <footer style={{backgroundColor: '#283F91', paddingLeft: '16px', paddingRight: '16px', paddingBottom: '40px', paddingTop: '40px'}} className="flex flex-col justify-center font-primary items-center text-white">
-          <div className="h-fit-content w-full flex flex-col border-b-2">
+          <div className="h-fit-content w-full flex flex-col">
             <div className="pb-8 w-full flex flex-col justify-start">
               <img alt="logo" width="136" className="object-contain" src="/logo/boquet_logo_gray.svg" />
             </div>
-            <div className="pb-4 w-full flex flex-col justify-start">
+            <div className="pb-8 w-full flex flex-col justify-start">
               <div className="flex flex-col justify-start">
                 <h3 className="pr-8 pb-4 ivyPrestoThin text-mobile-h3">Shop</h3>
                 <Link
@@ -106,13 +106,13 @@ function Footer() {
                   </a>
                 </Link>
               </div>
-              <div className="pt-6 flex flex-col justify-start">
+              <div className="pt-10 flex flex-col justify-start">
                 <h3 className="pb-2 relative ivyPrestoThin text-mobile-h3">Info</h3>
                 <Link
                   href="/learn"
                   passHref
                 >
-                  <a className="py-2 relative" aria-label="shop">
+                  <a className="py-3 relative" aria-label="shop">
                     <p className="coreSans text-mobile-p3">LEARN</p>
                   </a>
                 </Link>
@@ -128,13 +128,13 @@ function Footer() {
                   href="/faq"
                   passHref
                 >
-                  <a className="py-2 relative" aria-label="shop">
+                  <a className="py-3 relative" aria-label="shop">
                     <p className="coreSans text-mobile-p3">FAQ</p>
                   </a>
                 </Link>
               </div>
               <div className="flex flex-col justify-start">
-                <h3 className="pt-4 pb-4 relative ivyPrestoThin text-mobile-h3">Community</h3>
+                <h3 className="pt-10 pb-4 relative ivyPrestoThin text-mobile-h3">Community</h3>
                 <Link
                   href="https://www.instagram.com/withboquet/"
                   passHref
@@ -147,13 +147,14 @@ function Footer() {
                   href="/fb"
                   passHref
                 >
-                  <a className="py-2 relative coreSans" aria-label="shop">
+                  <a className="py-3 relative coreSans" aria-label="shop">
                     <p className="coreSans text-mobile-p3">FACEBOOK</p>
                   </a>
                 </Link>
               </div>
             </div>
           </div>
+          <div style={{opacity: '0.3'}} className="w-full border-b"></div>
           <div className="h-36 w-full flex">
             <div style={{paddingTop: '40px'}} className="w-full flex flex-col justify-between">
               <p className="coreSans text-mobile-p2">

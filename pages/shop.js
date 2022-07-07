@@ -359,8 +359,8 @@ function ShopPage({ productData }) {
     {/* MOBILE */}
     <div className="responsive-mobile">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between py-8">
-            <div className="w-full pb-8">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
+            <div className="w-full pb-10">
                 <h1 className="ivyPrestoThin text-mobile-h1 pb-8 lineHeight-mobile-43px">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
@@ -375,13 +375,13 @@ function ShopPage({ productData }) {
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
                     *INSERT VAGINALLY. DO NOT TAKE ORALLY.
                     </p>
-                    <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
+                    <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-12">
                     *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                     </p>
 
                     <div className="flex flex-col justify-between">
                         
-                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="h-14 border border-black rounded-full w-full mr-8 flex justify-between items-center overflow-hidden mb-8">
+                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="h-14 border border-black rounded-full w-full mr-8 flex justify-between items-center overflow-hidden mb-6">
                             <button
                             aria-label="remove item from cart"
                             className="h-full w-1/3"
@@ -429,7 +429,7 @@ function ShopPage({ productData }) {
                     </div>
                 </div>
                 <div>
-                    <div className="pb-8">
+                    <div className="pb-4">
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
                             • Right before period when experiencing pH changes
                             <br/>
@@ -469,7 +469,7 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-10">
             <h2 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px w-full">
                 For all the times your vagina is <em>feeling a little off.</em>
             </h2>
@@ -478,17 +478,17 @@ function ShopPage({ productData }) {
 
         {/* TO RESTORE / TO MAINTAIN section */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between">
-            <div className="h-fit-content w-full pb-8">
+            <div className="h-fit-content w-full pb-10">
                 <img alt="papayas and other fruits with the pill product" src='/images/shop/papaya.png' />
             </div>
             <div className="h-fit-content w-full flex flex-col justify-end">
-                <h2 className="ivyPrestoThin text-mobile-h2 pb-4 lineHeight-mobile-35px">
+                <h2 className="ivyPrestoThin text-mobile-h2 pb-2 lineHeight-mobile-35px">
                     To Restore
                 </h2>
-                <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
+                <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-10">
                 Restore your vaginal flora or when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
                 </p>
-                <h2 className="ivyPrestoThin text-mobile-h2 pb-4 lineHeight-mobile-35px">
+                <h2 className="ivyPrestoThin text-mobile-h2 pb-2 lineHeight-mobile-35px">
                     To Maintain
                 </h2>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
@@ -506,7 +506,7 @@ function ShopPage({ productData }) {
                 <img alt="largest pill picture folding animation" style={{left: '101%', top: '12%', maxHeight: '100%', zIndex: '0'}} className="inline absolute bounce3-mobile" src='/images/shop/large-pill.png' />
             </div>
 
-            <div className="h-fit-content w-full flex flex-col justify-end pb-16 z-10">
+            <div className="h-fit-content w-full flex flex-col justify-end pb-16 z-10 pt-8">
                 <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-35px w-full pb-4">
                     Inserting Boquet
                 </h2>
@@ -528,19 +528,19 @@ function ShopPage({ productData }) {
         <GentleAndRestorative />
 
         {/* THE SCIENCE BEHIND BOQUET */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-12">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px">
                 <em>The science</em><br/> behind Boquet
             </h1>
 
-            <div className="pt-16">
-                <AccordianItem answer="Boquet's vaginal tablet is made with the prebiotic lactose which promotes the growth of lactobacillus, our beneficial bacteria. Lactobacillus has a high affinity to vaginal cell receptors, produces lactic acid from lactose and produces hydrogen peroxide. The lower pH from lactic acid and the presence of hydrogen peroxide is not tolerated by many organisms. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.">
+            <div className="pt-12">
+                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Boquet's vaginal tablet is made with the prebiotic lactose which promotes the growth of lactobacillus, our beneficial bacteria. Lactobacillus has a high affinity to vaginal cell receptors, produces lactic acid from lactose and produces hydrogen peroxide. The lower pH from lactic acid and the presence of hydrogen peroxide is not tolerated by many organisms. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.">
                     <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is <em>Boquet's vaginal prebiotic?</em></h3>
                 </AccordianItem>
             </div>
 
             <div className="pt-8">
-                <AccordianItem  answer={<>
+                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer={<>
                 You aren't alone! Vaginal pH can increase around menstruation due to hormone fluctuations and sometimes during intercourse. The causes are not due to poor hygiene and it is not a sexually transmitted infection. Some risk factors include scented soaps, douching, stress and smoking.
                 <br/><br/>
                 The most common form of vaginal imbalance shows up as bacterial vaginosis. 1 in 3 individuals with vaginas in the U.S. between the age of 14 to 49 will experience imbalances in their flora that lead to bacterial vaginosis.
@@ -549,8 +549,8 @@ function ShopPage({ productData }) {
                 </AccordianItem>
             </div>
 
-            <div className="py-8">
-                <AccordianItem  answer="An overgrowth of pathogens (gardnerella vaginalis) produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which prevents the adhesion and growth of odor causing bacteria to the vaginal epithelium.">
+            <div className="pt-8 pb-10">
+                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="An overgrowth of pathogens (gardnerella vaginalis) produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which prevents the adhesion and growth of odor causing bacteria to the vaginal epithelium.">
                     <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is the <em>science behind the causes of vaginal odor?</em></h3>
                 </AccordianItem>
             </div>

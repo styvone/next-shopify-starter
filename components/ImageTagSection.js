@@ -44,11 +44,11 @@ function ImageTagSection(props) {
                     backgroundSize: 'cover',
                     color: '#EBE5DB',
                 }} className="w-full flex flex-col justify-end">
-                    <div style={{paddingLeft: '16px', paddingRight: '16px'}} className="h-72 w-full">
+                    <div style={{paddingLeft: '16px', paddingRight: '16px', height: '19rem'}} className="w-full">
                         <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px">
                             Boquet <br/> <em>Vaginal Prebiotic</em>
                         </h1>
-                        <p className="coreSans text-mobile-p2 py-6 lineHeight-mobile-20px">
+                        <p className="coreSans text-mobile-p2 pb-2 pt-3 lineHeight-mobile-20px">
                             A vaginal prebiotic tablet that's gentle and restorative.
                         </p>
                         <div className="h-24 flex flex-col justify-center">

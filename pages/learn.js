@@ -293,11 +293,11 @@ function LearnPage() {
     {/* Mobile */}
     <div className="responsive-mobile">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className=" h-fit-content flex flex-col justify-start pb-8">
-        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px py-8">
+      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className=" h-fit-content flex flex-col justify-start pb-12">
+        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4 pt-12">
           <em>Vaginal health</em> 101 with Boquet
         </h1>
-        <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-8">
+        <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-10">
         Everything you need to know about using Boquet, the ins and outs of your vaginal flora, and restoring your good protective bacteria.
         </p>
         <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" />
@@ -305,54 +305,54 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly py-8">
+      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-8 pt-12">
 
         <div className="w-full">
-          <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px pb-4">
+          <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px pb-3">
             When should I use Boquet?
           </h2>
-          <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
+          <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-16">
             While Boquet is safe for daily usage, we especially recommend our vaginal prebiotic tablets for the following scenarios you may encounter:
           </p>
         </div>
 
         <div className="w-full">
-          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-4">
+          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-2">
             Preparing for pH changes
           </h3>
           <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-8">
             Fluctuating hormones before your menstrual cycle can affect the pH balance of the vaginal flora resulting in symptoms like changes in odor, itchiness and irritation.
           </p>
 
-          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-4">
+          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-2">
             Relieving vaginal irritation
           </h3>
           <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-8">
             External stressors from traveling and exhaustion to menstrual products and use of intimacy devices can cause a shift in vaginal flora.
           </p>
 
-          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-4">
+          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-2">
             After your period
           </h3>
           <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-8">
             Menstrual blood is slightly alkaline with a pH of 7.4 and can raise the pH level of your vagina  when it sits against the vagina in a pad or tampon. Use Boquet's prebiotic at the end of your period to replenish the flora back to its acidic pH.
           </p>
 
-          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-4">
+          <h3 className="ivyPrestoThin text-mobile-h3 lineHeight-mobile-32px pb-2">
             Before and after sex
           </h3>
-          <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-8">
+          <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-10">
           Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
           </p>
-          <img className="pb-8" alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
+          <img className="pb-6" alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
         </div>
 
       </div>
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center text-center">
-          <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center text-start">
+          <h1 className="w-2/3 ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4">
             Directions on <em>how to use</em>
           </h1>
           <div className="pb-8 vbn m flex justify-center">
@@ -382,15 +382,15 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-16">
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
           <div className="w-full flex flex-col justify-center relative pb-16">
             <img alt="maintain logo" src='/images/restoreandmaintain.png' />
           </div>
           
           
-          <div className="w-full flex flex-col justify-center text-center pb-16" >
+          <div className="w-full flex flex-col justify-center text-start pb-16" >
             <h2 className="text-mobile-h2 lineHeight-mobile-35px ivyPrestoThin pb-4">
-              To Restore:
+              To Restore
             </h2>
 
             <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
@@ -404,9 +404,9 @@ function LearnPage() {
 
 
 
-          <div className="w-full flex flex-col justify-center text-center pb-16">
+          <div className="w-full flex flex-col justify-center text-start pb-12">
             <h2 className="text-mobile-h2 lineHeight-mobile-35px ivyPrestoThin pb-4">
-              To Maintain:
+              To Maintain
             </h2>
  
             <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
@@ -432,8 +432,8 @@ function LearnPage() {
 
         {/* FAQ SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center">
-          <div className="py-16 w-full">
-                  <AccordianItem answer={<>
+          <div className="pt-16 pb-12 w-full">
+                  <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
                   Boquet vaginal prebiotic tablets help deodorize, improve dryness, and relieve irritation by promoting the growth of the beneficial, protective bacteria in our vaginal flora. 
                   <br/> <br/> 
                   Boquet's vaginal prebiotic contains lactose. A prebiotic is a nutrient that stimulates the growth of beneficial microorganisms. Lactose stimulates the growth of the beneficial bacteria, lactobacilli in our vaginal flora.
@@ -442,19 +442,19 @@ function LearnPage() {
                   </AccordianItem>
 
                   <div className="pt-8">
-                      <AccordianItem  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that colonize the vaginal lining, it is also referred to as “vaginal microbiome.” A healthy vaginal flora is dominated by various lactobacillus species which maintain a low pH, creating a protective barrier that prevents the growth of other microorganisms.">
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that colonize the vaginal lining, it is also referred to as “vaginal microbiome.” A healthy vaginal flora is dominated by various lactobacillus species which maintain a low pH, creating a protective barrier that prevents the growth of other microorganisms.">
                           <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is a <em>vaginal flora</em> and what does it do?</h3>
                       </AccordianItem>
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
                           <h3 className="text-mobile-h3 lineHeight-mobile-39px">What happens when your <em>vaginal pH balance</em> is off?</h3>
                       </AccordianItem>
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer={<>
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
                         Boquet vaginal prebiotics deodorizes by preventing the growth and adhesion of odor causing bacteria (gardnerella vaginalis) to the vaginal epithelium.
                         <br/><br/>
                         An overgrowth of pathogens produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which displaces the pathogenic organisms hence reducing their adhesion.
@@ -464,7 +464,7 @@ function LearnPage() {
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer={<>
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
                         Lactobacilli is natural and indigenous to the vaginal flora and has a high affinity to vaginal cell receptors.. It derives energy from fermenting lactose to lactic acid and produces hydrogen peroxide which is not tolerated by many organisms.
                         <br/><br/>
                         Because Lactobacillus produces lactic acid, a healthy vagina has a low pH of 3.8-4.5. High pH is one of the factors that contribute to growth of the most common pathogenic bacterial offenders. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.
@@ -474,7 +474,7 @@ function LearnPage() {
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer={<>
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
                         Vaginal pH can increase around menstruation due to hormone fluctuations and sometimes during intercourse. The causes are not due to poor hygiene and it is not a sexually transmitted infection. Some risk factors include scented soaps, douching, stress and smoking.
                         <br/><br/>
                         The most common form of vaginal imbalance shows up as bacterial vaginosis. 1 in 3 individuals with vaginas in the U.S. between the age of 14 to 49 will experience imbalances in their flora that lead to bacterial vaginosis.
@@ -484,7 +484,7 @@ function LearnPage() {
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer={<>
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
                         Yes. Lactose is a naturally occurring carbohydrate in milk and a commonly used inactive ingredient in many oral tablets and capsules. The only reported side effect is a slight discharge of the tablet residue. Do not use Boquet's vaginal prebiotics if you have an allergy to milk.
                         <br/><br/>
                         Boquet vaginal prebiotics can be safely used in people with dietary lactose intolerance as it is not ingested orally and does not get digested. Lactose is a component of many FDA approved medications and widely used vaginal hygiene products.
@@ -494,7 +494,7 @@ function LearnPage() {
                   </div>
 
                   <div className="pt-8">
-                      <AccordianItem  answer="Yes. {Elaborate}">
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Yes. {Elaborate}">
                           <h3 className="text-mobile-h3 lineHeight-mobile-39px">Can I use Boquet <em>while pregnant?</em></h3>
                       </AccordianItem>
                   </div>
