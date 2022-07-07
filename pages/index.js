@@ -344,8 +344,8 @@ function MobileVersion() {
 
         {/* FOUR Rs SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
-          <div className="flex flex-col justify-between pb-10 gap-12">
-            <div className="h-fit-content w-full flex flex-col justify-between">
+          <div className="flex flex-col justify-between pb-10">
+            <div className="h-fit-content w-full flex flex-col justify-between pb-12">
               <img alt="reduces image" className="pb-6" src='/images/homepage/reduces.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Reduces
@@ -355,7 +355,7 @@ function MobileVersion() {
               </p>
             </div>
 
-            <div className="h-fit-content w-full flex flex-col justify-between">
+            <div className="h-fit-content w-full flex flex-col justify-between pb-12">
               <img alt="relieves image" className="pb-6" src='/images/homepage/relieves.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Relieves
@@ -365,7 +365,7 @@ function MobileVersion() {
               </p>
             </div>
 
-            <div className="h-fit-content w-full flex flex-col justify-between">
+            <div className="h-fit-content w-full flex flex-col justify-between pb-12">
               <img alt="replenishes image" className="pb-6" src='/images/homepage/replenishes.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Replenishes
