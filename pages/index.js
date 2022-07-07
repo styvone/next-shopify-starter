@@ -296,6 +296,8 @@ function MobileVersion() {
             backgroundImage: `url(/images/homepage/top-section-background-mobile.png)`,
             backgroundSize: 'cover',
             color: '#EBE5DB',
+            paddingLeft: '16px',
+            paddingRight: '16px',
         }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
           <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px">
             Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
@@ -342,9 +344,9 @@ function MobileVersion() {
 
         {/* FOUR Rs SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
-          <div className="flex flex-col justify-between pb-10 gap-8">
+          <div className="flex flex-col justify-between pb-10 gap-12">
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="reduces image" className="pb-3" src='/images/homepage/reduces.png' />
+              <img alt="reduces image" className="pb-6" src='/images/homepage/reduces.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Reduces
               </h2>
@@ -354,7 +356,7 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="relieves image" className="pb-3" src='/images/homepage/relieves.png' />
+              <img alt="relieves image" className="pb-6" src='/images/homepage/relieves.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Relieves
               </h2>
@@ -364,7 +366,7 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="replenishes image" className="pb-3" src='/images/homepage/replenishes.png' />
+              <img alt="replenishes image" className="pb-6" src='/images/homepage/replenishes.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Replenishes
               </h2>
@@ -374,7 +376,7 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="restores image" className="pb-3" src='/images/homepage/restores.png' />
+              <img alt="restores image" className="pb-6" src='/images/homepage/restores.png' />
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Restores
               </h2>
