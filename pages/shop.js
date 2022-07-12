@@ -11,6 +11,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// this is set inside of Shopify dashboard
 const productHandle = 'the-pill';
 
 function ShopPage({ productData }) {
