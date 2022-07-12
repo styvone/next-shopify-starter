@@ -46,7 +46,7 @@ function MenuModal() {
                 <div className="flex flex-col justify-center">
                 <Link href="/" passHref>
                         <a onClick={toggleModal} className=" cursor-pointer">
-                            <img style={{width: '101px', height: '31px', margin: '0 auto'}}  alt="logo" className="object-contain" src={"/logo/boquet_logo_gray.svg"} />
+                            <img style={{width: '101px', height: '31px', margin: '0 auto'}}  alt="logo" className="object-contain" src={"/logo/boquet_logo_blue.svg"} />
                         </a>
                 </Link>
                 </div>
