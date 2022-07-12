@@ -201,7 +201,7 @@ function ShopPage({ productData }) {
                             </button>
                         </div>
                         <Link
-                            href="/shop"
+                            href="javascript:void(0)"
                             passHref
                         >
                             <button 
@@ -406,7 +406,7 @@ function ShopPage({ productData }) {
                             </button>
                         </div>
                         <Link
-                            href="/shop"
+                            href="javascript:void(0)"
                             passHref
                         >
                             <button 
@@ -619,7 +619,7 @@ function ShopPage({ productData }) {
                             </button>
                         </div>
                         <Link
-                            href="/shop"
+                            href="javascript:void(0)"
                             passHref
                         >
                             <button 

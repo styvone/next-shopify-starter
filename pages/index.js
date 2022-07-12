@@ -499,14 +499,14 @@ function MobileVersion() {
           </h1>
 
           <div className="pb-8">
-            <AccordianItem size={5}  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
+            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
                 <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What is a <em>vaginal flora</em> and what does it do?</h3>
             </AccordianItem>
           </div>
         
 
           <div className="pb-10">
-            <AccordianItem size={5}  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
                 <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What happens when your <em>vaginal pH balance</em> is off?</h3>
             </AccordianItem>
           </div>
