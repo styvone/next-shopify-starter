@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Marquee from "react-fast-marquee";
+import Image from 'next/image';
 
 function imageWrapper(src, href) {
   return (
@@ -8,7 +9,7 @@ function imageWrapper(src, href) {
         href={href}
         passHref
       >
-        <img alt="logo" className="h-56 w-56 inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} />
+        <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} />
       </Link>
     </div>
   );

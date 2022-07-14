@@ -7,6 +7,14 @@ import { useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Link from 'next/link';
+import Image from 'next/image';
+
+
+import vaginalHealth101BannerImage from '../public/images/vaginal-health-101-with-boquet.png';
+import whenShouldIUseBoquetImage from '../public/images/when-should-i-use-boquet.png';
+import pillAnimationImage from '../public/images/thepill-animation.png';
+import vaginaTargetImage from '../public/images/thepill-dropin-animation.png';
+import maintainLogoImage from '../public/images/restoreandmaintain.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -81,7 +89,8 @@ function LearnPage() {
         <p className="coreSans text-desktop-p1 w-1/2 pb-20">
         Everything you need to know about using Boquet, the ins and outs of your vaginal flora, and restoring your good protective bacteria.
         </p>
-        <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" />
+        {/* <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" /> */}
+        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} />
       </div>
 
 
@@ -101,7 +110,8 @@ function LearnPage() {
         <div className="flex justify-between w-full">
          
           <div className="pt-8 w-1/2">
-            <img alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
+            {/* <img alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/> */}
+            <Image src={whenShouldIUseBoquetImage}  alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} />
           </div>
 
           <div className="pl-36 pt-8 w-1/2">
@@ -160,11 +170,14 @@ function LearnPage() {
         {/* PILL DROPPING ANIMATION SECTION */}
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
-          <div className="droppingPillAnimationContainer-desktop">
-            <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
+          <div className="droppingPillAnimationContainer-desktop h-56 w-56">
+            
+            {/* <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' /> */}
+            <Image alt="pill animation" src={pillAnimationImage} />
           </div>
-          <div className="droppingIntoContainer-desktop">
-            <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
+          <div className="droppingIntoContainer-desktop h-56 w-56">
+            {/* <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' /> */}
+            <Image alt="vagina target" src={vaginaTargetImage} />
           </div>
         </div>
 
@@ -186,7 +199,8 @@ function LearnPage() {
           </div>
 
           <div className="w-1/3 flex flex-col justify-center relative">
-              <img alt="maintain logo" src='/images/restoreandmaintain.png' />
+              {/* <img alt="maintain logo" src='/images/restoreandmaintain.png' /> */}
+              <Image alt="maintain logo" src={maintainLogoImage} />
           </div>
 
           <div className="w-1/3 flex flex-col justify-center text-center pl-16">

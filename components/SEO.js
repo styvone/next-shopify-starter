@@ -23,6 +23,7 @@ function SEO({ title }) {
       <meta property="og:description" content={description} key="ogdesc" />
       <title>{title}</title>
 
+
       <link rel="manifest" href="/manifest.json" />
       <link
         href="/icons/favicon-16x16.png"
@@ -38,9 +39,10 @@ function SEO({ title }) {
         sizes="32x32"
         purpose="any maskable"
       />
-      
-      <link rel="apple-touch-icon" href="/icons/favicon.png" />
+      <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"></link>
       <meta name="theme-color" content="white" />
+
+
       <link rel="stylesheet" href="https://use.typekit.net/dxh6hfl.css"/>
       <link
             rel="preload"

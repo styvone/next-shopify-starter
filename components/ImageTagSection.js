@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 function ImageTagSection(props) {
     return (
@@ -7,11 +8,19 @@ function ImageTagSection(props) {
                 <div style={{
                     backgroundColor: "#EBE5DB", 
                     height: '770px',
-                    backgroundImage: `url(${props.backgroundImage})`,
-                    backgroundSize: 'cover',
                     color: '#EBE5DB',
-                }} className="w-full flex flex-col justify-end">
-                    <div style={{paddingLeft: '50px', paddingRight: '50px', height: '21rem'}} className=" w-full">
+                }} className="relative w-full flex flex-col justify-end">
+
+                    <Image 
+                        alt="image tag section background"
+                        src={props.backgroundImage}
+                        layout="fill"
+                        objectFit="cover"
+                        quality={100}
+                        className="z-0"
+                    />
+
+                    <div style={{paddingLeft: '50px', paddingRight: '50px', height: '21rem'}} className="z-10 w-full">
                         <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
                             Boquet <em>Vaginal Prebiotic</em>
                         </h1>
