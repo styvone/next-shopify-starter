@@ -18,10 +18,10 @@ function DesktopVersion() {
             </h2>
             <div className="flex justify-start">
                 <div style={{height: '352px', width: '541px'}} className="inline-block relative mr-8">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" />
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" priority={true} />
                 </div>
                 <div style={{height: '352px', width: '313px'}} className="inline-block relative">
-                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" />
+                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" priority={true} />
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ function DesktopVersion() {
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-10/12 pb-24">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h2>
-            <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} />
+            <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} />
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}

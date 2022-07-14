@@ -18,6 +18,7 @@ function ImageTagSection(props) {
                         objectFit="cover"
                         quality={100}
                         className="z-0"
+                        priority={true}
                     />
 
                     <div style={{paddingLeft: '50px', paddingRight: '50px', height: '21rem'}} className="z-10 w-full">

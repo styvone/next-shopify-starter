@@ -8,6 +8,10 @@ import { useAddToCartContext, useCartModalContext } from '@/context/Store';
 import { useState, useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Image from 'next/image';
+
+import pillProductPhoto from '../public/images/shop/pill-product.png';
+import papayaImage from '../public/images/shop/papaya.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -158,7 +162,9 @@ function ShopPage({ productData }) {
         {/* SHOPPING SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
             <div className="w-1/2">
-                <img alt="pill product photo" className="w-3/4" src='/images/shop/pill-product.png' />
+                <div className="inline-block w-3/4">
+                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} />
+                </div>
             </div>
             <div className="w-1/2 flex flex-col justify-start">
                 <div className="pb-24">
@@ -281,8 +287,8 @@ function ShopPage({ productData }) {
                 Maintain your vaginal flora's balance and protective state by inserting 1 Boquet tablet vaginally on a weekly or monthly basis at bedtime.
                 </p>
             </div>
-            <div className="h-fit-content w-1/2">
-                <img alt="papayas and other fruits with the pill product" src='/images/shop/papaya.png' />
+            <div style={{height: '434.73px'}} className="h-fit-content w-1/2">
+                <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} />
             </div>
         </div>
 
