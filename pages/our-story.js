@@ -2,6 +2,11 @@ import ImageTagSection from '@/components/ImageTagSection';
 import Layout from '@/components/Layout';
 import SEO from '@/components/SEO';
 import Link from 'next/link';
+import Image from 'next/image';
+
+import forYourFloraBelowImage from '../public/images/for-your-flora-below.png';
+import nhainPortraitImage from '../public/images/nhain.png';
+import weBelieveVaginasCelebratedImage from '../public/images/we-believe-vaginas-celebrated.png';
 
 function DesktopVersion() {
     return (
@@ -12,8 +17,12 @@ function DesktopVersion() {
                 For your <em>flora below.</em>
             </h2>
             <div className="flex justify-start">
-                <img className="pr-8" style={{height: '22rem'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" />
-                <img style={{height: '22rem'}} alt="nhain portrait" src="/images/nhain.png" />
+                <div style={{height: '352px', width: '541px'}} className="inline-block relative mr-8">
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" />
+                </div>
+                <div style={{height: '352px', width: '313px'}} className="inline-block relative">
+                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" />
+                </div>
             </div>
         </div>
 
@@ -43,7 +52,7 @@ function DesktopVersion() {
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-10/12 pb-24">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h2>
-            <img alt="we believe that our vaginas deserve to be celebrated banner image" src="/images/we-believe-vaginas-celebrated.png" />
+            <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} />
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
