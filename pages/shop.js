@@ -163,7 +163,7 @@ function ShopPage({ productData }) {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
             <div className="w-1/2">
                 <div className="inline-block w-3/4">
-                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} />
+                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} />
                 </div>
             </div>
             <div className="w-1/2 flex flex-col justify-start">

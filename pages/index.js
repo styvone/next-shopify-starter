@@ -55,7 +55,6 @@ function DesktopVersion() {
             backgroundColor: "#888889",
         }} className="h-fit-content">
           <div style={{
-              
               height: '57rem',
               color: '#EBE5DB',
               //opacity: `${topOpacity}`,
@@ -128,7 +127,7 @@ function DesktopVersion() {
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
-                <Image alt="reduces image" src={reducesImage} />
+                <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Reduces
@@ -140,7 +139,7 @@ function DesktopVersion() {
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
-                <Image alt="relieves image" src={relievesImage} />
+                <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Relieves
@@ -152,7 +151,7 @@ function DesktopVersion() {
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
-                <Image alt="replenishes image" src={replenishesImage} />
+                <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Replenishes
@@ -164,7 +163,7 @@ function DesktopVersion() {
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
-                <Image alt="restores image" src={restoresImage} />
+                <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Restores
@@ -207,7 +206,7 @@ function DesktopVersion() {
           </Link>
 
           <div className="inline pt-20">
-            <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} />
+            <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} quality={100} />
           </div>
 
         </div>
