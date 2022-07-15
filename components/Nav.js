@@ -22,7 +22,7 @@ function Nav(props) {
     <>
 
     <div className="responsive-desktop">
-      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '50px', paddingRight: '50px', paddingTop: '13px'}} className={`${props.isHomePage ? 'absolute w-full' : ''}`}>
+      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '50px', paddingRight: '50px', paddingTop: '13px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
         <div className="flex items-center justify-between w-full">
           <Link href="/" passHref>
             <a className=" cursor-pointer">

@@ -8,6 +8,15 @@ import { Component } from 'react';
 import React from 'react';
 import Slider from "react-slick";
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
+
+import topSectionBackgroundImage from '../public/images/homepage/top-section-background.png';
+import pillIconGif from '../public/images/homepage/pill-icon.gif';
+import reducesImage from '../public/images/homepage/reduces.png';
+import relievesImage from '../public/images/homepage/relieves.png';
+import replenishesImage from '../public/images/homepage/replenishes.png';
+import restoresImage from '../public/images/homepage/restores.png';
+import boquetVaginalPrebioticBannerImage from '../public/images/homepage/boquet-vaginal-prebiotic.png';
 
 function DesktopVersion() {
 
@@ -48,19 +57,29 @@ function DesktopVersion() {
           <div style={{
               
               height: '57rem',
-              backgroundImage: `url(/images/homepage/top-section-background.png)`,
-              backgroundSize: 'cover',
               color: '#EBE5DB',
               //opacity: `${topOpacity}`,
-          }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
-            <h1 className="ivyPrestoThin text-desktop-h1 w-7/12 pb-8 lineHeight-desktop-123 pt-20">
+          }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
+
+            <Image
+                alt="image tag section background"
+                src={topSectionBackgroundImage}
+                layout="fill"
+                objectFit="cover"
+                quality={100}
+                className="z-0"
+                priority={true}
+            />
+
+
+            <h1 className="ivyPrestoThin text-desktop-h1 w-7/12 pb-8 lineHeight-desktop-123 pt-20 z-10">
               Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
             </h1>
             <Link
                 href="/shop"
                 passHref
             >
-                <a className="pl-0 pt-3" aria-label="cart">
+                <a className="pl-0 pt-3 z-10" aria-label="cart">
                     <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
                             <p className="text-center text-desktop-p2 coreSans">
                                 SHOP BOQUET
@@ -75,7 +94,6 @@ function DesktopVersion() {
         {/* <div style={{
             background: `linear-gradient(#888889 ${topGradientPos}, #EBE5DB)`,
             height: '120rem',
-
         }} /> */}
 
         {/* MEET BOQUET SECTION */}
@@ -98,8 +116,9 @@ function DesktopVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-20 h-64" src='/images/homepage/pill-icon.gif' />
-
+          <div style={{width: '200px'}} className="inline-block pt-20 h-64">
+            <Image alt="boquet vaginal prebiotic pill icon gif" src={pillIconGif} />
+          </div>
         </div>
 
 
@@ -108,7 +127,9 @@ function DesktopVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
-              <img style={{paddingBottom: '40px'}} alt="reduces image" src='/images/homepage/reduces.png' />
+              <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
+                <Image alt="reduces image" src={reducesImage} />
+              </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Reduces
               </h2>
@@ -118,7 +139,9 @@ function DesktopVersion() {
             </div>
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
-              <img style={{paddingBottom: '40px'}} alt="relieves image" src='/images/homepage/relieves.png' />
+              <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
+                <Image alt="relieves image" src={relievesImage} />
+              </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Relieves
               </h2>
@@ -128,7 +151,9 @@ function DesktopVersion() {
             </div>
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
-              <img style={{paddingBottom: '40px'}} alt="replenishes image" src='/images/homepage/replenishes.png' />
+              <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
+                <Image alt="replenishes image" src={replenishesImage} />
+              </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Replenishes
               </h2>
@@ -138,7 +163,9 @@ function DesktopVersion() {
             </div>
 
             <div className="h-fit-content w-1/4 flex flex-col justify-between">
-              <img style={{paddingBottom: '40px'}} alt="restores image" src='/images/homepage/restores.png' />
+              <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
+                <Image alt="restores image" src={restoresImage} />
+              </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Restores
               </h2>
@@ -178,10 +205,14 @@ function DesktopVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic main product image" className="pt-20" src='/images/homepage/boquet-vaginal-prebiotic.png' />
+
+          <div className="inline pt-20">
+            <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} />
+          </div>
+
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-32 pt-10">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-32 pt-8">
           <div className="flex justify-between w-3/12">
             <p className="coreSans text-desktop-p2">
               INGREDIENTS:
