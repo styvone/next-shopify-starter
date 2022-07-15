@@ -18,6 +18,9 @@ import replenishesImage from '../public/images/homepage/replenishes.png';
 import restoresImage from '../public/images/homepage/restores.png';
 import boquetVaginalPrebioticBannerImage from '../public/images/homepage/boquet-vaginal-prebiotic.png';
 
+import topSectionBackgroundMobileImage from '../public/images/homepage/top-section-background-mobile.png';
+import boquetVaginalPrebioticMobileBannerImage from '../public/images/homepage/boquet-vaginal-prebiotic-mobile.png';
+
 function DesktopVersion() {
 
   // const [topGradientPos, setTopGradientPos] = useState('');
@@ -126,9 +129,11 @@ function DesktopVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
+
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
                 <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
+
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
                 Reduces
               </h2>
@@ -205,7 +210,7 @@ function DesktopVersion() {
               </a>
           </Link>
 
-          <div className="inline pt-20">
+          <div className="inline-block pt-20">
             <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} quality={100} />
           </div>
 
@@ -323,20 +328,32 @@ function MobileVersion() {
     <div style={{
             backgroundColor: "#EBE5DB",
             height: '43rem',
-            backgroundImage: `url(/images/homepage/top-section-background-mobile.png)`,
-            backgroundSize: 'cover',
             color: '#EBE5DB',
             paddingLeft: '16px',
             paddingRight: '16px',
-        }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
-          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px">
+        }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
+
+
+          <Image
+              alt="image tag section background"
+              src={topSectionBackgroundMobileImage}
+              layout="fill"
+              objectFit="cover"
+              quality={100}
+              className="z-0"
+              priority={true}
+          />
+
+
+
+          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px z-10">
             Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
           </h2>
           <Link
               href="/shop"
               passHref
           >
-              <a className="pl-0" aria-label="cart">
+              <a className="pl-0 z-10" aria-label="cart">
                   <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center">
                           <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
@@ -366,7 +383,10 @@ function MobileVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.gif' />
+
+          <div style={{width: '145.453px'}} className="inline-block pt-8 h-40">
+            <Image alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src={pillIconGif} />
+          </div>
 
         </div>
 
@@ -376,7 +396,9 @@ function MobileVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
           <div className="flex flex-col justify-between pb-10">
             <div className="h-fit-content w-full flex flex-col justify-between pb-12">
-              <img alt="reduces image" className="pb-6" src='/images/homepage/reduces.png' />
+              <div className="inline-block pb-6">
+                <Image alt="reduces image" src={reducesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Reduces
               </h2>
@@ -386,7 +408,9 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between pb-12">
-              <img alt="relieves image" className="pb-6" src='/images/homepage/relieves.png' />
+              <div className="inline-block pb-6">
+                <Image alt="relieves image" src={relievesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Relieves
               </h2>
@@ -396,7 +420,9 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between pb-12">
-              <img alt="replenishes image" className="pb-6" src='/images/homepage/replenishes.png' />
+              <div className="inline-block pb-6">
+                <Image alt="replenishes image" src={replenishesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Replenishes
               </h2>
@@ -406,7 +432,9 @@ function MobileVersion() {
             </div>
 
             <div className="h-fit-content w-full flex flex-col justify-between">
-              <img alt="restores image" className="pb-6" src='/images/homepage/restores.png' />
+              <div className="inline-block pb-6">
+                <Image alt="restores image" src={restoresImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
                 Restores
               </h2>
@@ -446,10 +474,12 @@ function MobileVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic main product image" className="pt-10" src='/images/homepage/boquet-vaginal-prebiotic-mobile.png' />
+          <div className="pt-10 inline-block">
+            <Image alt="boquet vaginal prebiotic main product image"  src={boquetVaginalPrebioticMobileBannerImage} priority={true} quality={100} />
+          </div>
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-10 pt-6">
+        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-10 pt-4">
           <div className="flex justify-between w-full pb-2">
             <p className="coreSans text-mobile-p3">
               INGREDIENTS:

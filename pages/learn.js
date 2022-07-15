@@ -314,7 +314,7 @@ function LearnPage() {
         <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-10">
         Everything you need to know about using Boquet, the ins and outs of your vaginal flora, and restoring your good protective bacteria.
         </p>
-        <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" />
+        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} />
       </div>
 
 
@@ -358,7 +358,9 @@ function LearnPage() {
           <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-10">
           Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
           </p>
-          <img className="pb-6" alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src="/images/when-should-i-use-boquet.png"/>
+          <div className="pb-6">
+            <Image alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src={whenShouldIUseBoquetImage} />
+          </div>
         </div>
 
       </div>
@@ -386,11 +388,11 @@ function LearnPage() {
         {/* PILL DROPPING ANIMATION SECTION */}
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
-          <div className="droppingPillAnimationContainer-mobile">
-            <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' />
+          <div className="droppingPillAnimationContainer-mobile h-56 w-56">
+            <Image alt="pill animation" src={pillAnimationImage} />
           </div>
-          <div className="droppingIntoContainer-mobile">
-            <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' />
+          <div className="droppingIntoContainer-mobile h-56 w-56">
+            <Image alt="vagina target" src={vaginaTargetImage} />
           </div>
         </div>
 
@@ -398,7 +400,7 @@ function LearnPage() {
         {/* RESTORE PICS MAINTAIN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
           <div className="w-full flex flex-col justify-center relative pb-16">
-            <img alt="maintain logo" src='/images/restoreandmaintain.png' />
+          <Image alt="maintain logo" src={maintainLogoImage} />
           </div>
           
           

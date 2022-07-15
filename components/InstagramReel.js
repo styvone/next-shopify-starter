@@ -9,7 +9,7 @@ function imageWrapper(src, href) {
         href={href}
         passHref
       >
-        <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} />
+        <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} priority={true} />
       </Link>
     </div>
   );

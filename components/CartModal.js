@@ -81,7 +81,7 @@ function CartModal() {
                 leaveModal();
             }}
         >
-            <div className="h-fit-content w-full flex justify-between pb-16">
+            <div className="z-20 h-fit-content w-full flex justify-between pb-16">
             <h1 style={{color: '#EBE5DB'}} className='ivyPrestoThin text-desktop-h1'>
                 Cart
             </h1>

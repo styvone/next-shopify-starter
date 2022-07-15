@@ -49,22 +49,37 @@ function GentleAndRestorative() {
 
             <div className="responsive-mobile">
                 <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
-                <div className="h-14 w-full overflow-hidden whitespace-nowrap">
+                <div className="h-14 w-full overflow-hidden whitespace-nowrap flex flex-col justify-center">
                 <Marquee gradient={false} speed={50}>
-                    <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
-                        <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
-                    </h1>
+                    <div className="flex flex-col justify-center">
+                        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline">
+                            <em>Gentle</em> and <em>restorative</em>
+                            {/* <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" /> */}
+                        </h1>
+                    </div>
+                    <div className="inline-block relative w-16 h-16 object-contain mx-28">
+                        <Image src={pillImage} alt="pill image" layout="fill" />
+                    </div>
 
-                    <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
-                        <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
-                    </h1>
+                    <div className="flex flex-col justify-center">
+                        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline">
+                            <em>Gentle</em> and <em>restorative</em>
+                            {/* <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" /> */}
+                        </h1>
+                    </div>
+                    <div className="inline-block relative w-16 h-16 object-contain mx-28">
+                        <Image src={pillImage} alt="pill image" layout="fill" />
+                    </div>
 
-                    <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline mr-28">
-                        <em>Gentle</em> and <em>restorative</em>
-                        <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" />
-                    </h1>
+                    <div className="flex flex-col justify-center">
+                        <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px inline">
+                            <em>Gentle</em> and <em>restorative</em>
+                            {/* <img alt="pill" className="w-16 h-16 inline object-contain ml-28" src="/pill.svg" /> */}
+                        </h1>
+                    </div>
+                    <div className="inline-block relative w-16 h-16 object-contain mx-28">
+                        <Image src={pillImage} alt="pill image" layout="fill" />
+                    </div>           
                 </Marquee>  
                 </div>
                 </div>

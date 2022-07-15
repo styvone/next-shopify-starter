@@ -104,10 +104,12 @@ function MobileVersion() {
                 For your <em>flora below.</em>
             </h1>
             <div className="flex justify-between">
-                <div className="flex flex-col justify-start w-1/2">
-                    <img style={{paddingRight: '16px'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" />
+                <div style={{paddingRight: '16px'}} className="flex flex-col justify-start w-1/2">
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} />
                 </div>
-                <img className="w-1/2" alt="nhain portrait" src="/images/nhain.png" />
+                <div className="inline-block w-1/2">
+                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} />
+                </div>
             </div>
         </div>
 
@@ -137,7 +139,7 @@ function MobileVersion() {
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px w-full pb-10">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h1>
-            <img alt="we believe that our vaginas deserve to be celebrated banner image" src="/images/we-believe-vaginas-celebrated.png" />
+            <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} quality={100} />
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}

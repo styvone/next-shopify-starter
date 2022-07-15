@@ -266,6 +266,10 @@
   box-shadow: 0 0px 0px rgb(0 0 0 / 0%) !important;
 }
 
+.slide-pane__overlay {
+  z-index: 20 !important;
+}
+
 .longPillButtonGradientHoverAnimation {
   transition: all 0.2s ease-out;
 }
