@@ -202,7 +202,7 @@ function LearnPage() {
 
           <div className="w-1/3 flex flex-col justify-center relative">
               {/* <img alt="maintain logo" src='/images/restoreandmaintain.png' /> */}
-              <Image alt="maintain logo" src={maintainLogoImage} />
+              <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} />
           </div>
 
           <div className="w-1/3 flex flex-col justify-center text-center pl-16">
@@ -402,7 +402,7 @@ function LearnPage() {
         {/* RESTORE PICS MAINTAIN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
           <div className="w-full flex flex-col justify-center relative pb-16">
-          <Image alt="maintain logo" src={maintainLogoImage} />
+          <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} />
           </div>
           
           
@@ -619,7 +619,7 @@ function LearnPage() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content pb-16">
           <div className="w-full flex justify-center pb-16">
             <div className="w-1/2 inline-block">
-              <Image alt="maintain logo" src={maintainLogoTabletImage} />
+              <Image alt="maintain logo" src={maintainLogoTabletImage} onLoad={ScrollTrigger.refresh} />
             </div>
           </div>
           
