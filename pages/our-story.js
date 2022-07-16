@@ -193,9 +193,15 @@ function TabletVersion() {
             </h1>
             <div className="flex justify-between">
 
-                <img style={{height: '273px'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" />
-
-                <img style={{height: '273px'}} alt="nhain portrait" src="/images/nhain.png" />
+                {/* <img style={{height: '273px'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" /> */}
+                <div style={{width: '419.578px'}} className="inline-block">
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} />
+                </div>
+                {/* <img style={{height: '273px'}} alt="nhain portrait" src="/images/nhain.png" /> */}
+                
+                <div style={{width: '242.75px'}} className="inline-block">
+                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} />
+                </div>
             </div>
         </div>
 
@@ -225,7 +231,7 @@ function TabletVersion() {
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12 pb-8">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h1>
-            <img alt="we believe that our vaginas deserve to be celebrated banner image" src="/images/we-believe-vaginas-celebrated.png" />
+            <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} quality={100} />
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}

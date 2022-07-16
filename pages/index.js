@@ -21,6 +21,8 @@ import boquetVaginalPrebioticBannerImage from '../public/images/homepage/boquet-
 import topSectionBackgroundMobileImage from '../public/images/homepage/top-section-background-mobile.png';
 import boquetVaginalPrebioticMobileBannerImage from '../public/images/homepage/boquet-vaginal-prebiotic-mobile.png';
 
+import topSectionBackgroundTabletImage from '../public/images/homepage/top-section-background-tablet.png';
+
 function DesktopVersion() {
 
   // const [topGradientPos, setTopGradientPos] = useState('');
@@ -591,18 +593,29 @@ function TabletVersion() {
     <div style={{
             backgroundColor: "#EBE5DB", 
             height: '35rem',
-            backgroundImage: `url(/images/homepage/top-section-background-tablet.png)`,
-            backgroundSize: '100%',
             color: '#EBE5DB',
-        }} className="h-fit-content w-full flex flex-col justify-center text-center items-center">
-          <h1 className="ivyPrestoThin text-tablet-h1 w-10/12 pt-20 pb-8 lineHeight-tablet-59px">
+        }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
+          
+          <Image
+            alt="image tag section background"
+            src={topSectionBackgroundTabletImage}
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+            className="z-0"
+            priority={true}
+          />
+          
+          
+          
+          <h1 className="ivyPrestoThin text-tablet-h1 w-10/12 pt-20 pb-8 lineHeight-tablet-59px z-10">
             Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
           </h1>
           <Link
               href="/shop"
               passHref
           >
-              <a className="pl-0" aria-label="cart">
+              <a className="pl-0 z-10" aria-label="cart">
                   <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
                           <p className="text-center text-tablet-p3 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
@@ -632,8 +645,10 @@ function TabletVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src='/images/homepage/pill-icon.gif' />
 
+          <div style={{width: '145.453px'}} className="inline-block pt-8 h-40">
+            <Image alt="boquet vaginal prebiotic pill icon gif" src={pillIconGif} />
+          </div>
         </div>
 
 
@@ -642,7 +657,9 @@ function TabletVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-16">
           <div className="flex justify-evenly pb-16 gap-8">
             <div className="h-fit-content w-1/2 flex flex-col justify-between">
-              <img alt="reduces image" className="pb-8" src='/images/homepage/reduces.png' />
+              <div className="inline-block pb-8">
+                <Image alt="reduces image" src={reducesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
                 Reduces
               </h2>
@@ -652,7 +669,9 @@ function TabletVersion() {
             </div>
 
             <div className="h-fit-content w-1/2 flex flex-col justify-between">
-              <img alt="relieves image" className="pb-8" src='/images/homepage/relieves.png' />
+              <div className="inline-block pb-8">
+                <Image alt="relieves image" src={relievesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
                 Relieves
               </h2>
@@ -664,7 +683,9 @@ function TabletVersion() {
           <div className="flex justify-evenly pb-16 gap-8">
 
             <div className="h-fit-content w-1/2 flex flex-col justify-between">
-              <img alt="replenishes image" className="pb-8" src='/images/homepage/replenishes.png' />
+              <div className="inline-block pb-8">
+                <Image alt="replenishes image" src={replenishesImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
                 Replenishes
               </h2>
@@ -674,7 +695,9 @@ function TabletVersion() {
             </div>
 
             <div className="h-fit-content w-1/2 flex flex-col justify-between">
-              <img alt="restores image" className="pb-8" src='/images/homepage/restores.png' />
+              <div className="inline-block pb-8">
+                <Image alt="restores image" src={restoresImage} priority={true} />
+              </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
                 Restores
               </h2>
@@ -715,7 +738,9 @@ function TabletVersion() {
                   </div>
               </a>
           </Link>
-          <img alt="boquet vaginal prebiotic main product image" className="pt-8" src='/images/homepage/boquet-vaginal-prebiotic.png' />
+          <div className="inline-block pt-8">
+            <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} quality={100} />
+          </div>
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
         <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-8">

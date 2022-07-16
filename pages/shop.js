@@ -486,7 +486,7 @@ function ShopPage({ productData }) {
         {/* TO RESTORE / TO MAINTAIN section */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between">
             <div className="h-fit-content w-full pb-10">
-            <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} />
+                <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} quality={100} />
             </div>
             <div className="h-fit-content w-full flex flex-col justify-end">
                 <h2 className="ivyPrestoThin text-mobile-h2 pb-2 lineHeight-mobile-35px">
@@ -582,7 +582,9 @@ function ShopPage({ productData }) {
                 <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-8">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
-                <img className="w-8/12" alt="pill product photo" src='/images/shop/pill-product.png' />
+                <div className="inline-block w-8/12">
+                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} />
+                </div>
             </div>
             <div className="w-full flex flex-col justify-start">
                 <div className="pb-8">
@@ -699,7 +701,7 @@ function ShopPage({ productData }) {
         {/* TO RESTORE / TO MAINTAIN section */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between">
             <div className="h-fit-content w-full pb-8">
-                <img alt="papayas and other fruits with the pill product" src='/images/shop/papaya.png' />
+                <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} quality={100} />
             </div>
             <div className="h-fit-content w-10/12 flex flex-col justify-end">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px pb-4">

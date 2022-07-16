@@ -93,11 +93,20 @@ function ImageTagSection(props) {
                 <div style={{
                     backgroundColor: "#EBE5DB", 
                     height: '42rem',
-                    backgroundImage: `url(${props.backgroundImage})`,
-                    backgroundSize: 'cover',
                     color: '#EBE5DB',
-                }} className="w-full flex flex-col justify-end">
-                    <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-72 w-full">
+                }} className="relative w-full flex flex-col justify-end">
+
+                    <Image 
+                        alt="image tag section background"
+                        src={props.backgroundImage}
+                        layout="fill"
+                        objectFit="cover"
+                        quality={100}
+                        className="z-0"
+                        priority={true}
+                    />
+
+                    <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-72 w-full z-10">
                         <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px">
                             Boquet <em>Vaginal Prebiotic</em>
                         </h1>
