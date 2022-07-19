@@ -113,7 +113,7 @@ function LearnPage() {
         <div className="flex justify-between w-full">
          
           <div className="pt-8 w-1/2">
-            <Image src={whenShouldIUseBoquetImage}  alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} quality={100} />
+            <Image src={whenShouldIUseBoquetImage}  alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} />
           </div>
 
           <div className="pl-36 pt-8 w-1/2">
@@ -175,11 +175,11 @@ function LearnPage() {
           <div className="droppingPillAnimationContainer-desktop h-56 w-56">
             
             {/* <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' /> */}
-            <Image alt="pill animation" src={pillAnimationImage} />
+            <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
           <div className="droppingIntoContainer-desktop h-56 w-56">
             {/* <img alt="vagina target" className="h-56 w-56" src='/images/thepill-dropin-animation.png' /> */}
-            <Image alt="vagina target" src={vaginaTargetImage} />
+            <Image alt="vagina target" src={vaginaTargetImage} priority={true} />
           </div>
         </div>
 
@@ -202,7 +202,7 @@ function LearnPage() {
 
           <div className="w-1/3 flex flex-col justify-center relative">
               {/* <img alt="maintain logo" src='/images/restoreandmaintain.png' /> */}
-              <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} />
+              <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} priority={true} />
           </div>
 
           <div className="w-1/3 flex flex-col justify-center text-center pl-16">
@@ -361,7 +361,7 @@ function LearnPage() {
           Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
           </p>
           <div className="pb-6">
-            <Image alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src={whenShouldIUseBoquetImage} quality={100} />
+            <Image alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src={whenShouldIUseBoquetImage} priority={true} quality={100} />
           </div>
         </div>
 
@@ -391,10 +391,10 @@ function LearnPage() {
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
           <div className="droppingPillAnimationContainer-mobile h-56 w-56">
-            <Image alt="pill animation" src={pillAnimationImage} />
+            <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
           <div className="droppingIntoContainer-mobile h-56 w-56">
-            <Image alt="vagina target" src={vaginaTargetImage} />
+            <Image alt="vagina target" src={vaginaTargetImage} priority={true} />
           </div>
         </div>
 
@@ -402,7 +402,7 @@ function LearnPage() {
         {/* RESTORE PICS MAINTAIN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
           <div className="w-full flex flex-col justify-center relative pb-16">
-          <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} />
+          <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} priority={true} />
           </div>
           
           
@@ -577,7 +577,7 @@ function LearnPage() {
           Semen is slightly alkaline with a pH of 7.2-8. Having unprotected sex can increase the chances of pathogenic bacterial growth. Use Boquet's vaginal prebiotic before sex to increase vaginal comfort and confidence but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora from the effects of semen or physical wear and tear.
           </p>
           <div className="pb-10">
-            <Image alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src={whenShouldIUseBoquetTabletImage} quality={100} />
+            <Image alt="when should i use boquet image" onLoad={ScrollTrigger.refresh} src={whenShouldIUseBoquetTabletImage} priority={true} quality={100} />
           </div>
         </div>
 
@@ -607,10 +607,10 @@ function LearnPage() {
 
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between">
           <div className="droppingPillAnimationContainer-tablet h-24 w-24">
-            <Image alt="pill animation" src={pillAnimationImage} />
+            <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
           <div className="droppingIntoContainer-tablet h-24 w-24">
-            <Image alt="vagina target" src={vaginaTargetImage} />
+            <Image alt="vagina target" src={vaginaTargetImage} priority={true} />
           </div>
         </div>
 
@@ -619,7 +619,7 @@ function LearnPage() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content pb-16">
           <div className="w-full flex justify-center pb-16">
             <div className="w-1/2 inline-block">
-              <Image alt="maintain logo" src={maintainLogoTabletImage} onLoad={ScrollTrigger.refresh} />
+              <Image alt="maintain logo" src={maintainLogoTabletImage} priority={true} onLoad={ScrollTrigger.refresh} />
             </div>
           </div>
           

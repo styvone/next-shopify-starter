@@ -84,7 +84,7 @@ function DesktopVersion() {
                 passHref
             >
                 <a className="pl-0 pt-3 z-10" aria-label="cart">
-                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
+                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                             <p className="text-center text-desktop-p2 coreSans">
                                 SHOP BOQUET
                             </p>
@@ -113,7 +113,7 @@ function DesktopVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-56 h-20 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBlue">
                           <p className="text-center coreSans text-desktop-p2">
                               READ OUR STORY
                           </p>
@@ -204,7 +204,7 @@ function DesktopVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-desktop-p2 coreSans">
                               SHOP BOQUET
                           </p>
@@ -356,7 +356,7 @@ function MobileVersion() {
               passHref
           >
               <a className="pl-0 z-10" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
                           </p>
@@ -378,7 +378,7 @@ function MobileVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-44 h-16 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBlue">
                           <p className="text-center coreSans text-mobile-p3">
                               READ OUR STORY
                           </p>
@@ -469,7 +469,7 @@ function MobileVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
                           </p>
@@ -616,7 +616,7 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0 z-10" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-tablet-p3 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
                           </p>
@@ -638,7 +638,7 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-56 h-20 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#283F91'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBlue">
                           <p className="text-center coreSans text-tablet-p3 lineHeight-tablet-20px">
                               READ OUR STORY
                           </p>
@@ -731,7 +731,7 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center">
+                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-tablet-p2 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
                           </p>

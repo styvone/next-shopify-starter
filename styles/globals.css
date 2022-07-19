@@ -270,13 +270,23 @@
   z-index: 20 !important;
 }
 
-.longPillButtonGradientHoverAnimation {
+.longPillButtonGradientHoverAnimation, .shortPillButtonGradientBlue, .shortPillButtonGradientBeige  {
   transition: all 0.2s ease-out;
 }
 
 .longPillButtonGradientHoverAnimation:hover {
   color: #EBE5DB !important;
   border-color: #EBE5DB !important;
+  background-color: #283F91 !important;
+}
+
+.shortPillButtonGradientBeige:hover {
+  color: #283F91 !important;
+  background-color: #EBE5DB !important;
+}
+
+.shortPillButtonGradientBlue:hover {
+  color: #EBE5DB !important;
   background-color: #283F91 !important;
 }
 
