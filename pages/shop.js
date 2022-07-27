@@ -172,14 +172,18 @@ function ShopPage({ productData }) {
                         Boquet <em>Vaginal Prebiotic</em>
                     </h1>
                     <p className="coreSans text-desktop-p2 pb-8">
-                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting the growth of good bacteria in the vaginal flora (instead of stripping it away). Backed by science, our tablet is a natural prebiotic that is gentle enough to be used everyday. 
+                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-desktop-p3">
-                    *INSERT VAGINALLY. DO NOT TAKE ORALLY.
+                    *Insert vaginally. Do not take orally.
+                    </p>
+                    <p className="coreSans text-desktop-p3">
+                    *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                     </p>
                     <p className="coreSans text-desktop-p3 pb-20">
-                    *DO NOT USE BOQUET VAGINAL PREBIOTICS IF YOU HAVE AN ALLERGY TO MILK.
+                    *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                     </p>
+
 
                     <div className="flex justify-between h-24">
                         
@@ -377,13 +381,16 @@ function ShopPage({ productData }) {
                 <div className="pb-16">
 
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
-                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting the growth of good bacteria in the vaginal flora (instead of stripping it away). Backed by science, our tablet is a natural prebiotic that is gentle enough to be used everyday. 
+                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                    *INSERT VAGINALLY. DO NOT TAKE ORALLY.
+                    *Insert vaginally. Do not take orally.
+                    </p>
+                    <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
+                    *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-12">
-                    *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                    *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                     </p>
 
                     <div className="flex flex-col justify-between">
@@ -591,13 +598,16 @@ function ShopPage({ productData }) {
 
                     <div className="w-10/12">
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8">
-                        An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting the growth of good bacteria in the vaginal flora (instead of stripping it away). Backed by science, our tablet is a natural prebiotic that is gentle enough to be used everyday. 
+                        An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                        *INSERT VAGINALLY. DO NOT TAKE ORALLY.
+                        *Insert vaginally. Do not take orally.
+                        </p>
+                        <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
+                        *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-12">
-                        *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                        *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </p>
                     </div>
 

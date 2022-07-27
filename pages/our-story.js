@@ -33,13 +33,16 @@ function DesktopVersion() {
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
                 </h2>
                 <p className="coreSans text-desktop-p1 pb-4">
-                You're deserving of joy, care, peace, beauty, support, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                You're deserving of joy, support, peace, beauty, rest, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                </p>
+                <p className="coreSans text-desktop-p1 pb-4">
+                It was during a day when my energy was depleted from being unsure about my career and the person I was dating, the start of feeling irritation down there felt overwhelmingly frustrating. The feminine hygiene product I was using added more gloom to my day and was barely helping. Using my pharmacy background, I formulated a vaginal tablet with a natural prebiotic that supports the vaginal flora from shifting to a state of pH imbalance.
                 </p>
                 <p className="coreSans text-desktop-p1 pb-14">
-                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet. The symbol of the vagina being both resilient yet delicate makes me not only proud to have one but excited to be on this journey with you. 
+                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-desktop-p1">
-                — ESTHER NHAIN LEE
+                — ESTHER NHAIN LEE, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-desktop-p1">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>
@@ -65,13 +68,13 @@ function DesktopVersion() {
                 We know firsthand that caring for our vagina is not a topic that is talked about enough. Double standards, shame, embarrassment — something always tries to stop us.
                 </p>
                 <p className="coreSans text-desktop-p1 pb-4">
-                But whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrased by, trust that someone else has gone through it before and be reassured.
+                Whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrassed by, <em>you are never alone</em> in what you are going through. Finding safe connections in our vulnerabilities and learning how to care for ourselves is an empowering form of preventative care.
                 </p>
                 <p className="coreSans text-desktop-p1 pb-4">
-                Here's the thing: Not talking about anything only holds us back and taking the steps to talk about our experiences is the solution. Learning how to care for our vaginas is an empowering form of preventative care.
+                Through Boquet, we hope to be a reminder to continually nurture the good in our lives, while our amazing protective vaginal flora stays flourishing.
                 </p>
                 <p className="coreSans text-desktop-p1 pb-4">
-                Through Boquet, we hope to finally notice our vaginas and open up real conversations. In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
+                In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
                 </p>
             </div>
         </div>
@@ -120,13 +123,16 @@ function MobileVersion() {
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
                 </h2>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
-                You're deserving of joy, care, peace, beauty, support, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                You're deserving of joy, support, peace, beauty, rest, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                </p>
+                <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
+                It was during a day when my energy was depleted from being unsure about my career and the person I was dating, the start of feeling irritation down there felt overwhelmingly frustrating. The feminine hygiene product I was using added more gloom to my day and was barely helping. Using my pharmacy background, I formulated a vaginal tablet with a natural prebiotic that supports the vaginal flora from shifting to a state of pH imbalance.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
-                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet. The symbol of the vagina being both resilient yet delicate makes me not only proud to have one but excited to be on this journey with you. 
+                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                — ESTHER NHAIN LEE
+                — ESTHER NHAIN LEE, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-mobile-p1 lineHeight-mobile-22px">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>
@@ -152,13 +158,13 @@ function MobileVersion() {
                 We know firsthand that caring for our vagina is not a topic that is talked about enough. Double standards, shame, embarrassment — something always tries to stop us.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
-                But whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrased by, trust that someone else has gone through it before and be reassured.
+                Whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrassed by, <em>you are never alone</em> in what you are going through. Finding safe connections in our vulnerabilities and learning how to care for ourselves is an empowering form of preventative care.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
-                Here's the thing: Not talking about anything only holds us back and taking the steps to talk about our experiences is the solution. Learning how to care for our vaginas is an empowering form of preventative care.
+                Through Boquet, we hope to be a reminder to continually nurture the good in our lives, while our amazing protective vaginal flora stays flourishing.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
-                Through Boquet, we hope to finally notice our vaginas and open up real conversations. In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
+                In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
                 </p>
             </div>
         </div>
@@ -212,13 +218,16 @@ function TabletVersion() {
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
                 </h2>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
-                You're deserving of joy, care, peace, beauty, support, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                You're deserving of joy, support, peace, beauty, rest, whatever it is that you often let slip away amidst life's responsibilities and distractions.
+                </p>
+                <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
+                It was during a day when my energy was depleted from being unsure about my career and the person I was dating, the start of feeling irritation down there felt overwhelmingly frustrating. The feminine hygiene product I was using added more gloom to my day and was barely helping. Using my pharmacy background, I formulated a vaginal tablet with a natural prebiotic that supports the vaginal flora from shifting to a state of pH imbalance.
                 </p>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8">
-                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet. The symbol of the vagina being both resilient yet delicate makes me not only proud to have one but excited to be on this journey with you. 
+                Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                — ESTHER NHAIN LEE
+                — ESTHER NHAIN LEE, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-tablet-p1 lineHeight-tablet-25px">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>

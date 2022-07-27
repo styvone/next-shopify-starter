@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { Component } from 'react';
 import React from 'react';
 import Slider from "react-slick";
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 import topSectionBackgroundImage from '../public/images/homepage/top-section-background.png';
@@ -25,33 +24,6 @@ import topSectionBackgroundTabletImage from '../public/images/homepage/top-secti
 
 function DesktopVersion() {
 
-  // const [topGradientPos, setTopGradientPos] = useState('');
-  // const [topOpacity, setTopOpacity] = useState('');
-  // let lastKnownScrollPosition = 0;
-  // let ticking = false;
-
-  // function doSomething(scrollPos) {
-  //   setTopGradientPos('-' + (scrollPos/100).toString() + '%');
-  //   //setTopOpacity(((-1 * (scrollPos/900))+1).toString());
-  // }
-
-  // useEffect(() => {
-
-  // document.addEventListener('scroll', function(e) {
-  //   lastKnownScrollPosition = window.scrollY;
-
-  //   if (!ticking) {
-  //     window.requestAnimationFrame(function() {
-  //       doSomething(lastKnownScrollPosition);
-  //       ticking = false;
-  //     });
-
-  //     ticking = true;
-  //   }
-  // });
-
-  // }, [])
-
   return (
     <div className="responsive-desktop">
     {/* BOQUET HOME PAGE TOP SECTION */}
@@ -62,7 +34,6 @@ function DesktopVersion() {
           <div style={{
               height: '57rem',
               color: '#EBE5DB',
-              //opacity: `${topOpacity}`,
           }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
 
             <Image
@@ -74,7 +45,6 @@ function DesktopVersion() {
                 className="z-0"
                 priority={true}
             />
-
 
             <h1 className="ivyPrestoThin text-desktop-h1 w-7/12 pb-8 lineHeight-desktop-123 pt-20 z-10">
               Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
@@ -94,21 +64,15 @@ function DesktopVersion() {
           </div>
         </div>
 
-        {/* experimental gradient section */}
-        {/* <div style={{
-            background: `linear-gradient(#888889 ${topGradientPos}, #EBE5DB)`,
-            height: '120rem',
-        }} /> */}
-
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-32">
-          <h2 style={{paddingBottom: '1.5rem'}} className="ivyPrestoThin text-desktop-oneOff-lg lineHeight-desktop-123">
-              Meet <em>Boquet</em>
-          </h2>
+        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
+          <h1 style={{paddingBottom: '1.5rem'}} className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
+          A complex, scientific, beautiful ecosystem
+          </h1>
           <p className="coreSans text-desktop-p1 pb-8">
-            A vaginal prebiotic tablet that's gentle and restorative.
+          When our vaginal flora stays balanced with good bacteria,<br/> it has magnicifent abilities to preserve a protective pH.
           </p>
-          <Link
+          {/* <Link
               href="/our-story"
               passHref
           >
@@ -122,7 +86,7 @@ function DesktopVersion() {
           </Link>
           <div style={{width: '200px'}} className="inline-block pt-20 h-64">
             <Image alt="boquet vaginal prebiotic pill icon gif" src={pillIconGif} />
-          </div>
+          </div> */}
         </div>
 
 
@@ -137,10 +101,10 @@ function DesktopVersion() {
               </div>
 
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
-                Reduces
+                Remedy Odor
               </h2>
               <p className="coreSans text-desktop-p1 text-center">
-                Reduces odor and infection causing bacteria
+                Displace odor causing amines
               </p>
             </div>
 
@@ -149,10 +113,10 @@ function DesktopVersion() {
                 <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
-                Relieves
+                Replenish Flora
               </h2>
               <p className="coreSans text-desktop-p1 text-center">
-                Relieves periods of irritation and improves dryness <br/>
+                Prevent growth of infection causing bacteria
               </p>
             </div>
 
@@ -161,22 +125,22 @@ function DesktopVersion() {
                 <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
-                Replenishes
+                Relieve Irritation 
               </h2>
               <p className="coreSans text-desktop-p1 text-center">
-                Replenishes the vaginal flora's natural protective state
+              Stimulate protective and healing bacteria
               </p>
             </div>
 
-            <div className="h-fit-content w-1/4 flex flex-col justify-between">
+            <div className="h-fit-content w-1/4 flex flex-col justify-start">
               <div style={{marginBottom: '40px', height: '311px'}} className="inline-block">
                 <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
               <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
-                Restores
+              Restore pH
               </h2>
               <p className="coreSans text-desktop-p1 text-center">
-                Restores vaginal PH without stripping good bacteria
+              Maintain a balanced, protective pH
               </p>
             </div>
           </div>
@@ -294,19 +258,19 @@ function DesktopVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-20">
           <h1 className="ivyPrestoThin text-desktop-h1 pb-16 lineHeight-desktop-normal">
-            Learn
+            Some more info
           </h1>
 
           <div className="pb-14">
-            <AccordianItem  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
-                <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is a <em>vaginal flora</em> and what does it do?</h3>
+            <AccordianItem  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when urinating. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                <h3 className="text-desktop-h3 lineHeight-desktop-normal">What are <em>symptoms of pH imbalance?</em></h3>
             </AccordianItem>
           </div>
         
 
           <div className="pb-20">
-            <AccordianItem  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
-                <h3 className="text-desktop-h3 lineHeight-desktop-normal">What happens when your <em>vaginal pH balance</em> is off?</h3>
+            <AccordianItem  answer="Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis). An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.">
+                <h3 className="text-desktop-h3 lineHeight-desktop-normal">How does Boquet <em>treat and prevent odor?</em></h3>
             </AccordianItem>
           </div>
 
@@ -315,7 +279,7 @@ function DesktopVersion() {
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                  <p className="text-desktop-p2 h-24 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
+                  <p className="text-desktop-p2 h-24 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>
@@ -367,13 +331,13 @@ function MobileVersion() {
 
         {/* MEET BOQUET SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
-          <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-2">
-              Meet <em>Boquet</em>
-          </h2>
+          <h1 className="ivyPrestoThin text-mobile-h1 pb-2">
+          A complex, scientific, beautiful ecosystem
+          </h1>
           <p className="coreSans text-mobile-p1 pb-6 lineHeight-mobile-22px">
-            A vaginal prebiotic tablet that's gentle and restorative.
+          When our vaginal flora stays balanced with good bacteria, <br/> it has magnicifent abilities to preserve a protective pH.
           </p>
-          <Link
+          {/* <Link
               href="/our-story"
               passHref
           >
@@ -388,7 +352,7 @@ function MobileVersion() {
 
           <div style={{width: '145.453px'}} className="inline-block pt-8 h-40">
             <Image alt="boquet vaginal prebiotic pill clip art" className="pt-8 h-40" src={pillIconGif} />
-          </div>
+          </div> */}
 
         </div>
 
@@ -402,10 +366,10 @@ function MobileVersion() {
                 <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
-                Reduces
+              Remedy Odor
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
-                Reduces odor and infection causing bacteria
+              Displace odor causing amines
               </p>
             </div>
 
@@ -414,10 +378,10 @@ function MobileVersion() {
                 <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
-                Relieves
+              Replenish Flora
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
-                Relieves irritation and improves dryness
+              Prevent growth of infection causing bacteria
               </p>
             </div>
 
@@ -426,10 +390,10 @@ function MobileVersion() {
                 <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
-                Replenishes
+              Relieve Irritation
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
-                Replenishes the vaginal flora's natural protective state
+              Stimulate protective and healing bacteria
               </p>
             </div>
 
@@ -438,10 +402,10 @@ function MobileVersion() {
                 <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-mobile-h2 text-center pb-1">
-                Restores
+              Restore pH
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
-                Restores vaginal PH without stripping good bacteria
+              Maintain a balanced, protective pH
               </p>
             </div>
           </div>
@@ -557,19 +521,20 @@ function MobileVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-10">
           <h1 className="ivyPrestoThin text-mobile-h1 pb-4">
-            Learn
+            Some more info
           </h1>
 
           <div className="pb-8">
-            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
-                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What is a <em>vaginal flora</em> and what does it do?</h3>
+            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when urinating. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What are <em>symptoms of pH imbalance?</em></h3>
             </AccordianItem>
           </div>
         
 
           <div className="pb-10">
-            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
-                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">What happens when your <em>vaginal pH balance</em> is off?</h3>
+            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).
+An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.">
+                <h3 className="text-mobile-h3 lineHeight-mobile-39px text-left">How does Boquet <em>treat and prevent odor?</em></h3>
             </AccordianItem>
           </div>
 
@@ -578,7 +543,7 @@ function MobileVersion() {
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                  <p className="text-mobile-p2 h-14 flex flex-col justify-center">READ FULL FAQ</p>
+                  <p className="text-mobile-p2 h-14 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>
@@ -628,12 +593,12 @@ function TabletVersion() {
         {/* MEET BOQUET SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 pb-8 lineHeight-tablet-59px">
-              Meet <em>Boquet</em>
+          A complex, scientific, beautiful ecosystem
           </h1>
           <p className="coreSans text-tablet-p1 pb-8 lineHeight-tablet-25px">
-            A vaginal prebiotic tablet that's gentle and restorative.
+          When our vaginal flora stays balanced with good bacteria,<br/> it has magnicifent abilities to preserve a protective pH.
           </p>
-          <Link
+          {/* <Link
               href="/our-story"
               passHref
           >
@@ -648,7 +613,7 @@ function TabletVersion() {
 
           <div style={{width: '145.453px'}} className="inline-block pt-8 h-40">
             <Image alt="boquet vaginal prebiotic pill icon gif" src={pillIconGif} />
-          </div>
+          </div> */}
         </div>
 
 
@@ -656,15 +621,15 @@ function TabletVersion() {
         {/* FOUR Rs SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-16">
           <div className="flex justify-evenly pb-16 gap-8">
-            <div className="h-fit-content w-1/2 flex flex-col justify-between">
+            <div className="h-fit-content w-1/2 flex flex-col justify-start">
               <div className="inline-block pb-8">
                 <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
-                Reduces
+              Remedy Odor
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
-                Reduces odor and infection causing bacteria
+              Displace odor causing amines
               </p>
             </div>
 
@@ -673,10 +638,10 @@ function TabletVersion() {
                 <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
-                Relieves
+              Replenish Flora
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
-                Relieves irritation and improves dryness
+              Prevent growth of infection causing bacteria
               </p>
             </div>
           </div>
@@ -687,22 +652,22 @@ function TabletVersion() {
                 <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
-                Replenishes
+              Relieve Irritation
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
-                Replenishes the vaginal flora's natural protective state
+              Stimulate protective and healing bacteria
               </p>
             </div>
 
-            <div className="h-fit-content w-1/2 flex flex-col justify-between">
+            <div className="h-fit-content w-1/2 flex flex-col justify-start">
               <div className="inline-block pb-8">
                 <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
               <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
-                Restores
+              Restore pH
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
-                Restores vaginal PH without stripping good bacteria
+              Maintain a balanced, protective pH
               </p>
             </div>
 
@@ -817,19 +782,20 @@ function TabletVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-16">
-            Learn
+            Some more info
           </h1>
 
           <div className="pb-8">
-            <AccordianItem  answer="The term “vaginal flora” is used to describe the microorganisms or bacteria that populate the vaginal lining. A healthy vaginal flora is dominated by various lactobacillus species which creates a protective barrier with a slightly acidic pH reducing the adhesion of other harmful microorganisms.">
-                <h3 className="text-tablet-h3 lineHeight-tablet-42px">What is a <em>vaginal flora</em> and what does it do?</h3>
+            <AccordianItem  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when urinating. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                <h3 className="text-tablet-h3 lineHeight-tablet-42px">What are <em>symptoms of pH imbalance?</em></h3>
             </AccordianItem>
           </div>
         
 
           <div className="pb-16">
-            <AccordianItem  answer="Signals your pH may be off include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
-                <h3 className="text-tablet-h3 lineHeight-tablet-42px">What happens when your <em>vaginal pH balance</em> is off?</h3>
+            <AccordianItem  answer="Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).
+An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.">
+                <h3 className="text-tablet-h3 lineHeight-tablet-42px">How does Boquet <em>treat and prevent odor?</em></h3>
             </AccordianItem>
           </div>
 
@@ -838,7 +804,7 @@ function TabletVersion() {
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                  <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
+                  <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>

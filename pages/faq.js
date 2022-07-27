@@ -18,18 +18,18 @@ function FAQPage() {
                         </h2>
                     </div>
                     <div className="w-2/3">
-                        <AccordianItem answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by licensed pharmacist Esther Nhain Lee.">
+                        <AccordianItem answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by a licensed pharmacist.">
                             <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is Boquet?</h3>
                         </AccordianItem>
 
                         <div className="pt-8">
-                            <AccordianItem  answer={<h3>You can find all the information and detailed explanations regarding direct usage of Boquet's Vaginal Prebiotic on our&nbsp;
+                            <AccordianItem  answer={<h3>You can find all the information and detailed explanations regarding usage of Boquet's Vaginal Prebiotic on our&nbsp;
                             <Link
                                 href="/learn"
                                 passHref
                             >
                                 <a className="inline-block underline" aria-label="learn">
-                                Learn: Vaginal 101 page
+                                Learn page
                                 </a>
                             </Link>.</h3>}>
                                 <h3 className="text-desktop-h3 lineHeight-desktop-normal">When and how should I use Boquet?</h3>
@@ -46,18 +46,12 @@ function FAQPage() {
                         </h2>
                     </div>
                     <div className="w-2/3">
-                        <AccordianItem answer="We offer free shipping on all US orders of $60 or more (excluding taxes). For orders under $60, standard shipping costs $5.90.">
-                            <h3 className="text-desktop-h3 lineHeight-desktop-normal">Do you offer <em>free shipping?</em></h3>
+                        <AccordianItem  answer="Unfortunately, we do not ship internationally at this time.">
+                            <h3 className="text-desktop-h3 lineHeight-desktop-normal">Do you <em>ship internationally?</em></h3>
                         </AccordianItem>
 
                         <div className="pt-8">
-                            <AccordianItem  answer="Unfortunately, we do not ship internationally at this time.">
-                                <h3 className="text-desktop-h3 lineHeight-desktop-normal">Do you <em>ship internationally?</em></h3>
-                            </AccordianItem>
-                        </div>
-
-                        <div className="pt-8">
-                            <AccordianItem  answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 3-9 business days to arrive. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
+                            <AccordianItem  answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 2-5 business days to arrive with standard shipping. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
                                 <h3 className="text-desktop-h3 lineHeight-desktop-normal"><em>Where will my order ship from</em> and <em>how long will it take</em> to arrive?</h3>
                             </AccordianItem>
                         </div>
@@ -77,7 +71,9 @@ function FAQPage() {
                         </AccordianItem>
 
                         <div className="pt-8">
-                            <AccordianItem  answer="We accept return products within 30  days of receipt. Please contact us at [insert email] with your order number to start the return process.">
+                            <AccordianItem  answer={<>
+                            Please contact us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a> with your order number to start the return process.
+                            </>}>
                                 <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is Boquet's <em>return policy?</em></h3>
                             </AccordianItem>
                         </div>
@@ -92,7 +88,7 @@ function FAQPage() {
                         </h2>
                     </div>
                     <div className="w-2/3">
-                        <AccordianItem answer={<>If you have any questions or concerns, please feel free to reach out to us at [insert email]. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at [insert email].</>}>
+                        <AccordianItem answer={<>If you have any questions or concerns, please feel free to reach out to us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>.</>}>
                             <h3 className="text-desktop-h3 lineHeight-desktop-normal">How else can I reach you?</h3>
                         </AccordianItem>
                     </div>
@@ -112,18 +108,18 @@ function FAQPage() {
                         </h1>
                     </div>
                     <div className="w-full">
-                        <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by licensed pharmacist Esther Nhain Lee.">
+                        <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by a licensed pharmacist.">
                             <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is Boquet?</h3>
                         </AccordianItem>
 
                         <div className="pt-6">
-                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<h3>You can find all the information and detailed explanations regarding direct usage of Boquet's Vaginal Prebiotic on our&nbsp;
+                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<h3>You can find all the information and detailed explanations regarding usage of Boquet's Vaginal Prebiotic on our&nbsp;
                             <Link
                                 href="/learn"
                                 passHref
                             >
                                 <a className="inline-block underline" aria-label="learn">
-                                Learn: Vaginal 101 page
+                                Learn page
                                 </a>
                             </Link>.</h3>}>
                                 <h3 className="text-mobile-h3 lineHeight-mobile-39px">When and how should I use Boquet?</h3>
@@ -140,18 +136,13 @@ function FAQPage() {
                         </h1>
                     </div>
                     <div className="w-full">
-                        <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="We offer free shipping on all US orders of $60 or more (excluding taxes). For orders under $60, standard shipping costs $5.90.">
-                            <h3 className="text-mobile-h3 lineHeight-mobile-39px">Do you offer <em>free shipping?</em></h3>
-                        </AccordianItem>
-
-                        <div className="pt-6">
+                        
                             <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Unfortunately, we do not ship internationally at this time.">
                                 <h3 className="text-mobile-h3 lineHeight-mobile-39px">Do you <em>ship internationally?</em></h3>
                             </AccordianItem>
-                        </div>
 
                         <div className="pt-6">
-                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 3-9 business days to arrive. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
+                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 2-5 business days to arrive with standard shipping. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
                                 <h3 className="text-mobile-h3 lineHeight-mobile-39px"><em>Where will my order ship from</em> and <em>how long will it take</em> to arrive?</h3>
                             </AccordianItem>
                         </div>
@@ -171,7 +162,9 @@ function FAQPage() {
                         </AccordianItem>
 
                         <div className="pt-6">
-                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="We accept return products within 30  days of receipt. Please contact us at [insert email] with your order number to start the return process.">
+                            <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>
+                            Please contact us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a> with your order number to start the return process.
+                            </>}>
                                 <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is Boquet's <em>return policy?</em></h3>
                             </AccordianItem>
                         </div>
@@ -186,7 +179,7 @@ function FAQPage() {
                         </h1>
                     </div>
                     <div className="w-full">
-                        <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>If you have any questions or concerns, please feel free to reach out to us at [insert email]. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at [insert email].</>}>
+                        <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer={<>If you have any questions or concerns, please feel free to reach out to us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>.</>}>
                             <h3 className="text-mobile-h3 lineHeight-mobile-39px">How else can I reach you?</h3>
                         </AccordianItem>
                     </div>
@@ -206,18 +199,18 @@ function FAQPage() {
                         </h2>
                     </div>
                     <div className="w-full">
-                        <AccordianItem answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by licensed pharmacist Esther Nhain Lee.">
+                        <AccordianItem answer="Boquet offers prebiotic vaginal tablets that promote the growth of the vaginal flora's protective good bacteria, lactobacillus. Founded in New York City by a licensed pharmacist.">
                             <h3 className="text-tablet-h3 lineHeight-tablet-42px">What is Boquet?</h3>
                         </AccordianItem>
 
                         <div className="pt-8">
-                            <AccordianItem  answer={<h3>You can find all the information and detailed explanations regarding direct usage of Boquet's Vaginal Prebiotic on our&nbsp;
+                            <AccordianItem  answer={<h3>You can find all the information and detailed explanations regarding usage of Boquet's Vaginal Prebiotic on our&nbsp;
                             <Link
                                 href="/learn"
                                 passHref
                             >
                                 <a className="inline-block underline" aria-label="learn">
-                                Learn: Vaginal 101 page
+                                Learn page
                                 </a>
                             </Link>.</h3>}>
                                 <h3 className="text-tablet-h3 lineHeight-tablet-42px">When and how should I use Boquet?</h3>
@@ -234,18 +227,13 @@ function FAQPage() {
                         </h2>
                     </div>
                     <div className="w-full">
-                        <AccordianItem answer="We offer free shipping on all US orders of $60 or more (excluding taxes). For orders under $60, standard shipping costs $5.90.">
-                            <h3 className="text-tablet-h3 lineHeight-tablet-42px">Do you offer <em>free shipping?</em></h3>
-                        </AccordianItem>
-
-                        <div className="pt-8">
                             <AccordianItem  answer="Unfortunately, we do not ship internationally at this time.">
                                 <h3 className="text-tablet-h3 lineHeight-tablet-42px">Do you <em>ship internationally?</em></h3>
                             </AccordianItem>
-                        </div>
+        
 
                         <div className="pt-8">
-                            <AccordianItem  answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 3-9 business days to arrive. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
+                            <AccordianItem  answer="Once processed, parcels are shipped from New York by the United States Postal Service, UPS, or Fedex. It typically takes 2-5 business days to arrive with standard shipping. With the possible exception of shipments during special holidays, our orders are typically processed within 1-2 business days from when the order was placed.">
                                 <h3 className="text-tablet-h3 lineHeight-tablet-42px"><em>Where will my order ship from</em> and <em>how long will it take</em> to arrive?</h3>
                             </AccordianItem>
                         </div>
@@ -265,7 +253,9 @@ function FAQPage() {
                         </AccordianItem>
 
                         <div className="pt-8">
-                            <AccordianItem  answer="We accept return products within 30  days of receipt. Please contact us at [insert email] with your order number to start the return process.">
+                            <AccordianItem  answer={<>
+                            Please contact us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a> with your order number to start the return process.
+                            </>}>
                                 <h3 className="text-tablet-h3 lineHeight-tablet-42px">What is Boquet's <em>return policy?</em></h3>
                             </AccordianItem>
                         </div>
@@ -280,7 +270,7 @@ function FAQPage() {
                         </h1>
                     </div>
                     <div className="w-full">
-                        <AccordianItem answer={<>If you have any questions or concerns, please feel free to reach out to us at [insert email]. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at [insert email].</>}>
+                        <AccordianItem answer={<>If you have any questions or concerns, please feel free to reach out to us at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>. We will get back to you as soon as possible. <br/> <br/> For press opportunities and inquiries, please send us an email at <a href="mailto:care@withboquet.com"><u>care@withboquet.com</u></a>.</>}>
                             <h3 className="text-tablet-h3 lineHeight-tablet-42px">How else can I reach you?</h3>
                         </AccordianItem>
                     </div>
