@@ -267,12 +267,12 @@ function ShopPage({ productData }) {
         </div>
 
 
-        {/* "For all the times your vagina is feeling a little off."" SECTION */}
+        {/* "For all the times your vagina is feeling a little off."" SECTION
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-40 pt-32">
             <h2 className="ivyPrestoThin text-8xl w-3/4 desktop-oneOff-md lineHeight-desktop-113">
                 For all the times your <br/> vagina is <em>feeling a little off.</em>
             </h2>
-        </div>
+        </div> */}
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
@@ -329,7 +329,7 @@ function ShopPage({ productData }) {
         {/* THE SCIENCE BEHIND BOQUET */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-32 pb-24">
             <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-normal">
-                <em>The science</em> behind Boquet
+                Some more <em>info</em>
             </h1>
 
             <div className="pt-12">
@@ -483,11 +483,11 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-10">
+        {/* <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-10">
             <h2 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px w-full">
                 For all the times your vagina is <em>feeling a little off.</em>
             </h2>
-        </div>
+        </div> */}
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
@@ -544,7 +544,7 @@ function ShopPage({ productData }) {
         {/* THE SCIENCE BEHIND BOQUET */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-12">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px">
-                <em>The science</em><br/> behind Boquet
+            Some more <em>info</em>
             </h1>
 
             <div className="pt-12">
@@ -701,11 +701,11 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-16">
+        {/* <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-16">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12">
                 For all the times your vagina is <em>feeling a little off.</em>
             </h1>
-        </div>
+        </div> */}
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
@@ -762,7 +762,7 @@ function ShopPage({ productData }) {
         {/* THE SCIENCE BEHIND BOQUET */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px">
-                <em>The science</em> behind Boquet
+            Some more <em>info</em>
             </h1>
 
             <div className="pt-16">

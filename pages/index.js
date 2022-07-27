@@ -68,7 +68,7 @@ function DesktopVersion() {
         {/* MEET BOQUET SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
           <h1 style={{paddingBottom: '1.5rem'}} className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
-          A complex, scientific, beautiful ecosystem
+          Flourish your flora
           </h1>
           <p className="coreSans text-desktop-p1 pb-8">
           When our vaginal flora stays balanced with good bacteria,<br/> it has magnicifent abilities to preserve a protective pH.
@@ -259,7 +259,7 @@ function DesktopVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-20">
           <h1 className="ivyPrestoThin text-desktop-h1 pb-16 lineHeight-desktop-normal">
-            Some more info
+            Some more <em>info</em>
           </h1>
 
           <div className="pb-14">
@@ -334,7 +334,7 @@ function MobileVersion() {
         {/* MEET BOQUET SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
           <h1 className="ivyPrestoThin text-mobile-h1 pb-2">
-          A complex, scientific, beautiful ecosystem
+          Flourish your flora
           </h1>
           <p className="coreSans text-mobile-p1 pb-6 lineHeight-mobile-22px">
           When our vaginal flora stays balanced with good bacteria, <br/> it has magnicifent abilities to preserve a protective pH.
@@ -523,7 +523,7 @@ function MobileVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-10">
           <h1 className="ivyPrestoThin text-mobile-h1 pb-4">
-            Some more info
+            Some more <em>info</em>
           </h1>
 
           <div className="pb-8">
@@ -596,7 +596,7 @@ function TabletVersion() {
         {/* MEET BOQUET SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 pb-8 lineHeight-tablet-59px">
-          A complex, scientific, beautiful ecosystem
+          Flourish your flora
           </h1>
           <p className="coreSans text-tablet-p1 pb-8 lineHeight-tablet-25px">
           When our vaginal flora stays balanced with good bacteria,<br/> it has magnicifent abilities to preserve a protective pH.
@@ -785,7 +785,7 @@ function TabletVersion() {
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-16">
-            Some more info
+            Some more <em>info</em>
           </h1>
 
           <div className="pb-8">
