@@ -42,7 +42,8 @@ function DesktopVersion() {
                 layout="fill"
                 objectFit="cover"
                 quality={100}
-                className="z-0"
+                className="z-0 image-blur-duration"
+                placeholder="blur"
                 priority={true}
             />
 
@@ -306,8 +307,9 @@ function MobileVersion() {
               layout="fill"
               objectFit="cover"
               quality={100}
-              className="z-0"
               priority={true}
+              className="z-0 image-blur-duration"
+              placeholder="blur"
           />
 
 
@@ -567,7 +569,8 @@ function TabletVersion() {
             layout="fill"
             objectFit="cover"
             quality={100}
-            className="z-0"
+            className="z-0 image-blur-duration"
+            placeholder="blur"
             priority={true}
           />
           

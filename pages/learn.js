@@ -93,7 +93,7 @@ function LearnPage() {
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
         {/* <img alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} src="/images/vaginal-health-101-with-boquet.png" /> */}
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} />
+        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
       </div>
 
 
@@ -317,7 +317,7 @@ function LearnPage() {
         <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-10">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} />
+        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
       </div>
 
 
@@ -541,7 +541,7 @@ function LearnPage() {
         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-10 w-10/12">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} />
+        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoad={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration'/>
       </div>
 
 

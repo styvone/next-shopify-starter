@@ -18,10 +18,10 @@ function DesktopVersion() {
             </h2>
             <div className="flex justify-start">
                 <div style={{height: '352px', width: '541px'}} className="inline-block relative mr-8">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" priority={true} quality={100} />
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
                 <div style={{height: '352px', width: '313px'}} className="inline-block relative">
-                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" priority={true} quality={100} />
+                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
             </div>
         </div>
@@ -108,10 +108,10 @@ function MobileVersion() {
             </h1>
             <div className="flex justify-between">
                 <div style={{paddingRight: '16px'}} className="flex flex-col justify-start w-1/2">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} />
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
                 <div className="inline-block w-1/2">
-                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} />
+                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
             </div>
         </div>
@@ -201,12 +201,12 @@ function TabletVersion() {
 
                 {/* <img style={{height: '273px'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" /> */}
                 <div style={{width: '419.578px'}} className="inline-block">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} />
+                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
                 {/* <img style={{height: '273px'}} alt="nhain portrait" src="/images/nhain.png" /> */}
                 
                 <div style={{width: '242.75px'}} className="inline-block">
-                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} />
+                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
                 </div>
             </div>
         </div>
