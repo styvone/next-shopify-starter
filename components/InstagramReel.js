@@ -4,12 +4,14 @@ import Image from 'next/image';
 
 function imageWrapper(src, href) {
   return (
-    <div className="h-48 w-48 overflow-hidden inline-block mr-8 rounded-lg">
+    <div className="h-48 w-48 overflow-hidden inline-block mr-8 rounded-3xl">
       <Link
         href={href}
         passHref
       >
-        <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} priority={true} />
+        <a target="_blank">
+          <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} priority={true} />
+        </a>
       </Link>
     </div>
   );
@@ -42,7 +44,7 @@ function InstagramReel() {
                     href="https://www.instagram.com/withboquet/"
                     passHref
                   >
-                    <a>
+                    <a target="_blank">
                       <p className="coreSans text-desktop-p2">
                         <u>FOLLOW US ON INSTAGRAM +</u>
                       </p>
@@ -64,7 +66,7 @@ function InstagramReel() {
                     href="https://www.instagram.com/withboquet/"
                     passHref
                   >
-                    <a>
+                    <a target="_blank">
                       <p className="coreSans text-mobile-p2">
                         <u>FOLLOW US ON INSTAGRAM +</u>
                       </p>
@@ -86,7 +88,7 @@ function InstagramReel() {
                     href="https://www.instagram.com/withboquet/"
                     passHref
                   >
-                    <a>
+                    <a target="_blank">
                       <p className="coreSans text-tablet-p2">
                         <u>FOLLOW US ON INSTAGRAM +</u>
                       </p>

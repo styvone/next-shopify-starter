@@ -183,7 +183,7 @@ function ShopPage({ productData }) {
                         Boquet <em>Vaginal Prebiotic</em>
                     </h1>
                     <p className="coreSans text-desktop-p2 pb-8">
-                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
+                    An easy-to-use vaginal tablet that promotes a protective pH and relieves odor and irritation.
                     </p>
                     <p className="coreSans text-desktop-p3">
                     * When displaying symptoms of pH imbalance
@@ -243,7 +243,7 @@ function ShopPage({ productData }) {
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
                             • Insert vaginally. Do not take orally.
                             <br/>
-                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                            • Do not use Boquet Vaginal Prebiotics if you have an allergy to milk.
                             <br/>
                             • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
@@ -352,7 +352,7 @@ function ShopPage({ productData }) {
 
             <div className="pt-12 pb-16">
                 <AccordianItem  answer={<>
-                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    Boquet Vaginal Prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
                     
                     An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
                 </>}>
@@ -365,7 +365,7 @@ function ShopPage({ productData }) {
                 passHref
             >
                 <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                    <p className="text-desktop-p2 h-24 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
+                    <p className="text-desktop-p2 h-24 flex flex-col justify-center">LEARN MORE</p>
                 </a>
             </Link>
         </div>
@@ -396,7 +396,7 @@ function ShopPage({ productData }) {
                 <div className="pb-16">
 
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
-                    An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
+                    An easy-to-use vaginal tablet that promotes a protective pH and relieves odor and irritation.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
                     * When displaying symptoms of pH imbalance
@@ -462,7 +462,7 @@ function ShopPage({ productData }) {
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
                             • Insert vaginally. Do not take orally.
                             <br/>
-                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                            • Do not use Boquet Vaginal Prebiotics if you have an allergy to milk.
                             <br/>
                             • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
@@ -571,7 +571,7 @@ function ShopPage({ productData }) {
             <div className="pt-8 pb-10">
                 <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer={
                     <>
-                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    Boquet Vaginal Prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
                     An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
                     </>                }>
                     <h3 className="text-mobile-h3 lineHeight-mobile-39px">How does Boquet <em>treat and prevent odor?</em></h3>
@@ -583,7 +583,7 @@ function ShopPage({ productData }) {
                 passHref
             >
                 <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                    <p className="text-mobile-p1 lineHeight-mobile-22px h-14 flex flex-col justify-center">READ FULL FAQ</p>
+                    <p className="text-mobile-p1 lineHeight-mobile-22px h-14 flex flex-col justify-center">LEARN MORE</p>
                 </a>
             </Link>
         </div>
@@ -616,7 +616,7 @@ function ShopPage({ productData }) {
 
                     <div className="w-10/12">
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8">
-                        An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
+                        An easy-to-use vaginal tablet that promotes a protective pH and relieves odor and irritation.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
                         * When displaying symptoms of pH imbalance
@@ -683,7 +683,7 @@ function ShopPage({ productData }) {
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
                             • Insert vaginally. Do not take orally.
                             <br/>
-                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                            • Do not use Boquet Vaginal Prebiotics if you have an allergy to milk.
                             <br/>
                             • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
@@ -792,7 +792,7 @@ function ShopPage({ productData }) {
             <div className="pt-8 pb-16">
                 <AccordianItem  answer={
                     <>
-                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    Boquet Vaginal Prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
                     An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
                     </>
                 }>
@@ -805,7 +805,7 @@ function ShopPage({ productData }) {
                 passHref
             >
                 <a style={{borderColor: '#283F91'}} className="longPillButtonGradientHoverAnimation relative coreSans border border-black flex justify-center rounded-full" aria-label="shop">
-                    <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">CHECK OUT VAGINAL HEALTH 101</p>
+                    <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">LEARN MORE</p>
                 </a>
             </Link>
         </div>

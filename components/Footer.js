@@ -54,16 +54,8 @@ function Footer() {
                   href="https://www.instagram.com/withboquet/"
                   passHref
                 >
-                  <a className="px-8 py-1 relative" aria-label="shop">
+                  <a target="_blank" className="px-8 py-1 relative" aria-label="shop">
                     <p className="coreSans text-desktop-p3">INSTAGRAM</p>
-                  </a>
-                </Link>
-                <Link
-                  href="/fb"
-                  passHref
-                >
-                  <a className="px-8 py-1 relative coreSans" aria-label="shop">
-                    <p className="coreSans text-desktop-p3">FACEBOOK</p>
                   </a>
                 </Link>
               </div>
@@ -139,16 +131,8 @@ function Footer() {
                   href="https://www.instagram.com/withboquet/"
                   passHref
                 >
-                  <a className="relative" aria-label="shop">
+                  <a target="_blank" className="relative" aria-label="shop">
                     <p className="coreSans text-mobile-p3">INSTAGRAM</p>
-                  </a>
-                </Link>
-                <Link
-                  href="/fb"
-                  passHref
-                >
-                  <a className="py-3 relative coreSans" aria-label="shop">
-                    <p className="coreSans text-mobile-p3">FACEBOOK</p>
                   </a>
                 </Link>
               </div>
@@ -222,16 +206,8 @@ function Footer() {
                   href="https://www.instagram.com/withboquet/"
                   passHref
                 >
-                  <a className="px-8 pb-2 relative" aria-label="shop">
+                  <a target="_blank" className="px-8 pb-2 relative" aria-label="shop">
                     <p className="coreSans text-tablet-p3">INSTAGRAM</p>
-                  </a>
-                </Link>
-                <Link
-                  href="/fb"
-                  passHref
-                >
-                  <a className="px-8 relative coreSans" aria-label="shop">
-                    <p className="coreSans text-tablet-p3">FACEBOOK</p>
                   </a>
                 </Link>
               </div>

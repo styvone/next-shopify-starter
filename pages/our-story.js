@@ -17,7 +17,7 @@ function DesktopVersion() {
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-20 pt-20">
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-123 w-9/12 pb-12">
-                For your <em>flora below.</em>
+                For your <em>flora below</em>
             </h2>
             <div className="flex justify-start">
                 <div style={{height: '352px', width: '541px'}} className="inline-block relative mr-8">
@@ -76,7 +76,7 @@ function DesktopVersion() {
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pt-16 pb-24">
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-10/12 pb-24">
-                We believe that our vaginas <em>deserve to be celebrated.</em>
+                We believe that our vaginas <em>deserve to be celebrated</em>
             </h2>
             <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} quality={100} />
         </div>
@@ -126,7 +126,7 @@ function MobileVersion() {
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pb-14 pt-12">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px w-full pb-8">
-                For your <em>flora below.</em>
+                For your <em>flora below</em>
             </h1>
             <div className="flex justify-between">
                 <div style={{paddingRight: '16px'}} className="flex flex-col justify-start w-1/2">
@@ -183,7 +183,7 @@ function MobileVersion() {
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pt-8 pb-10">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px w-full pb-10">
-                We believe that our vaginas <em>deserve to be celebrated.</em>
+                We believe that our vaginas <em>deserve to be celebrated</em>
             </h1>
             <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} quality={100} />
         </div>
@@ -234,7 +234,7 @@ function TabletVersion() {
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center pb-10 pt-12">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-9/12 pb-8">
-                For your <em>flora below.</em>
+                For your <em>flora below</em>
             </h1>
             <div className="flex justify-between">
 
@@ -295,7 +295,7 @@ function TabletVersion() {
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center py-10">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12 pb-8">
-                We believe that our vaginas <em>deserve to be celebrated.</em>
+                We believe that our vaginas <em>deserve to be celebrated</em>
             </h1>
             <Image alt="we believe that our vaginas deserve to be celebrated banner image" src={weBelieveVaginasCelebratedImage} priority={true} quality={100} />
         </div>

@@ -150,11 +150,11 @@ function DesktopVersion() {
             </div>
           </div>
           <Link
-              href="/shop"
+              href="/learn"
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
-                  <p className="text-desktop-p2 h-24 flex flex-col justify-center">SHOP BOQUET</p>
+                  <p className="text-desktop-p2 h-24 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>
@@ -419,11 +419,11 @@ function MobileVersion() {
             </div>
           </div>
           <Link
-              href="/shop"
+              href="/learn"
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
-                  <p className="text-mobile-p2 flex flex-col justify-center h-14">SHOP BOQUET</p>
+                  <p className="text-mobile-p2 flex flex-col justify-center h-14">LEARN MORE</p>
               </a>
           </Link>
         </div>
@@ -687,11 +687,11 @@ function TabletVersion() {
 
           </div>
           <Link
-              href="/shop"
+              href="/learn"
               passHref
           >
-              <a style={{borderColor: '#283F91', color: '#283F91', paddingRight: '40px'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
-                  <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">SHOP BOQUET</p>
+              <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
+                  <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>
