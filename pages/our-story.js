@@ -42,7 +42,7 @@ function DesktopVersion() {
                 Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-desktop-p1">
-                — ESTHER NHAIN LEE, PharmD, Rph.
+                — Esther Nhain Lee, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-desktop-p1">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>
@@ -62,7 +62,7 @@ function DesktopVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
             <div className="h-fit-content w-7/12">
                 <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-10/12 pb-12">
-                At Boquet, <em>we believe that all vaginas need better care and attention.</em>
+                At Boquet, <em>we believe vaginas deserve better care and attention.</em>
                 </h2>
                 <p className="coreSans text-desktop-p1 pb-4">
                 We know firsthand that caring for our vagina is not a topic that is talked about enough. Double standards, shame, embarrassment — something always tries to stop us.
@@ -71,10 +71,7 @@ function DesktopVersion() {
                 Whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrassed by, <em>you are never alone</em> in what you are going through. Finding safe connections in our vulnerabilities and learning how to care for ourselves is an empowering form of preventative care.
                 </p>
                 <p className="coreSans text-desktop-p1 pb-4">
-                Through Boquet, we hope to be a reminder to continually nurture the good in our lives, while our amazing protective vaginal flora stays flourishing.
-                </p>
-                <p className="coreSans text-desktop-p1 pb-4">
-                In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
+                Although appropriate at times, it is not always about stripping away the bad (bacteria) but about nurturing the good. In the moments when you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
                 </p>
             </div>
         </div>
@@ -132,7 +129,7 @@ function MobileVersion() {
                 Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                — ESTHER NHAIN LEE, PharmD, Rph.
+                — Esther Nhain Lee, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-mobile-p1 lineHeight-mobile-22px">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>
@@ -152,7 +149,7 @@ function MobileVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-end pb-6"> 
             <div className="h-fit-content w-full">
                 <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px w-full pb-8">
-                At Boquet, <em>we believe that all vaginas need better care and attention.</em>
+                At Boquet, <em>we believe vaginas deserve better care and attention.</em>
                 </h2>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
                 We know firsthand that caring for our vagina is not a topic that is talked about enough. Double standards, shame, embarrassment — something always tries to stop us.
@@ -161,10 +158,7 @@ function MobileVersion() {
                 Whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrassed by, <em>you are never alone</em> in what you are going through. Finding safe connections in our vulnerabilities and learning how to care for ourselves is an empowering form of preventative care.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
-                Through Boquet, we hope to be a reminder to continually nurture the good in our lives, while our amazing protective vaginal flora stays flourishing.
-                </p>
-                <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-6">
-                In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
+                Although appropriate at times, it is not always about stripping away the bad (bacteria) but about nurturing the good. In the moments when you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
                 </p>
             </div>
         </div>
@@ -227,7 +221,7 @@ function TabletVersion() {
                 Whether we are busy with work, dating, studying, partying, traveling, or raising children, it is easy to miss the signs that our bodies may be stressed. The hope that we take more moments to care for and celebrate ourselves is what led to the creation of Boquet.
                 </p>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                — ESTHER NHAIN LEE, PharmD, Rph.
+                — Esther Nhain Lee, PharmD, Rph.
                 </p>
                 <p className="ivyPrestoThin text-tablet-p1 lineHeight-tablet-25px">
                 <em>Pharmacist by trade, Lover of cats, Founder of Boquet</em>
@@ -247,19 +241,16 @@ function TabletVersion() {
         <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-10"> 
             <div className="h-fit-content w-10/12">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px w-full pb-8">
-                At Boquet, <em>we believe that all vaginas need better care and attention.</em>
+                At Boquet, <em>we believe vaginas deserve better care and attention.</em>
                 </h2>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
                 We know firsthand that caring for our vagina is not a topic that is talked about enough. Double standards, shame, embarrassment — something always tries to stop us.
                 </p>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
-                But whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrased by, trust that someone else has gone through it before and be reassured.
+                Whether it's a sexual experience that didn't feel quite right or your body showing signs of an infection you feel embarrassed by, you are never alone in what you are going through. Finding safe connections in our vulnerabilities and learning how to care for ourselves is an empowering form of preventative care.
                 </p>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
-                Here's the thing: Not talking about anything only holds us back and taking the steps to talk about our experiences is the solution. Learning how to care for our vaginas is an empowering form of preventative care.
-                </p>
-                <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
-                Through Boquet, we hope to finally notice our vaginas and open up real conversations. In the moments when things feel a little off down there or you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
+                Although appropriate at times, it is not always about stripping away the bad (bacteria) but about nurturing the good. In the moments when you want to support your vaginal flora, remember: Our vagina's deserve to be celebrated for all the work it's done and will continue to do.
                 </p>
             </div>
         </div>

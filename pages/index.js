@@ -48,7 +48,7 @@ function DesktopVersion() {
             />
 
             <h1 className="ivyPrestoThin text-desktop-h1 w-7/12 pb-8 lineHeight-desktop-123 pt-20 z-10">
-              Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
+              Finally, a <em>natural way</em> to enhance our <em>vagina's good bacteria.</em>
             </h1>
             <Link
                 href="/shop"
@@ -315,7 +315,7 @@ function MobileVersion() {
 
 
           <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px z-10">
-            Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
+            Finally, a <em>natural way</em> to enhance our <em>vagina's good bacteria.</em>
           </h2>
           <Link
               href="/shop"
@@ -577,7 +577,7 @@ function TabletVersion() {
           
           
           <h1 className="ivyPrestoThin text-tablet-h1 w-10/12 pt-20 pb-8 lineHeight-tablet-59px z-10">
-            Finally, a <em>natural way</em> to enhance your <em>vagina's good bacteria.</em>
+            Finally, a <em>natural way</em> to enhance our <em>vagina's good bacteria.</em>
           </h1>
           <Link
               href="/shop"
