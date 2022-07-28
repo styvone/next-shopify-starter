@@ -175,13 +175,13 @@ function ShopPage({ productData }) {
                     An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-desktop-p3">
-                    * Right before period when experiencing pH changes
+                    * When displaying symptoms of pH imbalance
                     </p>
                     <p className="coreSans text-desktop-p3">
-                    * After period and sex to replenish flora
+                    * Before and/or after your period when experiencing hormonal changes
                     </p>
                     <p className="coreSans text-desktop-p3 pb-20">
-                    * Relief of irritation from stress or other external factors
+                    * Before and/or after sex to replenish the vaginal flora
                     </p>
 
 
@@ -283,7 +283,7 @@ function ShopPage({ productData }) {
                     To restore
                 </h2>
                 <p className="coreSans text-desktop-p1 pb-16">
-                Restore your vaginal flora or when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+                Restore your vaginal flora when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
                 </p>
                 <h2 className="ivyPrestoThin text-desktop-h2 pb-4 lineHeight-desktop-120">
                     To maintain
@@ -311,7 +311,7 @@ function ShopPage({ productData }) {
                     Inserting Boquet
                 </h2>
                 <p className="coreSans text-desktop-p1 w-11/12 pb-8">
-                Use clean fingers or an applicator to insert 1 Boquet tablet gently into the vagina as far up as you are comfortable.
+                Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-desktop-p3">
                 * Laying flat on your back is recommended.
@@ -334,24 +334,18 @@ function ShopPage({ productData }) {
             </h1>
 
             <div className="pt-12">
-                <AccordianItem answer="Boquet's vaginal tablet is made with the prebiotic lactose which promotes the growth of lactobacillus, our beneficial bacteria. Lactobacillus has a high affinity to vaginal cell receptors, produces lactic acid from lactose and produces hydrogen peroxide. The lower pH from lactic acid and the presence of hydrogen peroxide is not tolerated by many organisms. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.">
-                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is <em>Boquet's vaginal prebiotic?</em></h3>
-                </AccordianItem>
-            </div>
-
-            <div className="pt-12">
-                <AccordianItem  answer={<>
-                You aren't alone! Vaginal pH can increase around menstruation due to hormone fluctuations and sometimes during intercourse. The causes are not due to poor hygiene and it is not a sexually transmitted infection. Some risk factors include scented soaps, douching, stress and smoking.
-                <br/><br/>
-                The most common form of vaginal imbalance shows up as bacterial vaginosis. 1 in 3 individuals with vaginas in the U.S. between the age of 14 to 49 will experience imbalances in their flora that lead to bacterial vaginosis.
-                </>}>
-                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">How common are <em>vaginal imbalances?</em></h3>
+                <AccordianItem answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">What are <em>symptoms of pH imbalance?</em></h3>
                 </AccordianItem>
             </div>
 
             <div className="pt-12 pb-16">
-                <AccordianItem  answer="An overgrowth of pathogens (gardnerella vaginalis) produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which prevents the adhesion and growth of odor causing bacteria to the vaginal epithelium.">
-                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is the <em>science behind the causes of vaginal odor?</em></h3>
+                <AccordianItem  answer={<>
+                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    
+                    An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
+                </>}>
+                    <h3 className="text-desktop-h3 lineHeight-desktop-normal">How does Boquet <em>treat and prevent odor?</em></h3>
                 </AccordianItem>
             </div>
 
@@ -385,13 +379,13 @@ function ShopPage({ productData }) {
                     An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                    * Right before period when experiencing pH changes
+                    * When displaying symptoms of pH imbalance
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                    * After period and sex to replenish flora
+                    * Before and/or after your period when experiencing hormonal changes
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-12">
-                    * Relief of irritation from stress or other external factors
+                    * Before and/or after sex to replenish the vaginal flora
                     </p>
 
                     <div className="flex flex-col justify-between">
@@ -501,7 +495,7 @@ function ShopPage({ productData }) {
                     To Restore
                 </h2>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-10">
-                Restore your vaginal flora or when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+                Restore your vaginal flora when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
                 </p>
                 <h2 className="ivyPrestoThin text-mobile-h2 pb-2 lineHeight-mobile-35px">
                     To Maintain
@@ -526,7 +520,7 @@ function ShopPage({ productData }) {
                     Inserting Boquet
                 </h2>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-4">
-                Use clean fingers or an applicator to insert 1 Boquet tablet gently into the vagina as far up as you are comfortable.
+                Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
                 * Laying flat on your back is recommended.
@@ -549,24 +543,18 @@ function ShopPage({ productData }) {
             </h1>
 
             <div className="pt-12">
-                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Boquet's vaginal tablet is made with the prebiotic lactose which promotes the growth of lactobacillus, our beneficial bacteria. Lactobacillus has a high affinity to vaginal cell receptors, produces lactic acid from lactose and produces hydrogen peroxide. The lower pH from lactic acid and the presence of hydrogen peroxide is not tolerated by many organisms. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.">
-                    <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is <em>Boquet's vaginal prebiotic?</em></h3>
-                </AccordianItem>
-            </div>
-
-            <div className="pt-8">
-                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer={<>
-                You aren't alone! Vaginal pH can increase around menstruation due to hormone fluctuations and sometimes during intercourse. The causes are not due to poor hygiene and it is not a sexually transmitted infection. Some risk factors include scented soaps, douching, stress and smoking.
-                <br/><br/>
-                The most common form of vaginal imbalance shows up as bacterial vaginosis. 1 in 3 individuals with vaginas in the U.S. between the age of 14 to 49 will experience imbalances in their flora that lead to bacterial vaginosis.
-                </>}>
-                    <h3 className="text-mobile-h3 lineHeight-mobile-39px">How common are <em>vaginal imbalances?</em></h3>
+                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                    <h3 className="text-mobile-h3 lineHeight-mobile-39px">What are <em>symptoms of pH imbalance?</em></h3>
                 </AccordianItem>
             </div>
 
             <div className="pt-8 pb-10">
-                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="An overgrowth of pathogens (gardnerella vaginalis) produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which prevents the adhesion and growth of odor causing bacteria to the vaginal epithelium.">
-                    <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is the <em>science behind the causes of vaginal odor?</em></h3>
+                <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer={
+                    <>
+                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
+                    </>                }>
+                    <h3 className="text-mobile-h3 lineHeight-mobile-39px">How does Boquet <em>treat and prevent odor?</em></h3>
                 </AccordianItem>
             </div>
 
@@ -602,13 +590,13 @@ function ShopPage({ productData }) {
                         An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                        * Right before period when experiencing pH changes
+                        * When displaying symptoms of pH imbalance
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                        * After period and sex to replenish flora
+                        * Before and/or after your period when experiencing hormonal changes
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-12">
-                        * Relief of irritation from stress or other external factors
+                        * Before and/or after sex to replenish the vaginal flora
                         </p>
                     </div>
 
@@ -719,7 +707,7 @@ function ShopPage({ productData }) {
                     To Restore
                 </h2>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8">
-                Restore your vaginal flora or when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+                Restore your vaginal flora when displaying symptoms of pH imbalance by inserting 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
                 </p>
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px pb-4">
                     To Maintain
@@ -744,7 +732,7 @@ function ShopPage({ productData }) {
                     Inserting Boquet
                 </h2>
                 <p className="coreSans text-tablet-p1 lineHeight-tablet-25px w-10/12 pb-4">
-                Use clean fingers or an applicator to insert 1 Boquet tablet gently into the vagina as far up as you are comfortable.
+                Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-tablet-p3 lineHeight-tablet-20px">
                 * Laying flat on your back is recommended.
@@ -767,24 +755,19 @@ function ShopPage({ productData }) {
             </h1>
 
             <div className="pt-16">
-                <AccordianItem answer="Boquet's vaginal tablet is made with the prebiotic lactose which promotes the growth of lactobacillus, our beneficial bacteria. Lactobacillus has a high affinity to vaginal cell receptors, produces lactic acid from lactose and produces hydrogen peroxide. The lower pH from lactic acid and the presence of hydrogen peroxide is not tolerated by many organisms. When lactobacillus makes up the majority of the vaginal flora, it prevents the overgrowth of vaginal pathogenic organisms.">
-                    <h3 className="text-tablet-h3 lineHeight-tablet-42px">What is <em>Boquet's vaginal prebiotic?</em></h3>
-                </AccordianItem>
-            </div>
-
-            <div className="pt-8">
-                <AccordianItem  answer={<>
-                You aren't alone! Vaginal pH can increase around menstruation due to hormone fluctuations and sometimes during intercourse. The causes are not due to poor hygiene and it is not a sexually transmitted infection. Some risk factors include scented soaps, douching, stress and smoking.
-                <br/><br/>
-                The most common form of vaginal imbalance shows up as bacterial vaginosis. 1 in 3 individuals with vaginas in the U.S. between the age of 14 to 49 will experience imbalances in their flora that lead to bacterial vaginosis.
-                </>}>
-                    <h3 className="text-tablet-h3 lineHeight-tablet-42px">How common are <em>vaginal imbalances?</em></h3>
+                <AccordianItem answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                    <h3 className="text-tablet-h3 lineHeight-tablet-42px">What are <em>symptoms of pH imbalance?</em></h3>
                 </AccordianItem>
             </div>
 
             <div className="pt-8 pb-16">
-                <AccordianItem  answer="An overgrowth of pathogens (gardnerella vaginalis) produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of healthy bacteria (lactobacillus) which prevents the adhesion and growth of odor causing bacteria to the vaginal epithelium.">
-                    <h3 className="text-tablet-h3 lineHeight-tablet-42px">What is the <em>science behind the causes of vaginal odor?</em></h3>
+                <AccordianItem  answer={
+                    <>
+                    Boquet vaginal prebiotics prevent the growth of odor causing bacteria (gardnerella vaginalis).<br/><br/>
+                    An overgrowth of gardnerella vaginalis produces enzymes that break down peptides to amines which have a fishy odor. Boquet's primary ingredient, lactose, promotes the growth of our beneficial bacteria, lactobacillus, which displaces gardnerella vaginalis, reducing their adhesion to the vaginal flora.
+                    </>
+                }>
+                    <h3 className="text-tablet-h3 lineHeight-tablet-42px">How does Boquet <em>treat and prevent odor?</em></h3>
                 </AccordianItem>
             </div>
 
