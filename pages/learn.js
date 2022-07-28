@@ -3,7 +3,7 @@ import ImageTagSection from '@/components/ImageTagSection';
 import Layout from '@/components/Layout';
 import SEO from '@/components/SEO';
 import GentleAndRestorative from '@/components/GentleAndRestorative';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Link from 'next/link';
@@ -22,6 +22,8 @@ import maintainLogoTabletImage from '../public/images/restoreandmaintain-tablet.
 gsap.registerPlugin(ScrollTrigger);
 
 function LearnPage() {
+
+  const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
 
   useEffect(() => {
     // const sections = gsap.utils.toArray('.droppingPillAnimationContainer');
@@ -92,7 +94,17 @@ function LearnPage() {
         <p className="coreSans text-desktop-p1 w-1/2 pb-20">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoadingComplete={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+        <Image 
+          src={vaginalHealth101BannerImage} 
+          alt="vaginal health 101 banner image"
+          priority={true} 
+          quality={100}
+          className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+          onLoadingComplete={() => {
+              ScrollTrigger.refresh();
+              setIsTopImageLoaded(true);
+          }}
+        />
       </div>
 
 
@@ -316,7 +328,16 @@ function LearnPage() {
         <p className="coreSans text-mobile-p1 lineHeight-mobile-22px w-full pb-10">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoadingComplete={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+        <Image 
+          src={vaginalHealth101BannerImage} 
+          alt="vaginal health 101 banner image"
+          priority={true} quality={100} 
+          className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+          onLoadingComplete={() => {
+              ScrollTrigger.refresh();
+              setIsTopImageLoaded(true);
+          }} 
+        />
       </div>
 
 
@@ -540,7 +561,17 @@ function LearnPage() {
         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-10 w-10/12">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
-        <Image src={vaginalHealth101BannerImage} alt="vaginal health 101 banner image" onLoadingComplete={ScrollTrigger.refresh} priority={true} quality={100} placeholder="blur" className='image-blur-duration'/>
+        <Image 
+          src={vaginalHealth101BannerImage} 
+          alt="vaginal health 101 banner image"
+          priority={true} 
+          quality={100}
+          className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+          onLoadingComplete={() => {
+              ScrollTrigger.refresh();
+              setIsTopImageLoaded(true);
+          }}
+        />
       </div>
 
 

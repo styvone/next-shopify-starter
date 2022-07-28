@@ -294,6 +294,11 @@ a, button {
   -webkit-tap-highlight-color: transparent;
 }
 
-.image-blur-duration {
-  transition: 0.2s;
+.image-opacity-duration {
+  opacity: 0;
+  transition: opacity .25s linear;
+}
+
+.onLoad-opacity-trigger {
+  opacity: 1;
 }

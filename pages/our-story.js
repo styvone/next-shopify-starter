@@ -3,12 +3,15 @@ import Layout from '@/components/Layout';
 import SEO from '@/components/SEO';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 
 import forYourFloraBelowImage from '../public/images/for-your-flora-below.png';
 import nhainPortraitImage from '../public/images/nhain.png';
 import weBelieveVaginasCelebratedImage from '../public/images/we-believe-vaginas-celebrated.png';
 
 function DesktopVersion() {
+    const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
     return (
     <div className="responsive-desktop">
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
@@ -18,10 +21,30 @@ function DesktopVersion() {
             </h2>
             <div className="flex justify-start">
                 <div style={{height: '352px', width: '541px'}} className="inline-block relative mr-8">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} layout="fill" priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="pills against black backdrop banner image" 
+                        src={forYourFloraBelowImage} 
+                        layout="fill" 
+                        priority={true} 
+                        quality={100}
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }} 
+                    />
                 </div>
                 <div style={{height: '352px', width: '313px'}} className="inline-block relative">
-                <Image alt="nhain portrait" src={nhainPortraitImage} layout="fill" priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                <Image 
+                    alt="nhain portrait" 
+                    src={nhainPortraitImage} 
+                    layout="fill" 
+                    priority={true} 
+                    quality={100} 
+                    className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                    onLoadingComplete={() => {
+                        setIsTopImageLoaded(true);
+                    }} 
+                />
                 </div>
             </div>
         </div>
@@ -95,6 +118,8 @@ function DesktopVersion() {
 }
 
 function MobileVersion() {
+    const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
     return (
     <div className="responsive-mobile">
 
@@ -105,10 +130,28 @@ function MobileVersion() {
             </h1>
             <div className="flex justify-between">
                 <div style={{paddingRight: '16px'}} className="flex flex-col justify-start w-1/2">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="pills against black backdrop banner image" 
+                        src={forYourFloraBelowImage} 
+                        priority={true} 
+                        quality={100} 
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }} 
+                    />
                 </div>
                 <div className="inline-block w-1/2">
-                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="nhain portrait" 
+                        src={nhainPortraitImage} 
+                        priority={true} 
+                        quality={100} 
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }} 
+                    />
                 </div>
             </div>
         </div>
@@ -183,6 +226,8 @@ function MobileVersion() {
 }
 
 function TabletVersion() {
+    const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
     return (
     <div className="responsive-tablet">
 
@@ -195,12 +240,30 @@ function TabletVersion() {
 
                 {/* <img style={{height: '273px'}} alt="pills against black backdrop banner image" src="/images/for-your-flora-below.png" /> */}
                 <div style={{width: '419.578px'}} className="inline-block">
-                    <Image alt="pills against black backdrop banner image" src={forYourFloraBelowImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="pills against black backdrop banner image" 
+                        src={forYourFloraBelowImage} 
+                        priority={true} 
+                        quality={100} 
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }} 
+                    />
                 </div>
                 {/* <img style={{height: '273px'}} alt="nhain portrait" src="/images/nhain.png" /> */}
                 
                 <div style={{width: '242.75px'}} className="inline-block">
-                    <Image alt="nhain portrait" src={nhainPortraitImage} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="nhain portrait" 
+                        src={nhainPortraitImage} 
+                        priority={true} 
+                        quality={100} 
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }} 
+                    />
                 </div>
             </div>
         </div>

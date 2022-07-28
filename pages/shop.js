@@ -24,6 +24,8 @@ function ShopPage({ productData }) {
     const [numberOfPills, setnumberOfPills] = useState(1);
     const [variant, setVariant] = useState(productData.variants.edges[0])
 
+    const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
     async function handleAddToCart() {
         toggleModal();
         await addToCart({
@@ -163,7 +165,16 @@ function ShopPage({ productData }) {
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
             <div className="w-1/2">
                 <div className="inline-block w-3/4">
-                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="pill product photo" 
+                        src={pillProductPhoto} 
+                        priority={true}
+                        quality={100} 
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }}
+                    />
                 </div>
             </div>
             <div className="w-1/2 flex flex-col justify-start">
@@ -370,7 +381,16 @@ function ShopPage({ productData }) {
                 <h1 className="ivyPrestoThin text-mobile-h1 pb-8 lineHeight-mobile-43px">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
-                <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                <Image 
+                    alt="pill product photo" 
+                    src={pillProductPhoto} 
+                    priority={true} 
+                    quality={100}
+                    className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                    onLoadingComplete={() => {
+                        setIsTopImageLoaded(true);
+                    }}
+                />
             </div>
             <div className="w-full flex flex-col justify-start">
                 <div className="pb-16">
@@ -579,7 +599,16 @@ function ShopPage({ productData }) {
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
                 <div className="inline-block w-8/12">
-                    <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
+                    <Image 
+                        alt="pill product photo" 
+                        src={pillProductPhoto} 
+                        priority={true} 
+                        quality={100}
+                        className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                        onLoadingComplete={() => {
+                            setIsTopImageLoaded(true);
+                        }}
+                    />
                 </div>
             </div>
             <div className="w-full flex flex-col justify-start">

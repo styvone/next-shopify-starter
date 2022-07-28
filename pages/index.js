@@ -6,6 +6,7 @@ import AccordianItem from '@/components/AccordianItem';
 import Link from 'next/link';
 import { Component } from 'react';
 import React from 'react';
+import { useState } from 'react';
 import Slider from "react-slick";
 import Image from 'next/image';
 
@@ -23,6 +24,7 @@ import boquetVaginalPrebioticMobileBannerImage from '../public/images/homepage/b
 import topSectionBackgroundTabletImage from '../public/images/homepage/top-section-background-tablet.png';
 
 function DesktopVersion() {
+  const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
 
   return (
     <div className="responsive-desktop">
@@ -42,9 +44,11 @@ function DesktopVersion() {
                 layout="fill"
                 objectFit="cover"
                 quality={100}
-                className="z-0 image-blur-duration"
-                placeholder="blur"
                 priority={true}
+                className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+                onLoadingComplete={() => {
+                    setIsTopImageLoaded(true);
+                }}
             />
 
             <h1 className="ivyPrestoThin text-desktop-h1 w-7/12 pb-8 lineHeight-desktop-123 pt-20 z-10">
@@ -288,6 +292,8 @@ function DesktopVersion() {
 }
 
 function MobileVersion() {
+  const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
   return (
     <div className="responsive-mobile">
     {/* BOQUET HOME PAGE TOP SECTION */}
@@ -307,8 +313,10 @@ function MobileVersion() {
               objectFit="cover"
               quality={100}
               priority={true}
-              className="z-0 image-blur-duration"
-              placeholder="blur"
+              className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+              onLoadingComplete={() => {
+                  setIsTopImageLoaded(true);
+              }}  
           />
 
 
@@ -553,6 +561,8 @@ An overgrowth of gardnerella vaginalis produces enzymes that break down peptides
 }
 
 function TabletVersion() {
+  const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
+
   return (
     <div className="responsive-tablet">
     {/* BOQUET HOME PAGE TOP SECTION */}
@@ -567,10 +577,12 @@ function TabletVersion() {
             src={topSectionBackgroundTabletImage}
             layout="fill"
             objectFit="cover"
-            quality={100}
-            className="z-0 image-blur-duration"
-            placeholder="blur"
+            quality={100}  
             priority={true}
+            className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
+            onLoadingComplete={() => {
+                setIsTopImageLoaded(true);
+            }}
           />
           
           
