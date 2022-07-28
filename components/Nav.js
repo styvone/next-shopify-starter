@@ -22,7 +22,7 @@ function Nav(props) {
     <>
 
     <div className="responsive-desktop">
-      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '50px', paddingRight: '50px', paddingTop: '13px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
+      <header style={{color: props.logoGray ? '#F4F0E8' : '#283F91', paddingLeft: '50px', paddingRight: '50px', paddingTop: '13px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
         <div className="flex items-center justify-between w-full">
           <Link href="/" passHref>
             <a className=" cursor-pointer">
@@ -58,7 +58,7 @@ function Nav(props) {
               href='#'
               passHref
             >
-              <a onClick={toggleCartModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#EBE5DB' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
+              <a onClick={toggleCartModal} style={{borderRadius: '50%', borderColor: props.logoGray ? '#F4F0E8' : '#283F91'}} className="h-12 w-fit-content border px-8 flex flex-col justify-center items-center" aria-label="cart">
                 <p className="coreSans text-desktop-p3 w-16 flex justify-center">
                   CART
                   {
@@ -73,7 +73,7 @@ function Nav(props) {
     </div>
 
     <div className="responsive-mobile">
-      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '16px', paddingRight: '16px', paddingTop: '16px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
+      <header style={{color: props.logoGray ? '#F4F0E8' : '#283F91', paddingLeft: '16px', paddingRight: '16px', paddingTop: '16px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
         <div className="flex items-center justify-between w-full">
           <Link
             href='#'
@@ -108,7 +108,7 @@ function Nav(props) {
     </div>
 
     <div className="responsive-tablet">
-      <header style={{color: props.logoGray ? '#EBE5DB' : '#283F91', paddingLeft: '40px', paddingRight: '40px', paddingTop: '40px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
+      <header style={{color: props.logoGray ? '#F4F0E8' : '#283F91', paddingLeft: '40px', paddingRight: '40px', paddingTop: '40px'}} className={`${props.isHomePage ? 'absolute w-full z-10' : ''}`}>
         <div className="flex items-center justify-between w-full">
           <Link
             href='#'

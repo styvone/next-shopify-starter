@@ -33,7 +33,7 @@ function DesktopVersion() {
         }} className="h-fit-content">
           <div style={{
               height: '57rem',
-              color: '#EBE5DB',
+              color: '#F4F0E8',
           }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
 
             <Image
@@ -55,7 +55,7 @@ function DesktopVersion() {
                 passHref
             >
                 <a className="pl-0 pt-3 z-10" aria-label="cart">
-                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                             <p className="text-center text-desktop-p2 coreSans">
                                 SHOP BOQUET
                             </p>
@@ -66,7 +66,7 @@ function DesktopVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
           <h1 style={{paddingBottom: '1.5rem'}} className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
           Flourish your flora
           </h1>
@@ -93,7 +93,7 @@ function DesktopVersion() {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
 
@@ -157,7 +157,7 @@ function DesktopVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-32">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-32">
           <h2 className="ivyPrestoThin text-desktop-oneOff-lg pb-10 lineHeight-desktop-113">
             Boquet <em>Vaginal Prebiotic</em>
           </h2>
@@ -169,7 +169,7 @@ function DesktopVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-desktop-p2 coreSans">
                               SHOP BOQUET
                           </p>
@@ -183,7 +183,7 @@ function DesktopVersion() {
 
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-32 pt-8">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-32 pt-8">
           <div className="flex justify-between w-3/12">
             <p className="coreSans text-desktop-p2">
               INGREDIENTS:
@@ -204,13 +204,13 @@ function DesktopVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-32">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start py-32">
           <Slider customPaging={i => (
             <div
             style={{
               minWidth: "1rem",
               minHeight: "1.25rem",
-              color: "#EBE5DB",
+              color: "#F4F0E8",
               border: "1px #283F91 solid",
               borderRadius: "50%",
             }}
@@ -256,7 +256,7 @@ function DesktopVersion() {
         </div>
 
         {/* LEARN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-20">
           <h1 className="ivyPrestoThin text-desktop-h1 pb-16 lineHeight-desktop-normal">
             Some more <em>info</em>
           </h1>
@@ -292,9 +292,9 @@ function MobileVersion() {
     <div className="responsive-mobile">
     {/* BOQUET HOME PAGE TOP SECTION */}
     <div style={{
-            backgroundColor: "#EBE5DB",
+            backgroundColor: "#F4F0E8",
             height: '43rem',
-            color: '#EBE5DB',
+            color: '#F4F0E8',
             paddingLeft: '16px',
             paddingRight: '16px',
         }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
@@ -321,7 +321,7 @@ function MobileVersion() {
               passHref
           >
               <a className="pl-0 z-10" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
                           </p>
@@ -331,7 +331,7 @@ function MobileVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
           <h1 className="ivyPrestoThin text-mobile-h1 pb-2">
           Flourish your flora
           </h1>
@@ -360,7 +360,7 @@ function MobileVersion() {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start py-10">
           <div className="flex flex-col justify-between pb-10">
             <div className="h-fit-content w-full flex flex-col justify-between pb-12">
               <div className="inline-block pb-6">
@@ -422,7 +422,7 @@ function MobileVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-10">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-10">
           <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-4 lineHeight-mobile-43px">
             Boquet <br/> <em>Vaginal Prebiotic</em>
           </h2>
@@ -434,7 +434,7 @@ function MobileVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-mobile-p3 coreSans">
                               SHOP BOQUET
                           </p>
@@ -446,7 +446,7 @@ function MobileVersion() {
           </div>
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-10 pt-4">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-10 pt-4">
           <div className="flex justify-between w-full pb-2">
             <p className="coreSans text-mobile-p3">
               INGREDIENTS:
@@ -467,13 +467,13 @@ function MobileVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-4 pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-4 pb-16">
           <Slider customPaging={i => (
             <div
             style={{
               minWidth: "1.25rem",
               minHeight: "1.25rem",
-              color: "#EBE5DB",
+              color: "#F4F0E8",
               border: "1px #283F91 solid",
               borderRadius: "50%"
             }}
@@ -520,7 +520,7 @@ function MobileVersion() {
         </div>
 
         {/* LEARN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-10">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pt-16 pb-10">
           <h1 className="ivyPrestoThin text-mobile-h1 pb-4">
             Some more <em>info</em>
           </h1>
@@ -557,9 +557,9 @@ function TabletVersion() {
     <div className="responsive-tablet">
     {/* BOQUET HOME PAGE TOP SECTION */}
     <div style={{
-            backgroundColor: "#EBE5DB", 
+            backgroundColor: "#F4F0E8", 
             height: '35rem',
-            color: '#EBE5DB',
+            color: '#F4F0E8',
         }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
           
           <Image
@@ -583,7 +583,7 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0 z-10" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-tablet-p3 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
                           </p>
@@ -593,7 +593,7 @@ function TabletVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 pb-8 lineHeight-tablet-59px">
           Flourish your flora
           </h1>
@@ -621,7 +621,7 @@ function TabletVersion() {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-16">
           <div className="flex justify-evenly pb-16 gap-8">
             <div className="h-fit-content w-1/2 flex flex-col justify-start">
               <div className="inline-block pb-8">
@@ -686,7 +686,7 @@ function TabletVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-16">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-16">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-8">
             Boquet <em>Vaginal Prebiotic</em>
           </h1>
@@ -698,7 +698,7 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-tablet-p2 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
                           </p>
@@ -710,7 +710,7 @@ function TabletVersion() {
           </div>
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#EBE5DB', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-8">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-8">
           <div className="flex justify-between w-full">
             <p className="coreSans text-tablet-p2 lineHeight-tablet-22px">
               INGREDIENTS:
@@ -729,13 +729,13 @@ function TabletVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-8">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-8">
           <Slider customPaging={i => (
             <div
             style={{
               minWidth: "1.25rem",
               minHeight: "1.25rem",
-              color: "#EBE5DB",
+              color: "#F4F0E8",
               border: "1px #283F91 solid",
               borderRadius: "50%"
             }}
@@ -782,7 +782,7 @@ function TabletVersion() {
         </div>
 
         {/* LEARN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-16">
             Some more <em>info</em>
           </h1>

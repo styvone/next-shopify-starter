@@ -82,7 +82,7 @@ function CartModal() {
             }}
         >
             <div className="z-20 h-fit-content w-full flex justify-between pb-16">
-            <h1 style={{color: '#EBE5DB'}} className='ivyPrestoThin text-desktop-h1'>
+            <h1 style={{color: '#F4F0E8'}} className='ivyPrestoThin text-desktop-h1'>
                 Cart
             </h1>
             <button
@@ -96,7 +96,7 @@ function CartModal() {
 
             {(numItems > 0) && 
             <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36">
                     <div className="pb-8 flex justify-between">
                     <h2 className="ivyPrestoThin text-desktop-h2">
                     Boquet Vaginal Prebiotic
@@ -166,7 +166,7 @@ function CartModal() {
                             if (tempNumItems > 0) {
                                 clickCheckOut();
                             }
-                        }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
+                        }} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
                             <p className="text-desktop-p1 h-24 flex flex-col justify-center">
                                 {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
                             </p>
@@ -178,7 +178,7 @@ function CartModal() {
 
             {(numItems === 0) && 
             <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36">
                     <p className="coreSans text-desktop-p1">
                         YOUR CART IS CURRENTLY EMPTY.
                     </p>
@@ -188,7 +188,7 @@ function CartModal() {
                         href="/shop"
                         passHref
                     >
-                        <a onClick={toggleModal} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
+                        <a onClick={toggleModal} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
                             <p className="text-desktop-p1 h-24 flex flex-col justify-center">
                                 SHOP BOQUET
                             </p>
@@ -232,7 +232,7 @@ function CartModal() {
 
             {(numItems > 0) &&
             <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36">
                     <h3 className="ivyPrestoThin text-mobile-h3">
                         Boquet Vaginal Prebiotic
                     </h3>
@@ -301,7 +301,7 @@ function CartModal() {
                             if (tempNumItems > 0) {
                                 clickCheckOut();
                             }
-                        }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
+                        }} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
                             <p className="text-mobile-p2 h-14 flex flex-col justify-center">
                                 {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
                             </p>
@@ -313,7 +313,7 @@ function CartModal() {
 
             {(numItems === 0) &&
             <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36 flex justify-center">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36 flex justify-center">
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
                     YOUR CART IS CURRENTLY EMPTY.
                     </p>
@@ -325,7 +325,7 @@ function CartModal() {
                         href='/shop'
                         passHref
                     >
-                        <a onClick={toggleModal} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
+                        <a onClick={toggleModal} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
                             <p className="text-mobile-p2 h-14 flex flex-col justify-center">
                                SHOP BOQUET
                             </p>
@@ -349,7 +349,7 @@ function CartModal() {
         }}
     >
         <div className="h-fit-content w-full flex justify-between pb-16">
-        <h1 style={{color: '#EBE5DB'}} className='ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px'>
+        <h1 style={{color: '#F4F0E8'}} className='ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px'>
             Cart
         </h1>
         <button
@@ -363,7 +363,7 @@ function CartModal() {
 
         {(numItems > 0) &&
         <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-            <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
+            <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36">
                 <div className="pb-8 flex justify-between">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px">
                 Boquet Vaginal Prebiotic
@@ -431,7 +431,7 @@ function CartModal() {
                         if (tempNumItems > 0) {
                             clickCheckOut();
                         }
-                    }} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
+                    }} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full" + (tempNumItems === 0 ? ' disabledLink' : '')} aria-label="shop">
                         <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">
                             {tempNumItems === 0 ? 'EMPTY CART' : 'CHECKOUT'}
                         </p>
@@ -443,7 +443,7 @@ function CartModal() {
 
         {(numItems === 0) &&
         <div style={{flexGrow: '1'}} className="w-full flex flex-col justify-between">
-            <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="w-full h-36">
+            <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="w-full h-36">
                <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
                 YOUR CART IS CURRENTLY EMPTY.
                </p>
@@ -454,7 +454,7 @@ function CartModal() {
                     href='/shop'
                     passHref
                 >
-                    <a onClick={toggleModal} style={{backgroundColor: '#EBE5DB', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
+                    <a onClick={toggleModal} style={{backgroundColor: '#F4F0E8', borderColor: '#283F91', color: '#283F91'}} className={"relative coreSans border flex justify-center rounded-full"} aria-label="shop">
                         <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">
                             SHOP BOQUET
                         </p>

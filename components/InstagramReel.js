@@ -35,7 +35,7 @@ function InstagramReel() {
   return (
     <>
         <div className="responsive-desktop">
-          <div style={{backgroundColor: "#EBE5DB"}} className="h-fit-content w-full flex flex-col justify-start pb-16">
+          <div style={{backgroundColor: "#F4F0E8"}} className="h-fit-content w-full flex flex-col justify-start pb-16">
             <div style={{paddingLeft: '50px', paddingRight: '50px'}} className="pb-10 pt-20 h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
@@ -57,7 +57,7 @@ function InstagramReel() {
         </div>
 
         <div className="responsive-mobile">
-          <div style={{backgroundColor: "#EBE5DB"}} className="h-80 w-full flex flex-col justify-evenly">
+          <div style={{backgroundColor: "#F4F0E8"}} className="h-80 w-full flex flex-col justify-evenly">
             <div style={{paddingLeft: '16px', paddingRight: '16px'}} className="h-8 flex justify-start">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link
@@ -79,7 +79,7 @@ function InstagramReel() {
         </div>
 
         <div className="responsive-tablet">
-          <div style={{backgroundColor: "#EBE5DB"}} className="h-80 w-full flex flex-col justify-evenly">
+          <div style={{backgroundColor: "#F4F0E8"}} className="h-80 w-full flex flex-col justify-evenly">
             <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link

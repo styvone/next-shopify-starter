@@ -85,7 +85,7 @@ function LearnPage() {
       {/* Desktop */}  
       <div className="responsive-desktop">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-16">
+      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-16">
         <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-122 pt-20 pb-6">
           <em>Flourish your flora</em> with Boquet
         </h2>
@@ -98,7 +98,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex flex-col justify-center pt-8 pb-24">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex flex-col justify-center pt-8 pb-24">
 
         <div className="w-1/2">
           <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
@@ -155,7 +155,7 @@ function LearnPage() {
 
 
       {/* FAQ SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center">
           <div className="py-20 w-full">
                   <AccordianItem answer="Boquet's vaginal prebiotic is made with the prebiotic lactose. Lactose promotes the growth of our good bacteria, lactobacillus, in the vaginal flora and supports a protective pH.">
                       <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is <em>Boquet's vaginal prebiotic?</em></h3>
@@ -223,7 +223,7 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center text-center pb-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center text-center pb-20">
           <h2 className="ivyPrestoThin text-desktop-oneOff-lg lineHeight-desktop-123 pb-8">
             Directions on <em>how to use</em>
           </h2>
@@ -243,7 +243,7 @@ function LearnPage() {
 
         {/* PILL DROPPING ANIMATION SECTION */}
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
           <div className="droppingPillAnimationContainer-desktop h-56 w-56">
             
             {/* <img alt="pill animation" className="h-56 w-56" src='/images/thepill-animation.png' /> */}
@@ -257,7 +257,7 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-center pt-20 pb-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-center pt-20 pb-20">
           <div className="w-1/3 flex flex-col justify-center text-center pr-16" >
             <h2 className="text-desktop-h2 lineHeight-desktop-122 ivyPrestoThin pb-4">
               To Restore
@@ -292,7 +292,7 @@ function LearnPage() {
           </div>
         </div>
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="pb-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="pb-20">
           <Link
                   href="/shop"
                   passHref
@@ -310,7 +310,7 @@ function LearnPage() {
     {/* Mobile */}
     <div className="responsive-mobile">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '16px', paddingRight: '16px'}} className=" h-fit-content flex flex-col justify-start pb-12">
+      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '16px', paddingRight: '16px'}} className=" h-fit-content flex flex-col justify-start pb-12">
         <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4 pt-12">
         <em>Flourish your flora</em> with Boquet
         </h1>
@@ -322,7 +322,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-8 pt-12">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-8 pt-12">
 
         <div className="w-full">
           <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px pb-3">
@@ -373,7 +373,7 @@ function LearnPage() {
 
 
         {/* FAQ SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center">
           <div className="pt-16 pb-12 w-full">
                   <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5} answer="Boquet's vaginal prebiotic is made with the prebiotic lactose. Lactose promotes the growth of our good bacteria, lactobacillus, in the vaginal flora and supports a protective pH.">
                       <h3 className="text-mobile-h3 lineHeight-mobile-39px">What is <em>Boquet's vaginal prebiotic?</em></h3>
@@ -449,7 +449,7 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center text-start">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center text-start">
           <h1 className="w-2/3 ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4">
             Directions on <em>how to use</em>
           </h1>
@@ -469,7 +469,7 @@ function LearnPage() {
 
         {/* PILL DROPPING ANIMATION SECTION */}
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '50rem'}} className="flex flex-col items-center justify-between">
           <div className="droppingPillAnimationContainer-mobile h-56 w-56">
             <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
@@ -480,7 +480,7 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
           <div className="w-full flex flex-col justify-center relative pb-16">
           <Image alt="maintain logo" src={maintainLogoImage} onLoad={ScrollTrigger.refresh} priority={true} />
           </div>
@@ -534,7 +534,7 @@ function LearnPage() {
     {/* Tablet */}
     <div className="responsive-tablet">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#EBE5DB', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-10">
+      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-10">
         <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-4 pt-10 w-10/12">
         <em>Flourish your flora</em> with Boquet
         </h1>
@@ -546,7 +546,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-evenly py-10">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-evenly py-10">
 
         <div className="w-10/12">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-4">
@@ -597,7 +597,7 @@ function LearnPage() {
 
 
         {/* FAQ SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center">
           <div className="py-16 w-full">
                   <AccordianItem answer="Boquet's vaginal prebiotic is made with the prebiotic lactose. Lactose promotes the growth of our good bacteria, lactobacillus, in the vaginal flora and supports a protective pH.">
                       <h3 className="text-tablet-h3 lineHeight-tablet-43px">What is <em>Boquet's vaginal prebiotic?</em></h3>
@@ -677,7 +677,7 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center text-center">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center text-center">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-4">
             Directions on <em>how to use</em>
           </h1>
@@ -697,7 +697,7 @@ function LearnPage() {
 
         {/* PILL DROPPING ANIMATION SECTION */}
 
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between">
           <div className="droppingPillAnimationContainer-tablet h-24 w-24">
             <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
@@ -708,7 +708,7 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content pb-16">
           <div className="w-full flex justify-center pb-16">
             <div className="w-1/2 inline-block">
               <Image alt="maintain logo" src={maintainLogoTabletImage} priority={true} onLoad={ScrollTrigger.refresh} />

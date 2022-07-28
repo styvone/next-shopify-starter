@@ -160,7 +160,7 @@ function ShopPage({ productData }) {
     {/* DESKTOP */}
     <div className="responsive-desktop">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
             <div className="w-1/2">
                 <div className="inline-block w-3/4">
                     <Image alt="pill product photo" src={pillProductPhoto} priority={true} quality={100} placeholder="blur" className='image-blur-duration' />
@@ -187,7 +187,7 @@ function ShopPage({ productData }) {
 
                     <div className="flex justify-between h-24">
                         
-                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="border border-black rounded-full w-1/3 mr-8 flex justify-between items-center overflow-hidden">
+                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#F4F0E8', color: '#283F91'}} className="border border-black rounded-full w-1/3 mr-8 flex justify-between items-center overflow-hidden">
                             <button
                             aria-label="remove item from cart"
                             className="h-full w-1/3"
@@ -215,7 +215,7 @@ function ShopPage({ productData }) {
                             passHref
                         >
                             <button 
-                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} 
+                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#F4F0E8'}} 
                                 className="noOutlineButton relative coreSans border flex justify-center rounded-full w-2/3" 
                                 aria-label="add to cart button"
                                 onClick={handleAddToCart}
@@ -269,7 +269,7 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-40 pt-32">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-start pb-40 pt-32">
             <h2 className="ivyPrestoThin text-8xl w-3/4 desktop-oneOff-md lineHeight-desktop-113">
                 For all the times your <br/> vagina is <em>feeling a little off.</em>
             </h2>
@@ -277,7 +277,7 @@ function ShopPage({ productData }) {
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between pb-36">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between pb-36">
             <div className="h-fit-content w-1/3 flex flex-col justify-end">
                 <h2 className="ivyPrestoThin text-desktop-h2 pb-4 lineHeight-desktop-120">
                     To restore
@@ -299,7 +299,7 @@ function ShopPage({ productData }) {
 
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
             <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer-desktop">
                 <img alt="smallest pill picture folding animation" style={{left: '-35%', top: '35%'}} className="inline absolute bounce1-desktop" src='/images/shop/small-pill.png' />
                 <img alt="medium pill picture folding animation" style={{left: '-4%', top: '15%'}} className="inline absolute bounce2-desktop" src='/images/shop/med-pill.png' />
@@ -328,7 +328,7 @@ function ShopPage({ productData }) {
         <GentleAndRestorative />
 
         {/* THE SCIENCE BEHIND BOQUET */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-32 pb-24">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-32 pb-24">
             <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-normal">
                 Some more <em>info</em>
             </h1>
@@ -371,7 +371,7 @@ function ShopPage({ productData }) {
     {/* MOBILE */}
     <div className="responsive-mobile">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
             <div className="w-full pb-10">
                 <h1 className="ivyPrestoThin text-mobile-h1 pb-8 lineHeight-mobile-43px">
                     Boquet <em>Vaginal Prebiotic</em>
@@ -396,7 +396,7 @@ function ShopPage({ productData }) {
 
                     <div className="flex flex-col justify-between">
                         
-                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="h-14 border border-black rounded-full w-full mr-8 flex justify-between items-center overflow-hidden mb-6">
+                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#F4F0E8', color: '#283F91'}} className="h-14 border border-black rounded-full w-full mr-8 flex justify-between items-center overflow-hidden mb-6">
                             <button
                             aria-label="remove item from cart"
                             className="h-full w-1/3"
@@ -424,7 +424,7 @@ function ShopPage({ productData }) {
                             passHref
                         >
                             <button 
-                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} 
+                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#F4F0E8'}} 
                                 className="relative coreSans border flex justify-center rounded-full w-full" 
                                 aria-label="add to cart button"
                                 onClick={handleAddToCart}
@@ -484,7 +484,7 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION */}
-        {/* <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-10">
+        {/* <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-start pb-8 pt-10">
             <h2 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px w-full">
                 For all the times your vagina is <em>feeling a little off.</em>
             </h2>
@@ -492,7 +492,7 @@ function ShopPage({ productData }) {
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between">
             <div className="h-fit-content w-full pb-10">
                 <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} quality={100} />
             </div>
@@ -514,7 +514,7 @@ function ShopPage({ productData }) {
 
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-end">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-end">
             <div style={{height: '20rem'}} className="w-1/2 relative floatingPillAnimationContainer-mobile py-16">
                 <img alt="smallest pill picture folding animation" style={{left: '5%', top: '43%', maxHeight: '100%', zIndex: '0'}} className="inline absolute bounce1-mobile" src='/images/shop/small-pill.png' />
                 <img alt="medium pill picture folding animation" style={{left: '47%', top: '26%', maxHeight: '100%', zIndex: '0'}} className="inline absolute bounce2-mobile" src='/images/shop/med-pill.png' />
@@ -543,7 +543,7 @@ function ShopPage({ productData }) {
         <GentleAndRestorative />
 
         {/* THE SCIENCE BEHIND BOQUET */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start pb-16 pt-12">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px">
             Some more <em>info</em>
             </h1>
@@ -585,7 +585,7 @@ function ShopPage({ productData }) {
     {/* TABLET */}
     <div className="responsive-tablet">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
             <div className="w-full pb-8">
                 <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-8">
                     Boquet <em>Vaginal Prebiotic</em>
@@ -614,7 +614,7 @@ function ShopPage({ productData }) {
 
                     <div className="flex justify-between">
                         
-                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#EBE5DB', color: '#283F91'}} className="h-20 border border-black rounded-full w-7/12 mr-8 flex justify-between items-center overflow-hidden mb-8">
+                        <div id="shopCounterButton" style={{borderColor: '#283F91', backgroundColor: '#F4F0E8', color: '#283F91'}} className="h-20 border border-black rounded-full w-7/12 mr-8 flex justify-between items-center overflow-hidden mb-8">
                             <button
                             aria-label="remove item from cart"
                             className="h-full w-1/3"
@@ -642,7 +642,7 @@ function ShopPage({ productData }) {
                             passHref
                         >
                             <button 
-                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#EBE5DB'}} 
+                                style={{borderColor: '#283F91', backgroundColor: '#283F91', color: '#F4F0E8'}} 
                                 className="h-20 relative coreSans border flex flex-col justify-center rounded-full w-full" 
                                 aria-label="add to cart button"
                                 onClick={handleAddToCart}
@@ -702,7 +702,7 @@ function ShopPage({ productData }) {
 
 
         {/* "For all the times your vagina is feeling a little off."" SECTION */}
-        {/* <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-16">
+        {/* <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-16">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12">
                 For all the times your vagina is <em>feeling a little off.</em>
             </h1>
@@ -710,7 +710,7 @@ function ShopPage({ productData }) {
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between">
             <div className="h-fit-content w-full pb-8">
                 <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} quality={100} />
             </div>
@@ -732,7 +732,7 @@ function ShopPage({ productData }) {
 
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-end">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-end">
             <div style={{height: '40rem'}} className="w-1/2 relative floatingPillAnimationContainer-tablet py-16">
                 <img alt="smallest pill picture folding animation" style={{left: '10%', top: '42%'}} className="inline absolute bounce1-tablet" src='/images/shop/small-pill.png' />
                 <img alt="medium pill picture folding animation" style={{left: '47%', top: '19%'}}   className="inline absolute bounce2-tablet" src='/images/shop/med-pill.png' />
@@ -761,7 +761,7 @@ function ShopPage({ productData }) {
         <GentleAndRestorative />
 
         {/* THE SCIENCE BEHIND BOQUET */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px">
             Some more <em>info</em>
             </h1>
@@ -808,7 +808,7 @@ function ShopPage({ productData }) {
 
 ShopPage.getLayout = function getLayout(page) {
     return (
-      <Layout logoGray={false} backgroundColor={'#EBE5DB'}>
+      <Layout logoGray={false} backgroundColor={'#F4F0E8'}>
         <SEO 
           title={process.env.siteTitle}
         />

@@ -6,9 +6,9 @@ function ImageTagSection(props) {
         <>
             <div className="responsive-desktop">
                 <div style={{
-                    backgroundColor: "#EBE5DB", 
+                    backgroundColor: "#F4F0E8", 
                     height: '770px',
-                    color: '#EBE5DB',
+                    color: '#F4F0E8',
                 }} className="relative w-full flex flex-col justify-end">
 
                     <Image 
@@ -34,7 +34,7 @@ function ImageTagSection(props) {
                                 passHref
                             >
                                 <a className="pl-0" aria-label="cart">
-                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                                             <p className="text-center text-desktop-p2 coreSans">
                                                 SHOP BOQUET
                                             </p>
@@ -48,9 +48,9 @@ function ImageTagSection(props) {
 
             <div className="responsive-mobile">
                 <div style={{
-                    backgroundColor: "#EBE5DB", 
+                    backgroundColor: "#F4F0E8", 
                     height: '42rem',
-                    color: '#EBE5DB',
+                    color: '#F4F0E8',
                 }} className="relative w-full flex flex-col justify-end">
 
                     <Image 
@@ -77,7 +77,7 @@ function ImageTagSection(props) {
                                 passHref
                             >
                                 <a className="pl-0" aria-label="cart">
-                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
+                                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-44 h-16 flex flex-col justify-center shortPillButtonGradientBeige">
                                             <p className="text-center text-mobile-p3 coreSans">
                                                 SHOP BOQUET
                                             </p>
@@ -91,9 +91,9 @@ function ImageTagSection(props) {
 
             <div className="responsive-tablet">
                 <div style={{
-                    backgroundColor: "#EBE5DB", 
+                    backgroundColor: "#F4F0E8", 
                     height: '42rem',
-                    color: '#EBE5DB',
+                    color: '#F4F0E8',
                 }} className="relative w-full flex flex-col justify-end">
 
                     <Image 
@@ -119,7 +119,7 @@ function ImageTagSection(props) {
                                 passHref
                             >
                                 <a className="pl-0" aria-label="cart">
-                                    <div style={{borderRadius: '50%', borderColor: '#EBE5DB'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                                             <p className="text-center text-tablet-p2 coreSans">
                                                 SHOP BOQUET
                                             </p>

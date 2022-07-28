@@ -8,7 +8,7 @@ function GentleAndRestorative() {
     return (
         <>
             <div className="responsive-desktop">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-36 w-full flex flex-col justify-center">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="h-36 w-full flex flex-col justify-center">
                 <div className="h-14 w-full overflow-hidden whitespace-nowrap">
                 <Marquee gradient={false} speed={50}>
                     <div className="flex flex-col justify-center">
@@ -48,7 +48,7 @@ function GentleAndRestorative() {
 
 
             <div className="responsive-mobile">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="h-28 w-full flex flex-col justify-center">
                 <div className="h-14 w-full overflow-hidden whitespace-nowrap flex flex-col justify-center">
                 <Marquee gradient={false} speed={50}>
                     <div className="flex flex-col justify-center">
@@ -86,7 +86,7 @@ function GentleAndRestorative() {
             </div>
 
             <div className="responsive-tablet">
-                <div style={{backgroundColor: '#283F91', color: '#EBE5DB'}} className="h-28 w-full flex flex-col justify-center">
+                <div style={{backgroundColor: '#283F91', color: '#F4F0E8'}} className="h-28 w-full flex flex-col justify-center">
                 <div className="h-14 w-full overflow-hidden whitespace-nowrap">
                 <Marquee gradient={false} speed={50}>
                     <div className="flex flex-col justify-center">

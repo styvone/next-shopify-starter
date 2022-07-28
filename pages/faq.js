@@ -10,7 +10,7 @@ function FAQPage() {
     <>
         {/* DESKTOP */}
         <div className="responsive-desktop">
-            <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start">
+            <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start">
                 <div className="pb-16 flex justify-evenly h-fit-content pt-32">
                     <div className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-123 w-1/3">
                         <h2>
@@ -99,7 +99,7 @@ function FAQPage() {
 
         {/* MOBILE */}
         <div className="responsive-mobile">
-            <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start">
+            <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start">
                 
                 <div className="pt-12 flex flex-col justify-evenly h-fit-content">
                     <div className="w-full pb-8">
@@ -190,7 +190,7 @@ function FAQPage() {
 
         {/* TABLET */}
         <div className="responsive-tablet">
-            <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start">
+            <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start">
                 
                 <div className="pt-16 flex flex-col justify-evenly h-fit-content">
                     <div className="w-full pb-8">
@@ -283,7 +283,7 @@ function FAQPage() {
 
 FAQPage.getLayout = function getLayout(page) {
     return (
-      <Layout logoGray={false} backgroundColor={'#EBE5DB'}>
+      <Layout logoGray={false} backgroundColor={'#F4F0E8'}>
         <SEO 
           title={process.env.siteTitle}
         />

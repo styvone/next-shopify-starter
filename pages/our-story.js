@@ -12,7 +12,7 @@ function DesktopVersion() {
     return (
     <div className="responsive-desktop">
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-20 pt-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-20 pt-20">
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-123 w-9/12 pb-12">
                 For your <em>flora below.</em>
             </h2>
@@ -27,7 +27,7 @@ function DesktopVersion() {
         </div>
 
         {/* TEXT BLOCK - As you use Boquet, we hope you remember how deserving you are. */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
             <div className="h-fit-content w-7/12">
                 <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-9/12 pb-12">
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
@@ -51,7 +51,7 @@ function DesktopVersion() {
         </div>
 
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pt-16 pb-24">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pt-16 pb-24">
             <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-111 w-10/12 pb-24">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h2>
@@ -59,7 +59,7 @@ function DesktopVersion() {
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-20"> 
             <div className="h-fit-content w-7/12">
                 <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-122 w-10/12 pb-12">
                 At Boquet, <em>we believe vaginas deserve better care and attention.</em>
@@ -77,7 +77,7 @@ function DesktopVersion() {
         </div>
 
         {/* OUR VAGINAS DESERVE TO BE CELEBRATED */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-24">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center pb-24">
             <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123 w-2/3 pb-16">
             Our vagina's <em>deserve to be celebrated</em> for all the work it's done <em>and will continue to do.</em>
             </h1>
@@ -99,7 +99,7 @@ function MobileVersion() {
     <div className="responsive-mobile">
 
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pb-14 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pb-14 pt-12">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px w-full pb-8">
                 For your <em>flora below.</em>
             </h1>
@@ -114,7 +114,7 @@ function MobileVersion() {
         </div>
 
         {/* TEXT BLOCK - As you use Boquet, we hope you remember how deserving you are. */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-end pb-10"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-end pb-10"> 
             <div className="h-fit-content w-full">
                 <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px w-full pb-8">
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
@@ -138,7 +138,7 @@ function MobileVersion() {
         </div>
 
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pt-8 pb-10">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pt-8 pb-10">
             <h1 className="ivyPrestoThin text-mobile-h1 lineHeight-mobile-49px w-full pb-10">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h1>
@@ -146,7 +146,7 @@ function MobileVersion() {
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-end pb-6"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex justify-end pb-6"> 
             <div className="h-fit-content w-full">
                 <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px w-full pb-8">
                 At Boquet, <em>we believe vaginas deserve better care and attention.</em>
@@ -164,7 +164,7 @@ function MobileVersion() {
         </div>
 
         {/* OUR VAGINAS DESERVE TO BE CELEBRATED */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pb-16">
             <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px w-full pb-10">
             Our vagina's <em>deserve to be celebrated</em> for all the work it's done <em>and will continue to do.</em>
             </h2>
@@ -187,7 +187,7 @@ function TabletVersion() {
     <div className="responsive-tablet">
 
         {/* FOR YOUR FLORA BELOW IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center pb-10 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center pb-10 pt-12">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-9/12 pb-8">
                 For your <em>flora below.</em>
             </h1>
@@ -206,7 +206,7 @@ function TabletVersion() {
         </div>
 
         {/* TEXT BLOCK - As you use Boquet, we hope you remember how deserving you are. */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-10"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-10"> 
             <div className="h-fit-content w-10/12">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px w-full pb-8">
                 As you use Boquet, <em>we hope you remember how deserving you are.</em>
@@ -230,7 +230,7 @@ function TabletVersion() {
         </div>
 
         {/* WE BELIEVE THAT OUR VAGINAS DESERVE TO BE CELEBRATED IMAGE SECTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center py-10">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center py-10">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12 pb-8">
                 We believe that our vaginas <em>deserve to be celebrated.</em>
             </h1>
@@ -238,7 +238,7 @@ function TabletVersion() {
         </div>
 
         {/* TEXT BLOCK - AT BOQUET, WE BELIEVE THAT ALL VAGINAS NEED BETTER CARE AND ATTENTION */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-10"> 
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-10"> 
             <div className="h-fit-content w-10/12">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-44px w-full pb-8">
                 At Boquet, <em>we believe vaginas deserve better care and attention.</em>
@@ -256,7 +256,7 @@ function TabletVersion() {
         </div>
 
         {/* OUR VAGINAS DESERVE TO BE CELEBRATED */}
-        <div style={{backgroundColor: "#EBE5DB", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center pb-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center pb-12">
             <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px w-10/12 pb-10">
             Our vagina's <em>deserve to be celebrated</em> for all the work it's done <em>and will continue to do.</em>
             </h1>
@@ -287,7 +287,7 @@ function OurStoryPage() {
 
 OurStoryPage.getLayout = function getLayout(page) {
     return (
-      <Layout logoGray={false} backgroundColor={'#EBE5DB'}>
+      <Layout logoGray={false} backgroundColor={'#F4F0E8'}>
         <SEO 
           title={process.env.siteTitle}
         />
