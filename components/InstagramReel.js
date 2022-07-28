@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function imageWrapper(src, href) {
   return (
-    <div className="h-48 w-48 overflow-hidden inline-block mr-8 rounded-3xl">
+    <div style={{borderRadius: '1.5rem'}} className="h-48 w-48 overflow-hidden inline-block mr-8">
       <a
         href={href}
         target="_blank"
