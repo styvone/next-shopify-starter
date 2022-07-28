@@ -175,13 +175,13 @@ function ShopPage({ productData }) {
                     An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-desktop-p3">
-                    *Insert vaginally. Do not take orally.
+                    * Right before period when experiencing pH changes
                     </p>
                     <p className="coreSans text-desktop-p3">
-                    *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                    * After period and sex to replenish flora
                     </p>
                     <p className="coreSans text-desktop-p3 pb-20">
-                    *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
+                    * Relief of irritation from stress or other external factors
                     </p>
 
 
@@ -230,18 +230,19 @@ function ShopPage({ productData }) {
                 <div>
                     <div className="pb-4">
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Right before period when experiencing pH changes
+                            • Insert vaginally. Do not take orally.
                             <br/>
-                            • After period and sex to replenish flora
+                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                             <br/>
-                            • Relief of irritation from stress or other external factors 
+                            • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
                         size="4"
                         spaceBeforeBar="4"
                         spaceTopAnswer="4"
+                        customAnswerWidth="full"
                         >
                             <p className="coreSans text-desktop-p2">
-                                IDEAL FOR
+                                CAUTION
                             </p>
                         </AccordianItem>
                     </div>
@@ -384,13 +385,13 @@ function ShopPage({ productData }) {
                     An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                    *Insert vaginally. Do not take orally.
+                    * Right before period when experiencing pH changes
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                    *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                    * After period and sex to replenish flora
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-12">
-                    *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
+                    * Relief of irritation from stress or other external factors
                     </p>
 
                     <div className="flex flex-col justify-between">
@@ -445,18 +446,18 @@ function ShopPage({ productData }) {
                 <div>
                     <div className="pb-4">
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Right before period when experiencing pH changes
+                            • Insert vaginally. Do not take orally.
                             <br/>
-                            • After period and sex to replenish flora
+                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                             <br/>
-                            • Relief of irritation from stress or other external factors 
+                            • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
                         size="4"
                         spaceBeforeBar="4"
                         spaceTopAnswer="4"
                         >
                             <p className="coreSans text-mobile-p2 lineHeight-mobile-20px">
-                                IDEAL FOR
+                                CAUTION
                             </p>
                         </AccordianItem>
                     </div>
@@ -601,13 +602,13 @@ function ShopPage({ productData }) {
                         An easy-to-use vaginal tablet that relieves irritation and odor changes by promoting a protective pH balance.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                        *Insert vaginally. Do not take orally.
+                        * Right before period when experiencing pH changes
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                        *Do not use Boquet vaginal prebiotics if you have an allergy to milk.
+                        * After period and sex to replenish flora
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-12">
-                        *Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
+                        * Relief of irritation from stress or other external factors
                         </p>
                     </div>
 
@@ -663,18 +664,18 @@ function ShopPage({ productData }) {
                 <div>
                     <div className="pb-8">
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Right before period when experiencing pH changes
+                            • Insert vaginally. Do not take orally.
                             <br/>
-                            • After period and sex to replenish flora
+                            • Do not use Boquet vaginal prebiotics if you have an allergy to milk.
                             <br/>
-                            • Relief of irritation from stress or other external factors 
+                            • Boquet Vaginal Prebiotics are safe to use in cases of lactose intolerance.
                         </div>}
                         size="4"
                         spaceBeforeBar="4"
                         spaceTopAnswer="4"
                         >
                             <p className="coreSans text-tablet-p2 lineHeight-tablet-22px">
-                                IDEAL FOR
+                                CAUTION
                             </p>
                         </AccordianItem>
                     </div>

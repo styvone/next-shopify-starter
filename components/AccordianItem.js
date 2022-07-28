@@ -46,6 +46,8 @@ function AccordianItem(props) {
     const spaceBeforeBarMobile = props.spaceBeforeBar || '6';
     const spaceAbovePlusMinusMobile = props.spaceAbovePlusMinusMobile || '0';
 
+    const customAnswerWidth = props.customAnswerWidth || '2/3';
+
     return (
       <>
         <div className="responsive-desktop">
@@ -63,7 +65,7 @@ function AccordianItem(props) {
                       </span>
                   </AccordionPrimitive.Trigger>
                   <AccordionContent className="coreSans text-desktop-p2">
-                      <p className={`pt-${spaceTopAnswer} w-2/3`}>
+                      <p className={`pt-${spaceTopAnswer} w-${customAnswerWidth}`}>
                           {props.answer}
                       </p>
                   </AccordionContent>

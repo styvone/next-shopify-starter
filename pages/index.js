@@ -219,9 +219,8 @@ function DesktopVersion() {
           )} arrows={false} dots={true} autoplay={true} autoplaySpeed={9000} speed={500}>
             <div>
               <div className="flex justify-center text-center w-full py-16">
-                <div className="flex flex-col justify-center w-2/3">
-                  <h2 className="ivyPrestoThin text-desktop-h2 pb-8 lineHeight-desktop-normal">
-                  “I try to treat my body well by eating well. Boquet prebiotic tablets <em>help me feel well down there, and helps me feel more confident when I plan to have sex.</em>”
+                <div style={{width: '69%'}} className="flex flex-col justify-center">
+                  <h2 className="ivyPrestoThin text-desktop-h2 pb-8 lineHeight-desktop-normal">“I've been using Boquet after my period for five months. It has <em>kept infections away and my pH feels balanced so I'm more confident when I plan to have sex.</em>”
                   </h2>
                   <p className="coreSans text-desktop-p2">
                   TATIANA K.
@@ -243,9 +242,9 @@ function DesktopVersion() {
             </div>
             <div>
               <div className="flex justify-center text-center w-full py-16">
-                <div className="flex flex-col justify-center w-2/3">
+                <div style={{width: '71%'}} className="flex flex-col justify-center">
                   <h2 className="ivyPrestoThin text-desktop-h2 pb-8 lineHeight-desktop-normal">
-                  “People think if you have vaginal issues you're dirty but my symptoms were actually due to overwashing. <em>Something was feeling off and it went away after using Boquet.</em>”
+                  “People think vaginal issues happen when you're dirty but my odor was actually <em>due to overwashing. I'm so glad I treated the cause and restored my pH using Boquet.</em>”
                   </h2>
                   <p className="coreSans text-desktop-p2">
                   CHRISTINA M.
@@ -485,7 +484,7 @@ function MobileVersion() {
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
                   <h3 className="ivyPrestoThin text-mobile-h3 pb-8 lineHeight-mobile-38px">
-                  “I try to treat my body well by eating well. Boquet prebiotic tablets <em>help me feel well down there, and helps me feel more confident when I plan to have sex.</em>”
+                  “I've been using Boquet after my period for five months. It has <em>kept infections away and my pH feels balanced so I'm more confident when I plan to have sex.</em>”
                   </h3>
                   <p className="coreSans text-mobile-p3">
                   TATIANA K.
@@ -509,7 +508,7 @@ function MobileVersion() {
               <div className="flex justify-center text-center w-full py-16">
                 <div className="flex flex-col justify-center w-full">
                   <h3 className="ivyPrestoThin text-mobile-h3 pb-8 lineHeight-mobile-38px">
-                  “People think if you have vaginal issues you're dirty but my symptoms were actually due to overwashing. <em>Something was feeling off and it went away after using Boquet.</em>”
+                  “People think vaginal issues happen when you're dirty but my odor was actually <em>due to overwashing. I'm so glad I treated the cause and restored my pH using Boquet.</em>”
                   </h3>
                   <p className="coreSans text-mobile-p3">
                   CHRISTINA M.
@@ -747,7 +746,7 @@ function TabletVersion() {
               <div className="flex justify-center text-center w-full py-8">
                 <div className="flex flex-col justify-center w-full">
                   <h3 className="ivyPrestoThin text-tablet-h3 lineHeight-tablet-42px pb-8">
-                  “I try to treat my body well by eating well. Boquet prebiotic tablets <em>help me feel well down there, and helps me feel more confident when I plan to have sex.</em>”
+                  “I've been using Boquet after my period for five months. It has <em>kept infections away and my pH feels balanced so I'm more confident when I plan to have sex.</em>”
                   </h3>
                   <p className="coreSans text-tablet-p2 lineHeight-tablet-22px">
                   TATIANA K.
@@ -771,7 +770,7 @@ function TabletVersion() {
               <div className="flex justify-center text-center w-full py-8">
                 <div className="flex flex-col justify-center w-full">
                   <h3 className="ivyPrestoThin text-tablet-h3 lineHeight-tablet-42px pb-8">
-                  “People think if you have vaginal issues you're dirty but my symptoms were actually due to overwashing. <em>Something was feeling off and it went away after using Boquet.</em>”
+                  “People think vaginal issues happen when you're dirty but my odor was actually <em>due to overwashing. I'm so glad I treated the cause and restored my pH using Boquet.</em>”
                   </h3>
                   <p className="coreSans text-tablet-p2 lineHeight-tablet-22px">
                   CHRISTINA M.
