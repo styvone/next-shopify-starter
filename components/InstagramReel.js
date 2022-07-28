@@ -5,14 +5,12 @@ import Image from 'next/image';
 function imageWrapper(src, href) {
   return (
     <div className="h-48 w-48 overflow-hidden inline-block mr-8 rounded-3xl">
-      <Link
+      <a
         href={href}
-        passHref
+        target="_blank"
       >
-        <a target="_blank">
-          <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} priority={true} />
-        </a>
-      </Link>
+        <Image alt="instagram reel image" className="inline transform duration-500 ease-in-out hover:scale-110 cursor-pointer" src={src} width={192} height={192} priority={true} />
+      </a>
     </div>
   );
 }
