@@ -435,7 +435,7 @@ function MobileVersion() {
             Boquet <br/> <em>Vaginal Prebiotic</em>
           </h2>
           <p className="coreSans text-mobile-p1 pb-6 w-full lineHeight-mobile-22px">
-            Boquet is a prebiotic vaginal tablet that promotes the growth of good.
+          Boquet is a prebiotic vaginal tablet that promotes the growth of good bacteria in the vaginal flora (instead of stripping it away). Backed by science, our tablet is gentle enough to be used everyday.
           </p>
           <Link
               href="/shop"

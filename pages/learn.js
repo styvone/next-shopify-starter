@@ -294,7 +294,7 @@ function LearnPage() {
             </h2>
             <br/>
             <p className="coreSans text-desktop-p1">
-              Maintain your vaginal flora when displaying symptoms of pH imbalance.
+              Maintain your vaginal flora's balance and protective state.
             </p>
             <br/>
             <p className="coreSans text-desktop-p1">
@@ -528,7 +528,7 @@ function LearnPage() {
             </h2>
  
             <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
-              Maintain your vaginal flora when displaying symptoms of pH imbalance.
+              Maintain your vaginal flora's balance and protective state.
             </p>
 
             <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
@@ -768,7 +768,7 @@ function LearnPage() {
               </h2>
   
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
-                Maintain your vaginal flora when displaying symptoms of pH imbalance.
+                Maintain your vaginal flora's balance and protective state.
               </p>
 
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">

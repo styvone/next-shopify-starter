@@ -259,7 +259,7 @@ function ShopPage({ productData }) {
                     </div>
                     <div>
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Lactose*
+                            • Lactose
                             <br/>
                             • Silicon Dioxide
                             <br/>
@@ -325,7 +325,7 @@ function ShopPage({ productData }) {
                 Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-desktop-p3">
-                * Laying flat on your back is recommended.
+                * Laying flat on your back may help.
                 </p>
                 <p className="coreSans text-desktop-p3 pb-4">
                 ** You may wish to wear a panty liner in case there is slight leakage.
@@ -477,7 +477,7 @@ function ShopPage({ productData }) {
                     </div>
                     <div>
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Lactose*
+                            • Lactose
                             <br/>
                             • Silicon Dioxide
                             <br/>
@@ -543,7 +543,7 @@ function ShopPage({ productData }) {
                 Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-                * Laying flat on your back is recommended.
+                * Laying flat on your back may help.
                 </p>
                 <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-4">
                 ** You may wish to wear a panty liner in case there is slight leakage.
@@ -698,7 +698,7 @@ function ShopPage({ productData }) {
                     </div>
                     <div>
                         <AccordianItem  answer={<div style={{lineHeight: '24px'}}>
-                            • Lactose*
+                            • Lactose
                             <br/>
                             • Silicon Dioxide
                             <br/>
@@ -764,7 +764,7 @@ function ShopPage({ productData }) {
                 Use clean fingers to insert 1 Boquet tablet gently into the vagina to where it is comfortable.
                 </p>
                 <p className="coreSans text-tablet-p3 lineHeight-tablet-20px">
-                * Laying flat on your back is recommended.
+                * Laying flat on your back may help.
                 </p>
                 <p className="coreSans text-tablet-p3 lineHeight-tablet-20px pb-4">
                 ** You may wish to wear a panty liner in case there is slight leakage.
