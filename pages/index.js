@@ -31,7 +31,7 @@ function DesktopVersion() {
     {/* BOQUET HOME PAGE TOP SECTION */}
 
         <div style={{
-            backgroundColor: "#888889",
+            backgroundColor: "#F4F0E8",
         }} className="h-fit-content">
           <div style={{
               height: '57rem',
