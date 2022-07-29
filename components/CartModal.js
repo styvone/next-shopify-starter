@@ -89,6 +89,7 @@ function CartModal() {
                 onClick={() => {
                     leaveModal();
                 }}
+                className="noOutlineButton"
             >
             <img className="h-fit-content" src="/icons/cart-modal/cart-modal-exit.svg" />
             </button>
@@ -147,7 +148,7 @@ function CartModal() {
                             </div>
                             <div className="flex flex-col justify-end">
                             <h3 style={{lineHeight: 'normal'}} className="helvetica text-desktop-h3">
-                                {`$${tempNumItems * 25}.00`}
+                                {`$${tempNumItems * 29}.00`}
                             </h3>
                             </div>
                         </div>
@@ -224,6 +225,7 @@ function CartModal() {
                     onClick={() => {
                         leaveModal();
                     }}
+                    className="noOutlineButton"
                 >
                     <img className="h-8" src="/icons/cart-modal/cart-modal-exit.svg" />
                 </button>
@@ -283,7 +285,7 @@ function CartModal() {
                                 </p>
                             </div>
                             <p className="helvetica text-mobile-p1">
-                                {`$${tempNumItems * 25}.00`}
+                                {`$${tempNumItems * 29}.00`}
                             </p>
                         </div>
                     </div>
@@ -356,6 +358,7 @@ function CartModal() {
             onClick={() => {
                 leaveModal();
             }}
+            className="noOutlineButton"
         >
         <img className="h-fit-content" src="/icons/cart-modal/cart-modal-exit.svg" />
         </button>
@@ -413,7 +416,7 @@ function CartModal() {
                             </p>
                         </div>
                         <h3 className="helvetica text-tablet-h3 lineHeight-tablet-32px">
-                            {`$${tempNumItems * 25}.00`}
+                            {`$${tempNumItems * 29}.00`}
                         </h3>
                     </div>
                 </div>

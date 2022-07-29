@@ -232,7 +232,7 @@ function ShopPage({ productData }) {
                                 onClick={handleAddToCart}
                             >
                                 <p className="text-desktop-p2 h-24 flex flex-col justify-center">
-                                    {`$${numberOfPills * 25}.00 — ADD TO CART`}
+                                    {`$${numberOfPills * 29}.00 — ADD TO CART`}
                                 </p>
                             </button>
                         </Link>
@@ -446,7 +446,7 @@ function ShopPage({ productData }) {
                                 <div className="h-14 w-full flex flex-col justify-center">
                                     <div className="flex justify-between">
                                     <p className="text-mobile-p1 lineHeight-mobile-22px ml-8">
-                                        {`$${numberOfPills * 25}.00`}
+                                        {`$${numberOfPills * 29}.00`}
                                     </p>
                                     <p className="text-mobile-p1 lineHeight-mobile-22px mr-8">
                                         ADD TO CART
@@ -667,7 +667,7 @@ function ShopPage({ productData }) {
                                 <div className="w-full flex flex-col justify-center">
                                     <div className="flex justify-evenly">
                                         <p className="text-tablet-p2 lineHeight-tablet-22px ml-8">
-                                            {`$${numberOfPills * 25}.00`}
+                                            {`$${numberOfPills * 29}.00`}
                                         </p>
                                         <p className="text-tablet-p2 lineHeight-tablet-22px mr-8">
                                             ADD TO CART
