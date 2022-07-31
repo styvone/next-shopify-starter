@@ -173,7 +173,7 @@ function LearnPage() {
                   </AccordianItem>
 
                   <div className="pt-8">
-                      <AccordianItem  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                      <AccordianItem  answer="Signs you may be experiencing a pH imbalance include changes in odor, itching, discharge, and/or a burning sensation upon urination. If you experience these symptoms consistently, we strongly recommend you consult with a healthcare provider.">
                           <h3 className="text-desktop-h3 lineHeight-desktop-normal">What are <em>symptoms of pH imbalance?</em></h3>
                       </AccordianItem>
                   </div>
@@ -400,7 +400,7 @@ function LearnPage() {
                   </AccordianItem>
 
                   <div className="pt-8">
-                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                      <AccordianItem spaceAbovePlusMinusMobile={'9px'} size={5}  answer="Signs you may be experiencing a pH imbalance include changes in odor, itching, discharge, and/or a burning sensation upon urination. If you experience these symptoms consistently, we strongly recommend you consult with a healthcare provider.">
                           <h3 className="text-mobile-h3 lineHeight-mobile-39px">What are <em>symptoms of pH imbalance?</em></h3>
                       </AccordianItem>
                   </div>
@@ -634,7 +634,7 @@ function LearnPage() {
                   </AccordianItem>
 
                   <div className="pt-8">
-                      <AccordianItem  answer="Signals your pH is not in balance include changes in odor, itching, discharge, and possible burning when you urinate. If you're experiencing them consistently, we strongly recommend seeing and consulting with a healthcare provider.">
+                      <AccordianItem  answer="Signs you may be experiencing a pH imbalance include changes in odor, itching, discharge, and/or a burning sensation upon urination. If you experience these symptoms consistently, we strongly recommend you consult with a healthcare provider.">
                           <h3 className="text-tablet-h3 lineHeight-tablet-43px">What are <em>symptoms of pH imbalance?</em></h3>
                       </AccordianItem>
                   </div>
