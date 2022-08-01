@@ -158,7 +158,7 @@ function Footer() {
       <div className="responsive-tablet">
         <footer style={{backgroundColor: '#283F91', paddingLeft: '40px', paddingRight: '40px', paddingBottom: '57px'}} className="pt-16 flex flex-col justify-center font-primary items-center text-white">
           <div style={{borderBottomWidth: '0.5px'}} className="h-70 w-full">
-            <div className="pb-8 w-full flex flex-col justify-start">
+            <div className="pb-16 w-full flex flex-col justify-start">
               <img alt="logo" className="w-36 object-contain" src="/logo/boquet_logo_gray.svg" />
             </div>
             <div style={{paddingBottom: '60px'}} className="w-full flex justify-between">

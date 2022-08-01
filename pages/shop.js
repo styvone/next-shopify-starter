@@ -594,7 +594,7 @@ function ShopPage({ productData }) {
     <div className="responsive-tablet">
         {/* SHOPPING SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
-            <div className="w-full pb-8">
+            <div className="w-full pb-16">
                 <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-8">
                     Boquet <em>Vaginal Prebiotic</em>
                 </h1>
@@ -727,7 +727,7 @@ function ShopPage({ productData }) {
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-between pt-20">
             <div className="h-fit-content w-full pb-8">
                 <Image alt="papayas and other fruits with the pill product" src={papayaImage} priority={true} quality={100} />
             </div>
@@ -756,7 +756,7 @@ function ShopPage({ productData }) {
                 <img alt="largest pill picture folding animation" style={{left: '97%', top: '3%'}}  className="inline absolute bounce3-tablet" src='/images/shop/large-pill.png' />
             </div>
 
-            <div className="h-fit-content w-full flex flex-col justify-end pb-16">
+            <div className="h-fit-content w-full flex flex-col justify-end pb-20">
                 <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-53px w-full pb-4">
                     Inserting Boquet
                 </h2>

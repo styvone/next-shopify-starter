@@ -554,7 +554,7 @@ function LearnPage() {
     {/* Tablet */}
     <div className="responsive-tablet">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-10">
+      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start pb-16">
         <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-4 pt-10 w-10/12">
         <em>Flourish your flora</em> with Boquet
         </h1>
@@ -576,43 +576,43 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-evenly py-10">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-evenly pb-10 pt-16">
 
         <div className="w-10/12">
-          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-4">
+          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-0">
             When should I <em>use Boquet?</em>
           </h1>
-          <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-10">
+          <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-16">
           While Boquet is used to treat odor and irritation, it also helps support pH balance in the following scenarios:
           </p>
         </div>
 
         <div className="">
-          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-4">
+          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-2">
           During hormonal changes
           </h3>
           <p className="w-10/12 coreSans text-tablet-p2 lineHeight-tablet-22px pb-10">
           Fluctuating hormones around our menstrual cycle can affect vaginal pH balance resulting in symptoms like changes in odor, itchiness and irritation.
           </p>
 
-          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-4">
+          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-2">
           Stress
           </h3>
           <p className="w-10/12 coreSans text-tablet-p2 lineHeight-tablet-22px pb-10">
           Exhaustion, stress to external stressors like menstrual products, douching and sex can cause a shift in vaginal flora.
           </p>
 
-          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-4">
+          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-2">
             After your period
           </h3>
           <p className="w-10/12 coreSans text-tablet-p2 lineHeight-tablet-22px pb-10">
           Menstrual blood is slightly alkaline with a pH of 7.4 and can raise vaginal pH. Use Boquet's prebiotic at the end of your period to replenish the flora back to its low pH.
           </p>
 
-          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-4">
+          <h3 className="w-10/12 ivyPrestoThin text-tablet-h3 lineHeight-tablet-34px pb-2">
             Before and after sex
           </h3>
-          <p className="w-10/12 coreSans text-tablet-p2 lineHeight-tablet-22px pb-10">
+          <p className="w-10/12 coreSans text-tablet-p2 lineHeight-tablet-22px pb-16">
           Sex can cause a shift in the vaginal flora. Additionally, semen has a higher pH of 7.2-8.  Boquet's vaginal prebiotic can be used before sex to replenish the flora but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora.
           </p>
           <div className="pb-10">
@@ -628,7 +628,7 @@ function LearnPage() {
 
         {/* FAQ SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center">
-          <div className="py-16 w-full">
+          <div className="pt-16 pb-32 w-full">
                   <AccordianItem answer="Boquet's vaginal prebiotic is made with the prebiotic lactose. Lactose promotes the growth of our good bacteria, lactobacillus, in the vaginal flora and supports a protective pH.">
                       <h3 className="text-tablet-h3 lineHeight-tablet-43px">What is <em>Boquet's vaginal prebiotic?</em></h3>
                   </AccordianItem>
@@ -707,7 +707,7 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center text-center">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-center text-center pb-16">
           <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-4">
             Directions on <em>how to use</em>
           </h1>
@@ -727,7 +727,7 @@ function LearnPage() {
 
         {/* PILL DROPPING ANIMATION SECTION */}
 
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '30rem'}} className="flex flex-col items-center justify-between pb-16">
           <div className="droppingPillAnimationContainer-tablet h-24 w-24">
             <Image alt="pill animation" src={pillAnimationImage} priority={true} />
           </div>
@@ -748,7 +748,7 @@ function LearnPage() {
           <div className="flex justify-evenly">
             <div className="w-1/2 flex flex-col justify-center text-left pr-4" >
               <h2 className="text-tablet-h2 lineHeight-tablet-43px ivyPrestoThin">
-                To Restore:
+                To Restore
               </h2>
 
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">
@@ -764,7 +764,7 @@ function LearnPage() {
 
             <div className="w-1/2 flex flex-col justify-center text-left">
               <h2 className="text-tablet-h2 lineHeight-tablet-43px ivyPrestoThin">
-                To Maintain:
+                To Maintain
               </h2>
   
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-4">

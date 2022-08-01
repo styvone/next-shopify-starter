@@ -568,7 +568,7 @@ function TabletVersion() {
     {/* BOQUET HOME PAGE TOP SECTION */}
     <div style={{
             backgroundColor: "#F4F0E8", 
-            height: '35rem',
+            height: '64rem',
             color: '#F4F0E8',
         }} className="relative h-fit-content w-full flex flex-col justify-center text-center items-center">
           
@@ -605,8 +605,8 @@ function TabletVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center py-16">
-          <h1 className="ivyPrestoThin text-tablet-h1 pb-8 lineHeight-tablet-59px">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-8">
+          <h1 className="ivyPrestoThin text-tablet-h1 pb-4 lineHeight-tablet-59px">
           Flourish your flora
           </h1>
           <p className="coreSans text-tablet-p1 pb-8 lineHeight-tablet-25px">
@@ -639,7 +639,7 @@ function TabletVersion() {
               <div className="inline-block pb-8">
                 <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
-              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
+              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-2">
               Remedy Odor
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
@@ -651,7 +651,7 @@ function TabletVersion() {
               <div className="inline-block pb-8">
                 <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
-              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
+              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-2">
               Replenish Flora
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
@@ -665,7 +665,7 @@ function TabletVersion() {
               <div className="inline-block pb-8">
                 <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
-              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
+              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-2">
               Relieve Irritation
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
@@ -677,7 +677,7 @@ function TabletVersion() {
               <div className="inline-block pb-8">
                 <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
-              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-8">
+              <h2 className="ivyPrestoThin text-tablet-h2 lineHeight-tablet-43px text-center pb-2">
               Restore pH
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
@@ -691,15 +691,15 @@ function TabletVersion() {
               passHref
           >
               <a style={{borderColor: '#283F91', color: '#283F91'}} className="longPillButtonGradientHoverAnimation w-full relative coreSans border border-black flex justify-center rounded-full mr-8" aria-label="shop">
-                  <p className="text-tablet-p2 lineHeight-tablet-22px h-24 flex flex-col justify-center">LEARN MORE</p>
+                  <p className="text-tablet-p2 lineHeight-tablet-22px h-20 flex flex-col justify-center">LEARN MORE</p>
               </a>
           </Link>
         </div>
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-16">
-          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-8">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-20">
+          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-59px pb-4">
             Boquet <em>Vaginal Prebiotic</em>
           </h1>
           <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8 w-8/12">
@@ -710,19 +710,19 @@ function TabletVersion() {
               passHref
           >
               <a className="pl-0" aria-label="cart">
-                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                  <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                           <p className="text-center text-tablet-p2 lineHeight-tablet-20px coreSans">
                               SHOP BOQUET
                           </p>
                   </div>
               </a>
           </Link>
-          <div className="inline-block pt-8">
+          <div className="inline-block pt-16">
             <Image alt="boquet vaginal prebiotic main product image" src={boquetVaginalPrebioticBannerImage} priority={true} quality={100} />
           </div>
         </div>
         {/* ingredients list at the bottom of BOQUET VAGINAL PREBIOTIC section */}
-        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-8 pt-8">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex justify-start pb-16 pt-8">
           <div className="flex justify-between w-full">
             <p className="coreSans text-tablet-p2 lineHeight-tablet-22px">
               INGREDIENTS:
@@ -741,7 +741,7 @@ function TabletVersion() {
 
 
         {/* CUSTOMER QUOTE SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-8">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-32">
           <Slider customPaging={i => (
             <div
             style={{
@@ -795,7 +795,7 @@ function TabletVersion() {
 
         {/* LEARN SECTION */}
         <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '40px', paddingRight: '40px'}} className="h-fit-content flex flex-col justify-start py-16">
-          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-16">
+          <h1 className="ivyPrestoThin text-tablet-h1 lineHeight-tablet-71px pb-10">
             Some more <em>info</em>
           </h1>
 

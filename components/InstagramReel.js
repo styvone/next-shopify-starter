@@ -79,7 +79,7 @@ function InstagramReel() {
         </div>
 
         <div className="responsive-tablet">
-          <div style={{backgroundColor: "#F4F0E8"}} className="h-80 w-full flex flex-col justify-evenly">
+          <div style={{backgroundColor: "#F4F0E8", height: '25rem'}} className="w-full flex flex-col justify-evenly">
             <div style={{paddingLeft: '40px', paddingRight: '40px'}} className="h-8 flex justify-end">
               <div style={{color: '#283F91'}} className="flex flex-col justify-center">
                 <Link

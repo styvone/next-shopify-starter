@@ -119,7 +119,7 @@ function ImageTagSection(props) {
                                 passHref
                             >
                                 <a className="pl-0" aria-label="cart">
-                                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-48 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
+                                    <div style={{borderRadius: '50%', borderColor: '#F4F0E8'}} className="border w-56 h-20 flex flex-col justify-center shortPillButtonGradientBeige">
                                             <p className="text-center text-tablet-p2 coreSans">
                                                 SHOP BOQUET
                                             </p>
