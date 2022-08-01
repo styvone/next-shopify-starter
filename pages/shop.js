@@ -162,7 +162,7 @@ function ShopPage({ productData }) {
     {/* DESKTOP */}
     <div className="responsive-desktop">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between py-20">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between pt-20 pb-48">
             <div className="w-1/2">
                 <div className="inline-block w-3/4">
                     <Image 
@@ -288,7 +288,7 @@ function ShopPage({ productData }) {
 
 
         {/* TO RESTORE / TO MAINTAIN section */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between pb-36">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-between pb-32">
             <div className="h-fit-content w-1/3 flex flex-col justify-end">
                 <h2 className="ivyPrestoThin text-desktop-h2 pb-4 lineHeight-desktop-120">
                     To restore
@@ -310,14 +310,14 @@ function ShopPage({ productData }) {
 
 
         {/* INSERTING BOQUET SECTION x ROTATING PILL ANIMATION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex justify-end pb-8">
             <div style={{height: '45rem'}} className="w-1/2 relative floatingPillAnimationContainer-desktop">
                 <img alt="smallest pill picture folding animation" style={{left: '-35%', top: '35%'}} className="inline absolute bounce1-desktop" src='/images/shop/small-pill.png' />
                 <img alt="medium pill picture folding animation" style={{left: '-4%', top: '15%'}} className="inline absolute bounce2-desktop" src='/images/shop/med-pill.png' />
                 <img alt="largest pill picture folding animation" style={{left: '33%', top: '1%'}} className="inline absolute bounce3-desktop " src='/images/shop/large-pill.png' />
             </div>
 
-            <div className="h-fit-content w-1/2 flex flex-col justify-end pb-32">
+            <div className="h-fit-content w-1/2 flex flex-col justify-end pb-80">
                 <h2 className="ivyPrestoThin text-desktop-h2 lineHeight-desktop-120 w-1/2 pb-4">
                     Inserting Boquet
                 </h2>

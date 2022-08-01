@@ -87,11 +87,11 @@ function LearnPage() {
       {/* Desktop */}  
       <div className="responsive-desktop">
       {/* VAGINAL HEALTH 101 WITH BOQUET */}
-      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-16">
+      <div style={{backgroundColor: '#283F91', color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className=" h-fit-content flex flex-col justify-start pb-28">
         <h2 className="ivyPrestoThin text-desktop-oneOff-md lineHeight-desktop-122 pt-20 pb-6">
           <em>Flourish your flora</em> with Boquet
         </h2>
-        <p className="coreSans text-desktop-p1 w-1/2 pb-20">
+        <p style={{width: '45%'}} className="coreSans text-desktop-p1 pb-20">
         Everything you need to know about using Boquet and restoring your good protective bacteria.
         </p>
         <Image 
@@ -109,7 +109,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '78rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex flex-col justify-center pt-8 pb-24">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', height: '74rem', paddingLeft: '50px', paddingRight: '50px'}} className="flex flex-col justify-center pt-0 pb-0">
 
         <div className="w-1/2">
           <h1 className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
@@ -167,7 +167,7 @@ function LearnPage() {
 
       {/* FAQ SECTION */}
       <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-center">
-          <div className="py-20 w-full">
+          <div className="pb-48 pt-12 w-full">
                   <AccordianItem answer="Boquet's vaginal prebiotic is made with the prebiotic lactose. Lactose promotes the growth of our good bacteria, lactobacillus, in the vaginal flora and supports a protective pH.">
                       <h3 className="text-desktop-h3 lineHeight-desktop-normal">What is <em>Boquet's vaginal prebiotic?</em></h3>
                   </AccordianItem>

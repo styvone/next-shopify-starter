@@ -70,8 +70,8 @@ function DesktopVersion() {
         </div>
 
         {/* MEET BOQUET SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-16 pb-2">
-          <h1 style={{paddingBottom: '1.5rem'}} className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start text-center items-center pt-24 pb-0">
+          <h1 style={{paddingBottom: '1rem'}} className="ivyPrestoThin text-desktop-h1 lineHeight-desktop-123">
           Flourish your flora
           </h1>
           <p className="coreSans text-desktop-p1 pb-8">
@@ -97,7 +97,7 @@ function DesktopVersion() {
 
 
         {/* FOUR Rs SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-16">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start pt-14 pb-20">
           <div style={{paddingBottom: '5rem'}} className="flex justify-between gap-8">
             <div className="h-fit-content w-1/4 flex flex-col justify-start">
 
@@ -105,34 +105,34 @@ function DesktopVersion() {
                 <Image alt="reduces image" src={reducesImage} priority={true} />
               </div>
 
-              <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
+              <h3 style={{paddingBottom: '8px'}} className="ivyPrestoThin text-desktop-h3 text-center lineHeight-desktop-120">
                 Remedy Odor
-              </h2>
-              <p className="coreSans text-desktop-p1 text-center">
+              </h3>
+              <p className="coreSans text-desktop-p2 text-center">
                 Displace odor causing amines
               </p>
             </div>
 
-            <div className="h-fit-content w-1/4 flex flex-col justify-between">
+            <div className="h-fit-content w-1/4 flex flex-col justify-start">
               <div style={{marginBottom: '40px', height: '311px', height: 'fit-content'}} className="inline-block">
                 <Image alt="relieves image" src={relievesImage} priority={true} />
               </div>
-              <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
+              <h3 style={{paddingBottom: '8px'}} className="ivyPrestoThin text-desktop-h3 text-center lineHeight-desktop-120">
                 Replenish Flora
-              </h2>
-              <p className="coreSans text-desktop-p1 text-center">
-                Prevent growth of infection causing bacteria
+              </h3>
+              <p className="coreSans text-desktop-p2 text-center">
+                Prevent infection causing bacteria
               </p>
             </div>
 
-            <div className="h-fit-content w-1/4 flex flex-col justify-between">
+            <div className="h-fit-content w-1/4 flex flex-col justify-start">
               <div style={{marginBottom: '40px', height: '311px', height: 'fit-content'}} className="inline-block">
                 <Image alt="replenishes image" src={replenishesImage} priority={true} />
               </div>
-              <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
-                Relieve Irritation 
-              </h2>
-              <p className="coreSans text-desktop-p1 text-center">
+              <h3 style={{paddingBottom: '8px'}} className="ivyPrestoThin text-desktop-h3 text-center lineHeight-desktop-120">
+                Relieve Irritation
+              </h3>
+              <p className="coreSans text-desktop-p2 text-center">
               Stimulate protective and healing bacteria
               </p>
             </div>
@@ -141,10 +141,10 @@ function DesktopVersion() {
               <div style={{marginBottom: '40px', height: '311px', height: 'fit-content'}} className="inline-block">
                 <Image alt="restores image" src={restoresImage} priority={true} />
               </div>
-              <h2 style={{paddingBottom: '17px'}} className="ivyPrestoThin text-desktop-h2 text-center lineHeight-desktop-120">
+              <h3 style={{paddingBottom: '8px'}} className="ivyPrestoThin text-desktop-h3 text-center lineHeight-desktop-120">
               Restore pH
-              </h2>
-              <p className="coreSans text-desktop-p1 text-center">
+              </h3>
+              <p className="coreSans text-desktop-p2 text-center">
               Maintain a balanced, protective pH
               </p>
             </div>
@@ -161,8 +161,8 @@ function DesktopVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-32">
-          <h2 className="ivyPrestoThin text-desktop-oneOff-lg pb-10 lineHeight-desktop-113">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '50px', paddingRight: '50px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-28">
+          <h2 className="ivyPrestoThin text-desktop-oneOff-lg pb-12 lineHeight-desktop-113">
             Boquet <em>Vaginal Prebiotic</em>
           </h2>
           <p className="coreSans text-desktop-p1 pb-10 w-6/12">
@@ -390,7 +390,7 @@ function MobileVersion() {
               Replenish Flora
               </h2>
               <p className="coreSans text-mobile-p1 text-center lineHeight-mobile-22px">
-              Prevent growth of infection causing bacteria
+              Prevent infection causing bacteria
               </p>
             </div>
 
@@ -655,7 +655,7 @@ function TabletVersion() {
               Replenish Flora
               </h2>
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px text-center">
-              Prevent growth of infection causing bacteria
+              Prevent infection causing bacteria
               </p>
             </div>
           </div>
