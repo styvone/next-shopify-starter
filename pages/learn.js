@@ -342,7 +342,7 @@ function LearnPage() {
 
 
       {/* WHEN SHOULD I USE BOQUET? SECTION */}
-      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-8 pt-12">
+      <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-0 pt-12">
 
         <div className="w-full">
           <h2 className="ivyPrestoThin text-mobile-h2 lineHeight-mobile-39px pb-3">
@@ -381,7 +381,7 @@ function LearnPage() {
           <p className="coreSans text-mobile-p2 lineHeight-mobile-20px pb-10">
           Sex can cause a shift in the vaginal flora. Additionally, semen has a higher pH of 7.2-8.  Boquet's vaginal prebiotic can be used before sex to replenish the flora but take into factor that there will be a residue of the tablet that you may wish to wipe away. Boquet's vaginal prebiotics can also be used after sex to restore the flora.
           </p>
-          <div className="pb-6">
+          <div className="pb-0">
             <Image alt="when should i use boquet image" onLoadingComplete={ScrollTrigger.refresh} src={whenShouldIUseBoquetImage} priority={true} quality={100} />
           </div>
         </div>
@@ -469,7 +469,7 @@ function LearnPage() {
 
 
       {/* DIRECTIONS ON HOW TO USE SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center text-start">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-center pt-8 pb-16">
           <h1 className="w-2/3 ivyPrestoThin text-mobile-h1 lineHeight-mobile-43px pb-4">
             Directions on <em>how to use</em>
           </h1>
@@ -500,7 +500,7 @@ function LearnPage() {
 
 
         {/* RESTORE PICS MAINTAIN SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-evenly pb-12 pt-16">
           <div className="w-full flex flex-col justify-center relative pb-16">
           <Image alt="maintain logo" src={maintainLogoImage} onLoadingComplete={ScrollTrigger.refresh} priority={true} />
           </div>

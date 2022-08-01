@@ -321,7 +321,7 @@ function MobileVersion() {
 
 
 
-          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-38px z-10">
+          <h2 className="ivyPrestoThin text-mobile-h2 w-full pb-6 lineHeight-mobile-42px z-10">
             Finally, a <em>natural way</em> to enhance our <em>vagina's good bacteria.</em>
           </h2>
           <Link
@@ -343,8 +343,8 @@ function MobileVersion() {
           <h1 className="ivyPrestoThin text-mobile-h1 pb-2">
           Flourish your flora
           </h1>
-          <p className="coreSans text-mobile-p1 pb-6 lineHeight-mobile-22px">
-          When our vaginal flora stays balanced with good bacteria, <br/> it has magnicifent abilities to preserve a protective pH.
+          <p className="coreSans text-mobile-p1 pb-4 lineHeight-mobile-22px">
+          When our vaginal flora stays balanced with good bacteria, it has magnicifent abilities to preserve a protective pH.
           </p>
           {/* <Link
               href="/our-story"
@@ -430,7 +430,7 @@ function MobileVersion() {
 
 
         {/* BOQUET VAGINAL PREBIOTIC SECTION */}
-        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-10">
+        <div style={{backgroundColor: "#283F91", color: '#F4F0E8', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-start items-center text-center pt-16">
           <h2 className="ivyPrestoThin text-mobile-oneOff-lg pb-4 lineHeight-mobile-43px">
             Boquet <br/> <em>Vaginal Prebiotic</em>
           </h2>

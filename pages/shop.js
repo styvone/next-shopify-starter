@@ -376,7 +376,7 @@ function ShopPage({ productData }) {
     {/* MOBILE */}
     <div className="responsive-mobile">
         {/* SHOPPING SECTION */}
-        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between pb-8 pt-12">
+        <div style={{backgroundColor: "#F4F0E8", color: '#283F91', paddingLeft: '16px', paddingRight: '16px'}} className="h-fit-content flex flex-col justify-between pb-16 pt-12">
             <div className="w-full pb-10">
                 <h1 className="ivyPrestoThin text-mobile-h1 pb-8 lineHeight-mobile-43px">
                     Boquet <em>Vaginal Prebiotic</em>

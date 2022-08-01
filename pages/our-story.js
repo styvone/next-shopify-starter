@@ -9,6 +9,9 @@ import forYourFloraBelowImage from '../public/images/for-your-flora-below.png';
 import nhainPortraitImage from '../public/images/nhain.png';
 import weBelieveVaginasCelebratedImage from '../public/images/we-believe-vaginas-celebrated.png';
 
+import forYourFloraBelowImageMobile from '../public/images/for-your-flora-below-mobile.png';
+import nhainPortraitImageMobile from '../public/images/nhain-mobile.png';
+
 function DesktopVersion() {
     const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
 
@@ -132,7 +135,7 @@ function MobileVersion() {
                 <div style={{paddingRight: '16px'}} className="flex flex-col justify-start w-1/2">
                     <Image 
                         alt="pills against black backdrop banner image" 
-                        src={forYourFloraBelowImage} 
+                        src={forYourFloraBelowImageMobile} 
                         priority={true} 
                         quality={100} 
                         className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
@@ -144,7 +147,7 @@ function MobileVersion() {
                 <div className="inline-block w-1/2">
                     <Image 
                         alt="nhain portrait" 
-                        src={nhainPortraitImage} 
+                        src={nhainPortraitImageMobile} 
                         priority={true} 
                         quality={100} 
                         className={'image-opacity-duration' + (isTopImageLoaded ? ' onLoad-opacity-trigger': '')}
