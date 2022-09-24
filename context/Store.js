@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import { createShopifyCheckout, updateShopifyCheckout, setLocalData, saveLocalData } from '@/utils/helpers'
+import { getCheckoutUrlWithCheckoutId, getCartWithCheckoutId } from '@/lib/shopify'
 
 const CartContext = createContext()
 const AddToCartContext = createContext()
@@ -36,17 +37,29 @@ export function CartProvider({ children }) {
   const [menuModalOpen, setMenuModalOpen] = useState(false)
 
   useEffect(() => {
-    setLocalData(setCart, setCheckoutId, setCheckoutUrl)
+    setLocalData(setCheckoutId)
   }, [])
 
   useEffect(() => {
     // do this to make sure multiple tabs are always in sync
     const onReceiveMessage = (e) => {
       console.log(e)
-      setLocalData(setCart, setCheckoutId, setCheckoutUrl)
+      setLocalData(setCheckoutId)
     }
 
     window.addEventListener("storage", onReceiveMessage);
+
+
+    // add code here to populate cart and checkoutUrl by querying using the saved localStorage checkoutID
+    const setUpCartFromCheckOutId = async () => {
+      setCart(await getCartWithCheckoutId(checkoutId));
+      setCheckoutUrl(await getCheckoutUrlWithCheckoutId(checkoutId));
+      console.log(cart)
+      console.log(checkoutUrl)
+    }
+    setUpCartFromCheckOutId().catch(console.error);
+
+
     return () => {
       window.removeEventListener("storage", onReceiveMessage);
     }
@@ -55,7 +68,7 @@ export function CartProvider({ children }) {
   async function addToCart(newItem) {
     setisLoading(true)
     // empty cart
-    if (cart.length === 0) {
+    if (cart.length === 0 || cart.length === undefined) {
       setCart([
         ...cart,
         newItem
@@ -64,7 +77,7 @@ export function CartProvider({ children }) {
       const response = await createShopifyCheckout(newItem)
       setCheckoutId(response.id)
       setCheckoutUrl(response.webUrl)
-      saveLocalData(newItem, response.id, response.webUrl)
+      saveLocalData(response.id)
 
     } else {
       let newCart = [...cart]
@@ -87,7 +100,7 @@ export function CartProvider({ children }) {
 
       setCart(newCartWithItem)
       await updateShopifyCheckout(newCartWithItem, checkoutId)
-      saveLocalData(newCartWithItem, checkoutId, checkoutUrl)
+      saveLocalData(checkoutId)
     }
     setisLoading(false)
   }
@@ -110,7 +123,7 @@ export function CartProvider({ children }) {
     setCart(newCart)
 
     await updateShopifyCheckout(newCart, checkoutId)
-    saveLocalData(newCart, checkoutId, checkoutUrl)
+    saveLocalData(checkoutId)
     setisLoading(false)
   }
 
