@@ -1,18 +1,23 @@
 import { createCheckout, updateCheckout } from '@/lib/shopify'
+import { getCheckoutUrlWithCheckoutId, getCartWithCheckoutId } from '@/lib/shopify'
 
 export function saveLocalData(checkoutId) {
   localStorage.setItem(process.env.NEXT_PUBLIC_LOCAL_STORAGE_NAME, JSON.stringify([checkoutId]))
 }
 
 function getLocalData() {
-  return localStorage.getItem(process.env.NEXT_PUBLIC_LOCAL_STORAGE_NAME);
+  return JSON.parse(localStorage.getItem(process.env.NEXT_PUBLIC_LOCAL_STORAGE_NAME));
 }
 
-export function setLocalData(setCheckoutId) {
+export function setLocalData(setCart, setCheckoutId, setCheckoutUrl) {
   const localData = getLocalData()
 
   if (localData) {
     setCheckoutId(localData[0])
+
+    // set cart and set checkout url based on id
+    getCartWithCheckoutId(localData[0], setCart)
+    getCheckoutUrlWithCheckoutId(localData[0], setCheckoutUrl)
   }
 }
 

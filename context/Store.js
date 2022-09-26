@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import { createShopifyCheckout, updateShopifyCheckout, setLocalData, saveLocalData } from '@/utils/helpers'
-import { getCheckoutUrlWithCheckoutId, getCartWithCheckoutId } from '@/lib/shopify'
 
 const CartContext = createContext()
 const AddToCartContext = createContext()
@@ -37,29 +36,17 @@ export function CartProvider({ children }) {
   const [menuModalOpen, setMenuModalOpen] = useState(false)
 
   useEffect(() => {
-    setLocalData(setCheckoutId)
+    setLocalData(setCart, setCheckoutId, setCheckoutUrl)
   }, [])
 
   useEffect(() => {
     // do this to make sure multiple tabs are always in sync
     const onReceiveMessage = (e) => {
       console.log(e)
-      setLocalData(setCheckoutId)
+      setLocalData(setCart, setCheckoutId, setCheckoutUrl)
     }
 
     window.addEventListener("storage", onReceiveMessage);
-
-
-    // add code here to populate cart and checkoutUrl by querying using the saved localStorage checkoutID
-    const setUpCartFromCheckOutId = async () => {
-      setCart(await getCartWithCheckoutId(checkoutId));
-      setCheckoutUrl(await getCheckoutUrlWithCheckoutId(checkoutId));
-      console.log(cart)
-      console.log(checkoutUrl)
-    }
-    setUpCartFromCheckOutId().catch(console.error);
-
-
     return () => {
       window.removeEventListener("storage", onReceiveMessage);
     }
@@ -70,7 +57,6 @@ export function CartProvider({ children }) {
     // empty cart
     if (cart.length === 0 || cart.length === undefined) {
       setCart([
-        ...cart,
         newItem
       ])
 
@@ -84,8 +70,10 @@ export function CartProvider({ children }) {
       let itemAdded = false
       // loop through all cart items to check if variant
       // already exists and update quantity
+
+      // edited so it is now product handle ?
       newCart.map(item => {
-        if (item.variantId === newItem.variantId) {
+        if (item.productHandle === newItem.productHandle) {
           item.variantQuantity += newItem.variantQuantity
           itemAdded = true
         }
