@@ -3,6 +3,7 @@ import "react-sliding-pane/dist/react-sliding-pane.css";
 import React, { useState, useEffect } from "react";
 import Link from 'next/link';
 import { useCartContext, useUpdateCartQuantityContext, useCartModalContext } from '@/context/Store';
+import { clearShopifyCart } from '@/lib/shopify';
 
 function CartModal() {
     const [toggleModal, isModalOpen] = useCartModalContext();
@@ -19,6 +20,10 @@ function CartModal() {
     async function leaveModal() {
         toggleModal();
         if (numItems !== tempNumItems) {
+            if (tempNumItems === 0) {
+                clearShopifyCart();
+                return;
+            }
             await updateCartQuantity(variantId, tempNumItems);
         }
     }
