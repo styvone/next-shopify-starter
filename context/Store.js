@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import { createShopifyCheckout, updateShopifyCheckout, setLocalData, saveLocalData } from '@/utils/helpers'
+import { removeLineItemFromCart } from '@/lib/shopify'
 
 const CartContext = createContext()
 const AddToCartContext = createContext()
@@ -110,7 +111,12 @@ export function CartProvider({ children }) {
     //newCart = newCart.filter(i => i.variantQuantity !== 0)
     setCart(newCart)
 
-    await updateShopifyCheckout(newCart, checkoutId)
+    if (quantity !== 0) {
+      await updateShopifyCheckout(newCart, checkoutId)
+    } else {
+      await removeLineItemFromCart(checkoutId)
+    }
+
     saveLocalData(checkoutId)
     setisLoading(false)
   }

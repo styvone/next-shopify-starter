@@ -20,10 +20,6 @@ function CartModal() {
     async function leaveModal() {
         toggleModal();
         if (numItems !== tempNumItems) {
-            if (tempNumItems === 0) {
-                clearShopifyCart();
-                return;
-            }
             await updateCartQuantity(variantId, tempNumItems);
         }
     }
