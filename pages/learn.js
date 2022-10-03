@@ -228,7 +228,7 @@ function LearnPage() {
             </p>
             <br/>
             <p className="coreSans text-desktop-p1">
-              Insert 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+              Insert 1 Boquet tablet vaginally on a weekly or monthly basis at bedtime.
             </p>
           </div>
         </div>
@@ -443,7 +443,7 @@ function LearnPage() {
             </p>
 
             <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
-              Insert 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+            Insert 1 Boquet tablet vaginally on a weekly or monthly basis at bedtime.
             </p>
           </div>
 
@@ -661,7 +661,7 @@ function LearnPage() {
               </p>
 
               <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
-                Insert 1 Boquet tablet vaginally once a day at bedtime for 7 days or until symptoms improve.
+              Insert 1 Boquet tablet vaginally on a weekly or monthly basis at bedtime.
               </p>
             </div>
           </div>
