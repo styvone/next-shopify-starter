@@ -22,7 +22,7 @@ export function setLocalData(setCart, setCheckoutId, setCheckoutUrl) {
 }
 
 export async function createShopifyCheckout(newItem) {
-  const data = await createCheckout( newItem['variantId'], newItem['variantQuantity'])  
+  const data = await createCheckout(newItem['variantQuantity'])  
   return data
 }
 

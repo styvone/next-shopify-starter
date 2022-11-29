@@ -859,14 +859,4 @@ IndexPage.getLayout = function getLayout(page) {
   )
 }
 
-export async function getStaticProps() {
-  const products = await getAllProductsInCollection()
-
-  return {
-    props: {
-      products
-    },
-  }
-}
-
 export default IndexPage;

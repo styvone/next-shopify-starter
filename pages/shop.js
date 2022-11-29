@@ -18,23 +18,22 @@ gsap.registerPlugin(ScrollTrigger);
 // this is set inside of Shopify dashboard
 const productHandle = 'the-pill';
 
-function ShopPage({ productData }) {
+function ShopPage({ productData }) {    
+    const JSONProductData = JSON.parse(productData);
+
     const toggleModal = useCartModalContext()[0];
     const addToCart = useAddToCartContext()
     const [numberOfPills, setnumberOfPills] = useState(1);
-    const [variant, setVariant] = useState(productData.variants.edges[0])
-
     const [isTopImageLoaded, setIsTopImageLoaded] = useState(false);
 
     async function handleAddToCart() {
         toggleModal();
         await addToCart({
-            productTitle: productData.title,
-            productHandle: productData.handle,
-            productImage: productData.images.edges[0].node,
-            variantId: variant.node.id,
-            variantPrice: variant.node.price,
-            variantTitle: variant.node.title,
+            productTitle: JSONProductData.title,
+            productHandle: JSONProductData.handle,
+            productImage: JSONProductData.images[0],
+            variantPrice: JSONProductData.variants[0].price,
+            variantTitle: JSONProductData.variants[0].title,
             variantQuantity: numberOfPills
         });
     }
