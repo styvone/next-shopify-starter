@@ -182,7 +182,7 @@ function ShopPage({ productData }) {
                         Boquet <em>Vaginal Prebiotic</em>
                     </h1>
                     <p className="coreSans text-desktop-p2 pb-8">
-                    A vaginal tablet that supports protective bateria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
+                    A vaginal tablet that supports protective bacteria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
                     </p>
                     <p className="coreSans text-desktop-p3">
                     * When displaying symptoms of pH imbalance
@@ -395,7 +395,7 @@ function ShopPage({ productData }) {
                 <div className="pb-16">
 
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px pb-8">
-                    A vaginal tablet that supports protective bateria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
+                    A vaginal tablet that supports protective bacteria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
                     </p>
                     <p className="coreSans text-mobile-p1 lineHeight-mobile-22px">
                     * When displaying symptoms of pH imbalance
@@ -615,7 +615,7 @@ function ShopPage({ productData }) {
 
                     <div className="w-10/12">
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px pb-8">
-                        A vaginal tablet that supports protective bateria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
+                        A vaginal tablet that supports protective bacteria, balances pH, and relieves odor and irritation. Each bottle contains 30 vaginal tablets.
                         </p>
                         <p className="coreSans text-tablet-p1 lineHeight-tablet-25px">
                         * When displaying symptoms of pH imbalance
