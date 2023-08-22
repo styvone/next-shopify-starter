@@ -15,6 +15,8 @@ import papayaImage from '../public/images/shop/papaya.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 // this is set inside of Shopify dashboard
 const productHandle = 'the-pill';
 
